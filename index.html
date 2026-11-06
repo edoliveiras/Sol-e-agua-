@@ -859,7 +859,8 @@ function filterKind(k){
  render();document.getElementById("destinos").scrollIntoView({behavior:"smooth",block:"start"});
 }
 function render(){
- const list=places.filter(p=>(kind==="todos"||kind==="favoritos"&&saved.includes(p.id)||p.kind===kind)&&(state==="todos"||p.state===state)&&[p.name,p.name.replace(/Ponta/gi,"Punta"),p.city,p.state,p.region].join(" ").toLowerCase().includes(query.toLowerCase()));
+ const filtered=places.filter(p=>(kind==="todos"||kind==="favoritos"&&saved.includes(p.id)||p.kind===kind)&&(state==="todos"||p.state===state)&&[p.name,p.name.replace(/Ponta/gi,"Punta"),p.city,p.state,p.region].join(" ").toLowerCase().includes(query.toLowerCase()));
+ const list=kind==="dayuse"?[...new Map(filtered.map(p=>[(p.name+"|"+p.city+"|"+p.state).normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase(),p])).values()].sort((a,b)=>a.city.localeCompare(b.city,"pt-BR")||a.name.localeCompare(b.name,"pt-BR")):filtered;
  document.getElementById("grid").innerHTML=list.map(p=>{
   const verifiedMgPhotos={"tabuleiro":"https://www.turismo.cmd.mg.gov.br/fotos/fd190f8560df4ad32a15790579697882-03-07-2023-16-02-55.jpg","cipo":"https://commons.wikimedia.org/wiki/Special:FilePath/Cachoeira_em_alto_niv%C3%A9l_de_%C3%A1gua_na_Serra_do_Cip%C3%B3.jpg","mg-grande":"https://commons.wikimedia.org/wiki/Special:FilePath/Cachoeira_Grande_%28Serra_do_Cip%C3%B3_-_MG%29.jpg","mg-veudenoiva":"https://commons.wikimedia.org/wiki/Special:FilePath/Cachoeira_V%C3%A9u_da_Noiva_%28Santana_do_Riacho%29_20150216.jpg","mg-farofa":"https://commons.wikimedia.org/wiki/Special:FilePath/Cachoeira_da_Farofa_%28Serra_do_Cip%C3%B3%29.jpg",
 "mg-cipo-andorinhas":"https://commons.wikimedia.org/wiki/Special:FilePath/Cachoeira_das_Andorinhas_-_Parque_Nacional_da_Serra_do_Cip%C3%B3_-_MG.jpg",
