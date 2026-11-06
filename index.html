@@ -21,12 +21,20 @@
 .guide-links{display:flex;gap:9px;flex-wrap:wrap;margin-top:10px}.guide-links a{display:inline-block;text-decoration:none;background:#e6f4ef;color:#07536b;border-radius:10px;padding:10px 12px;font-size:13px;font-weight:800}
 .guide-note{background:#fff8e8;border-left:4px solid var(--sun);padding:12px 14px;border-radius:9px;color:#5b543f;font-size:13px;line-height:1.5}
 @media(max-width:560px){.guide-box{padding:20px 16px;margin:2vh auto}.guide-box h2{font-size:23px}}
+.festivals{background:#fff;border-radius:22px;padding:24px;box-shadow:var(--shadow)}
+.festival-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:18px}
+.festival-card{border:1px solid #e1eee8;border-radius:15px;padding:16px;background:#fbfefc}
+.festival-card .festival-city{font-size:11px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:var(--ocean)}
+.festival-card h3{font-size:18px;margin:7px 0}.festival-card p{font-size:13px;color:var(--muted);line-height:1.5;margin:6px 0}
+.festival-card a{display:inline-block;margin-top:8px;color:var(--deep);font-size:12px;font-weight:850;text-decoration:none}
+.festival-search{width:100%;max-width:420px;padding:12px 14px;border:1px solid #dceae4;border-radius:12px;font-size:15px;margin-top:14px}
+@media(max-width:800px){.festival-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.festival-grid{grid-template-columns:1fr}.festivals{padding:18px}}
 </style>
 </head>
 <body>
 <header class="top"><div class="nav">
 <a class="brand" href="#"><span class="logo">☀</span><span>SOL & ÁGUA<small>BRASIL · GUIA DE DESTINOS</small></span></a>
-<nav class="links" aria-label="Navegação"><button class="active" data-kind="todos">Todos</button><button data-kind="praia">Praias</button><button data-kind="cachoeira">Cachoeiras</button><button data-kind="dayuse">Day use</button><button data-kind="hospedagem">Pousadas e hotéis</button><button data-kind="favoritos">♡</button></nav>
+<nav class="links" aria-label="Navegação"><button class="active" data-kind="todos">Todos</button><button data-kind="praia">Praias</button><button data-kind="cachoeira">Cachoeiras</button><button data-kind="dayuse">Day use</button><button data-kind="hospedagem">Pousadas e hotéis</button><button onclick="document.getElementById(&quot;festas&quot;).scrollIntoView({behavior:&quot;smooth&quot;})">Festas</button><button data-kind="favoritos">♡</button></nav>
 </div></header>
 <section class="hero"><div class="hero-inner"><div class="eyebrow">Natureza para descobrir</div><h1>Seu próximo destino começa aqui.</h1><p>Do azul do mar à força das cachoeiras: encontre lugares incríveis para viver o Brasil.</p>
 <form class="search" id="searchForm"><input id="search" placeholder="Buscar praia, cachoeira, pousada, hotel ou cidade..." aria-label="Buscar destinos"><button type="submit">Encontrar destino&nbsp; →</button></form></div></section>
@@ -36,6 +44,7 @@
 <div class="weather-panel" id="weatherPanel" aria-live="polite"></div><div class="grid" id="grid"></div><div class="empty" id="empty">Nenhum destino encontrado. Tente outra busca.</div>
 <div class="notice"><strong>Viaje com cuidado:</strong> este guia reúne destinos cadastrados e está em expansão. Nem todas as praias do Brasil estão incluídas ainda; nomes, acessos e condições devem ser confirmados com as prefeituras e órgãos locais. Antes de sair, confirme condições do tempo, acesso, regras de visitação, nível de dificuldade e segurança com órgãos oficiais e responsáveis locais. Nunca entre em rios ou cachoeiras durante risco de chuva ou cabeça d'água.</div>
 </section>
+<section class="wrap" id="festas"><div class="festivals"><div class="eyebrow" style="color:var(--ocean)">Cultura, tradição e calendário</div><h2 style="margin:8px 0 6px">Festas e eventos de Minas Gerais</h2><p style="color:var(--muted);line-height:1.55;margin:0">Além das praias e cachoeiras, descubra festas religiosas, congados, festivais gastronômicos, música, rodeios, cavalgadas e celebrações municipais. As datas podem mudar a cada edição; confirme a programação antes de viajar.</p><input class="festival-search" id="festivalSearch" placeholder="Buscar festa ou cidade..." aria-label="Buscar festas por nome ou cidade"><div class="festival-grid" id="festivalGrid"></div><p class="notice"><strong>Calendário em expansão:</strong> esta é uma primeira seleção de eventos de cidades e regiões já pesquisadas, não a lista completa de festas de Minas Gerais. Consulte também o <a href="https://www.minasgerais.com.br/pt/eventos" target="_blank" rel="noopener">calendário oficial de eventos turísticos de Minas Gerais</a> e as prefeituras.</p></div></section>
 <section class="wrap"><div class="feature"><div><div class="eyebrow" style="color:var(--ocean)">Aventura em Minas Gerais</div><h2>Água, montanhas e paisagens inesquecíveis.</h2><p>Descubra serras, cânions e quedas d'água. Planeje sua visita com atenção às condições de acesso e às orientações locais.</p><a href="#destinos" onclick="setTimeout(()=>filterKind('cachoeira'),50)">Explorar cachoeiras →</a></div><div class="feature-img" role="img" aria-label="Cachoeira cercada por mata"></div></div></section>
 </main>
 <div class="guide-modal" id="guideModal" role="dialog" aria-modal="true" aria-labelledby="guideTitle" onclick="if(event.target===this)closeGuide()"><div class="guide-box"><button class="guide-close" onclick="closeGuide()" aria-label="Fechar">×</button><div id="guideContent"></div></div></div>
@@ -591,6 +600,26 @@ const places=[
   {"id":"mg-sabara-clube-das-nacoes","name":"Clube das Nações","kind":"dayuse","city":"Nações Unidas, Sabará","state":"MG","region":"Sudeste","desc":"Clube de bairro com piscina e atividades recreativas mencionadas em diretórios locais. A oferta atual de day use não está confirmada; consulte sobre acesso para não associados.","photo":"https://images.unsplash.com/photo-1569949381669-ecf31ae8e613?auto=format&fit=crop&w=900&q=82","website":"https://www.google.com/search?q=Clube+das+Nacoes+Sabara"},
   {"id":"mg-sabara-serra-verde","name":"Sítio Serra Verde — Pesque e Solte","kind":"dayuse","city":"Zona rural, Sabará","state":"MG","region":"Sudeste","desc":"Espaço rural de pesca recreativa e alimentação divulgado para passeios em família. A disponibilidade de piscina ou day use pode variar; confirme atividades e funcionamento.","photo":"https://images.unsplash.com/photo-1569949381669-ecf31ae8e613?auto=format&fit=crop&w=900&q=82","website":"https://www.google.com/search?q=Sitio+Serra+Verde+Sabara+pesque+solte"}
 ];
+
+const festivals = [
+["Festival da Jabuticaba","Sabará","Novembro · edição 2026: 19 a 22/11","Festival gastronômico e cultural dedicado à jabuticaba, aos produtores locais, doces, geleias e licores.","https://asprodejas.com/festival-da-jabuticaba"],
+["Festa do Cavalo de Ravena","Ravena · Sabará","Geralmente em maio · edição 2026: 15 a 17/05","Festa rural com música sertaneja e tradicional concurso de marcha.","https://site.sabara.mg.gov.br/festa-do-cavalo-de-ravena-chega-a-26a-edicao-com-tres-dias-de-programacao/"],
+["Carnaval de Sabará","Sabará","Fevereiro ou março · data móvel","Blocos tradicionais, shows e programação cultural no Centro Histórico, bairros e distritos.","https://www.sabara.mg.gov.br/noticias/turismo/confira-a-programacao-completa-do-carnaval-de-sabara-2026-67"],
+["Encontro de Congadeiros e Festas do Rosário","Sabará, Ravena, Roça Grande e General Carneiro","Julho a outubro · datas variáveis","Celebrações de congados, reinados e devoção a Nossa Senhora do Rosário, São Benedito e Santa Efigênia.","https://www.observatoriodopatrimonio.com.br/site/index.php/itens-de-patrimonio/congado"],
+["Festival do Ora-pro-nóbis","Sabará","Tradicionalmente em maio · confirmar edição","Evento gastronômico ligado a um ingrediente marcante da culinária mineira.","https://www.sabara.mg.gov.br/"],
+["Vesperata de Diamantina","Diamantina","Temporada geralmente de abril a outubro","Espetáculo musical ao ar livre, com músicos nas sacadas dos casarões históricos da Rua da Quitanda.","https://www.diamantina.mg.gov.br/portal/noticias/0/3/5764/calendario-da-vesperata-2026"],
+["Festival de Inverno de Ouro Preto e Mariana","Mariana e Ouro Preto","Julho · programação anual","Programação cultural com atividades artísticas, música e oficinas em cidades históricas.","https://www.mariana.org.br/calendario-eventos"],
+["Encontro Internacional de Palhaços","Mariana","Setembro · periodicidade anual","Encontro cultural dedicado à palhaçaria, com apresentações e atividades para diferentes públicos.","https://www.mariana.org.br/calendario-eventos"],
+["Festa do Milho","Lambari","Julho · edição 2026: 10 a 12/07","Festa popular com gastronomia e valorização de produtos e tradições locais.","https://www.lambari.mg.gov.br/noticias/geral/calendario-turistico-e-cultural-2026-1"],
+["Festa de Nossa Senhora da Saúde","Lambari","Agosto · edição 2026: 6 a 16/08","Celebração religiosa tradicional que integra o calendário cultural e turístico municipal.","https://www.lambari.mg.gov.br/noticias/geral/calendario-turistico-e-cultural-2026-1"],
+["Oktoberfest de Lambari","Lambari","Outubro · edição 2026: 9 a 12/10","Festa temática incluída no calendário turístico e cultural municipal.","https://www.lambari.mg.gov.br/noticias/geral/calendario-turistico-e-cultural-2026-1"]
+];
+function renderFestivals(){
+ const q=(document.getElementById("festivalSearch").value||"").toLowerCase();
+ const list=festivals.filter(f=>f.join(" ").toLowerCase().includes(q));
+ document.getElementById("festivalGrid").innerHTML=list.map(f=>'<article class="festival-card"><div class="festival-city">'+f[1]+'</div><h3>'+f[0]+'</h3><p><strong>Época:</strong> '+f[2]+'</p><p>'+f[3]+'</p><a href="'+f[4]+'" target="_blank" rel="noopener">Consultar fonte e programação ↗</a></article>').join("")||'<p>Nenhuma festa encontrada. Tente outra cidade.</p>';
+}
+
 let kind="todos",state="todos",query="";
 let saved=JSON.parse(localStorage.getItem("solagua-favs")||"[]");
 function filterKind(k){kind=k;document.querySelectorAll("[data-kind]").forEach(b=>b.classList.toggle("active",b.dataset.kind===k));render()}
@@ -654,6 +683,8 @@ document.querySelectorAll("[data-kind]").forEach(b=>b.addEventListener("click",(
 document.querySelectorAll("[data-state]").forEach(b=>b.addEventListener("click",()=>{state=b.dataset.state;document.querySelectorAll("[data-state]").forEach(x=>x.classList.toggle("active",x===b));render()}));
 document.getElementById("searchForm").addEventListener("submit",e=>{e.preventDefault();query=document.getElementById("search").value;document.getElementById("destinos").scrollIntoView({behavior:"smooth"});render()});
 document.getElementById("search").addEventListener("input",e=>{query=e.target.value;render()});
+document.getElementById("festivalSearch").addEventListener("input",renderFestivals);
+renderFestivals();
 render();
 </script>
 </body></html>
