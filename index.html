@@ -759,7 +759,26 @@ let saved=JSON.parse(localStorage.getItem("solagua-favs")||"[]");
 function filterKind(k){
  const notice=document.getElementById("categoryNotice");
  if(notice){notice.style.display="none";notice.textContent=""}
- kind=k;document.querySelectorAll("[data-kind]").forEach(b=>b.classList.toggle("active",b.dataset.kind===k));render();
+ kind=k;document.querySelectorAll("[data-kind]").forEach(b=>b.classList.toggle("active",b.dataset.kind===k));
+ if(k==="hospedagem"||k==="dayuse"){
+  const locs=[...new Map(places.map(p=>[p.city+"|"+p.state,{city:p.city,state:p.state}])).values()];
+  const isStay=k==="hospedagem";
+  const heading=isStay?"Hotéis e pousadas":"Day Use";
+  const cards=locs.map((l)=>{
+   const place=l.city+", "+l.state+", Brasil";
+   const maps="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent((isStay?"hotéis pousadas hospedagem ":"day use clube parque aquático hotel fazenda ")+place);
+   const search="https://www.google.com/search?q="+encodeURIComponent((isStay?"hotéis pousadas para ficar em ":"day use em ")+place);
+   const secondary=isStay?"https://cadastur.turismo.gov.br/":"https://mapadodayuse.com/";
+   return '<article class="card"><div class="card-body"><div class="location">'+l.city+' · '+l.state+'</div><h3>'+heading+' em '+l.city+'</h3><p>'+(isStay?"Encontre pousadas, hotéis, hotéis-fazenda, campings e outras hospedagens nesta localidade.":"Encontre clubes, sítios, pousadas, hotéis-fazenda, parques aquáticos e espaços com Day Use nesta localidade.")+'</p><div class="guide-links"><a rel="noopener" href="'+maps+'">Ver opções no mapa ↗</a><a rel="noopener" href="'+search+'">Pesquisar na internet ↗</a><a rel="noopener" href="'+secondary+'">'+(isStay?"Consultar Cadastur ↗":"Abrir Mapa do Day Use ↗")+'</a></div></div></article>';
+  }).join("");
+  const registered=places.filter(p=>p.kind===k).map(p=>'<article class="card"><div class="card-body"><div class="location">'+p.city+' · '+p.state+'</div><h3>'+p.name+'</h3><p>'+p.desc+'</p>'+(p.website?'<div class="guide-links"><a rel="noopener" href="'+p.website+'">Site / informações ↗</a></div>':'')+'</div></article>').join("");
+  document.getElementById("grid").innerHTML=registered+cards;
+  document.getElementById("empty").style.display="none";
+  document.getElementById("categoryNotice").style.display="block";
+  document.getElementById("categoryNotice").innerHTML='<strong>'+heading+' nas '+locs.length+' localidades do catálogo.</strong> Os cartões abaixo abrem buscas para a cidade correspondente. Os resultados externos podem incluir estabelecimentos ainda não verificados individualmente; confirme funcionamento, endereço, avaliações e reservas diretamente.';
+  document.getElementById("destinos").scrollIntoView({behavior:"smooth",block:"start"});return;
+ }
+ render();
  document.getElementById("destinos").scrollIntoView({behavior:"smooth",block:"start"});
 }
 function render(){
