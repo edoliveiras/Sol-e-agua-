@@ -1,4 +1,4 @@
-export type Category = "praia" | "cachoeira";
+export type Category = "praia" | "cachoeira" | "hotel" | "day-use" | "pousada";
 export type Region = "Sudeste" | "Nordeste" | "Sul" | "Norte" | "Centro-Oeste";
 
 export interface Coordinates {
@@ -22,6 +22,14 @@ export interface Destination {
   tags: string[];
   /** true = conteúdo de exemplo, ainda não verificado */
   isDemo: boolean;
+  /** Faixa de preço informada por fonte confiável. */
+  priceRange?: string;
+  phone?: string;
+  website?: string;
+  instagram?: string;
+  whatsapp?: string;
+  amenities?: string[];
+  address?: string;
 }
 
 /** Contratos para futuras integrações */
