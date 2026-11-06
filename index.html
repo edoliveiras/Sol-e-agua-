@@ -60,7 +60,7 @@
 <div class="notice"><strong>Viaje com cuidado:</strong> este guia reúne destinos cadastrados e está em expansão. Nem todas as praias do Brasil estão incluídas ainda; nomes, acessos e condições devem ser confirmados com as prefeituras e órgãos locais. Antes de sair, confirme condições do tempo, acesso, regras de visitação, nível de dificuldade e segurança com órgãos oficiais e responsáveis locais. Nunca entre em rios ou cachoeiras durante risco de chuva ou cabeça d'água.</div>
 </section>
 <section class="wrap" id="festas"><div class="festivals"><div class="eyebrow" style="color:var(--ocean)">Cultura, tradição e calendário</div><h2 style="margin:8px 0 6px">Festas e eventos de Minas Gerais</h2><p style="color:var(--muted);line-height:1.55;margin:0">Além das praias e cachoeiras, descubra festas religiosas, congados, festivais gastronômicos, música, rodeios, cavalgadas e celebrações municipais. As datas podem mudar a cada edição; confirme a programação antes de viajar.</p><input class="festival-search" id="festivalSearch" placeholder="Buscar festa ou cidade..." aria-label="Buscar festas por nome ou cidade"><div class="festival-grid" id="festivalGrid"></div><p class="notice"><strong>Calendário em expansão:</strong> esta é uma primeira seleção de eventos de cidades e regiões já pesquisadas, não a lista completa de festas de Minas Gerais. Consulte também o <a href="https://www.minasgerais.com.br/pt/eventos" target="_blank" rel="noopener">calendário oficial de eventos turísticos de Minas Gerais</a> e as prefeituras.</p></div></section>
-<section class="wrap"><div class="feature"><div><div class="eyebrow" style="color:var(--ocean)">Aventura em Minas Gerais</div><h2>Água, montanhas e paisagens inesquecíveis.</h2><p>Descubra serras, cânions e quedas d'água. Planeje sua visita com atenção às condições de acesso e às orientações locais.</p><a href="#destinos" onclick="setTimeout(()=>filterKind('cachoeira'),50)">Explorar cachoeiras →</a></div><div class="feature-img" role="img" aria-label="Cachoeira cercada por mata"></div></div></section>
+<section class="wrap"><div class="feature"><div><div class="eyebrow" style="color:var(--ocean)">Aventura em Minas Gerais</div><h2>Água, montanhas e paisagens inesquecíveis.</h2><p>Descubra serras, cânions e quedas d'água. Planeje sua visita com atenção às condições de acesso e às orientações locais.</p><a href="#destinos" onclick="event.preventDefault();filterKind('cachoeira')">Explorar cachoeiras →</a></div><div class="feature-img" role="img" aria-label="Cachoeira cercada por mata"></div></div></section>
 </main>
 <div class="guide-modal" id="guideModal" role="dialog" aria-modal="true" aria-labelledby="guideTitle" onclick="if(event.target===this)closeGuide()"><div class="guide-box"><button class="guide-close" onclick="closeGuide()" aria-label="Fechar">×</button><div id="guideContent"></div></div></div>
 <footer class="footer"><div class="footer-inner"><div><strong>SOL & ÁGUA BRASIL</strong><p>O Brasil é cheio de lugares extraordinários. Vamos descobrir?</p></div><p>Projeto independente · Guia em desenvolvimento<br>Fotos ilustrativas via Unsplash · Referências: IBGE e Ministério do Turismo</p></div></footer>
@@ -1028,24 +1028,6 @@ loadCatalog().catch(error=>{
  if(grid)grid.innerHTML="<p style=\"padding:18px;color:#8b1e1e\">Não foi possível carregar os destinos. Atualize a página.</p>";
 });
 
-/* Liga os controles por eventos explícitos, sem depender de onclick inline. */
-window.filterKind=filterKind;
-window.toggleFav=toggleFav;
-window.openGuide=openGuide;
-window.closeGuide=closeGuide;
-window.showWeather=showWeather;
-document.querySelectorAll("[data-kind]").forEach(button=>{
- button.removeAttribute("onclick");
- button.addEventListener("click",()=>filterKind(button.dataset.kind));
-});
-document.querySelectorAll(".feature a").forEach(link=>{
- link.removeAttribute("onclick");
- link.addEventListener("click",()=>filterKind("cachoeira"));
-});
-document.querySelectorAll(".links button:not([data-kind])").forEach(button=>{
- button.removeAttribute("onclick");
- button.addEventListener("click",()=>document.getElementById("festas").scrollIntoView({behavior:"smooth"}));
-});
 
 </script>
 </body></html>
