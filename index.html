@@ -689,7 +689,19 @@ const places=[
   {"id":"mg-cipo-rio-pedras","name":"Cachoeira do Rio de Pedras","kind":"cachoeira","city":"Santana do Riacho","state":"MG","region":"Sudeste","desc":"Atrativo de acesso difícil na região da Serra do Cipó. Confirme localização e condições com condutores locais."},
   {"id":"mg-cipo-drummond","name":"Cachoeira do Drummond","kind":"cachoeira","city":"Santana do Riacho","state":"MG","region":"Sudeste","desc":"Cachoeira de acesso moderado citada em roteiros locais da Serra do Cipó. Verifique trilha e regras antes da visita."},
   {"id":"mg-cipo-congonhas-cima","name":"Cachoeira Congonhas de Cima","kind":"cachoeira","city":"Parque Nacional da Serra do Cipó, Santana do Riacho","state":"MG","region":"Sudeste","desc":"Queda do conjunto de Congonhas na região do Parque Nacional. Consulte o ICMBio e guias locais para confirmar o melhor acesso."},
-  {"id":"mg-cipo-congonhas-baixo","name":"Cachoeira Congonhas de Baixo","kind":"cachoeira","city":"Parque Nacional da Serra do Cipó, Santana do Riacho","state":"MG","region":"Sudeste","desc":"Queda do conjunto de Congonhas na região do Parque Nacional. Atenção às condições do rio e às regras de visitação."}
+  {"id":"mg-cipo-congonhas-baixo","name":"Cachoeira Congonhas de Baixo","kind":"cachoeira","city":"Parque Nacional da Serra do Cipó, Santana do Riacho","state":"MG","region":"Sudeste","desc":"Queda do conjunto de Congonhas na região do Parque Nacional. Atenção às condições do rio e às regras de visitação."},
+
+  {id:"sabara-dayuse-didi",name:"Day Use do Didi",kind:"dayuse",city:"Sabará",state:"MG",region:"Sudeste",desc:"Espaço de lazer com piscinas para adultos e crianças, cascata artificial, área verde e restaurante. Consulte regras, ingressos e disponibilidade antes de ir.",website:"https://sitiododididayuse.com.br/ingresso-para-day-use-do-didi"},
+  {id:"sabara-dayuse-oasis",name:"Oásis Sabará",kind:"dayuse",city:"Sabará",state:"MG",region:"Sudeste",desc:"Day use com piscinas, cascatas, praia artificial, restaurante, bar, quiosques e opção de churrasqueira mediante reserva.",website:"https://www.oasissabara.com.br/day-use-oasis-sabara"},
+  {id:"sabara-dayuse-espetaculs",name:"Espetácul’s Day Use",kind:"dayuse",city:"Sabará",state:"MG",region:"Sudeste",desc:"Espaço de lazer com piscinas, cascata, hidromassagem, área infantil e restaurante. Funciona com reserva e limite de visitantes.",website:"https://espetaculs.com.br/"},
+  {id:"sabara-dayuse-triangulo",name:"Triângulo Aquapônico",kind:"dayuse",city:"Sabará",state:"MG",region:"Sudeste",desc:"Espaço de lazer e educação ambiental com piscinas, lagoa, área verde e quiosques. Confirme datas, regras e disponibilidade.",website:"https://mapadodayuse.com/mg/sabara"},
+  {id:"sabara-pousada-venha-pro-mato",name:"Pousada Venha Pro Mato",kind:"hospedagem",city:"Sabará",state:"MG",region:"Sudeste",desc:"Pousada no Arraial Velho, em meio à natureza, com quartos, piscina aquecida, sauna e opção de day use.",website:"https://venhapromato.com.br/"},
+  {id:"sabara-pousada-solar-sepulvedas",name:"Pousada Solar dos Sepúlvedas",kind:"hospedagem",city:"Sabará",state:"MG",region:"Sudeste",desc:"Pousada em casarão histórico no Centro de Sabará, próxima ao circuito histórico. Consulte diretamente disponibilidade e comodidades."},
+  {id:"sabara-pousada-villa-real",name:"Pousada Villa Real",kind:"hospedagem",city:"Sabará",state:"MG",region:"Sudeste",desc:"Pousada no Centro de Sabará, opção para quem deseja ficar perto do Centro Histórico. Confirme serviços e disponibilidade."},
+  {id:"sabara-pousada-bosque-borboletas",name:"Pousada Bosque das Borboletas",kind:"hospedagem",city:"Sabará",state:"MG",region:"Sudeste",desc:"Hospedagem no Arraial Velho, com proposta de descanso em ambiente cercado pelo verde."},
+  {id:"sabara-pousada-ravis",name:"Pousada Rávis",kind:"hospedagem",city:"Sabará",state:"MG",region:"Sudeste",desc:"Pousada rural no distrito de Ravena, voltada a descanso e hospedagem em ambiente tranquilo."},
+  {id:"sabara-fonda-hotel-fazenda",name:"Fonda Hotel Fazenda",kind:"hospedagem",city:"Sabará",state:"MG",region:"Sudeste",desc:"Hotel-fazenda na região de Ravena, com proposta de descanso em meio à natureza e lazer familiar."},
+  {id:"sabara-pousada-santana",name:"Pousada Sant’Ana",kind:"hospedagem",city:"Sabará",state:"MG",region:"Sudeste",desc:"Pousada no Arraial Velho. Consulte diretamente as condições atuais, serviços e disponibilidade."},
 ];
 
 const festivals = [
@@ -746,18 +758,9 @@ let kind="todos",state="todos",query="";
 let saved=JSON.parse(localStorage.getItem("solagua-favs")||"[]");
 function filterKind(k){
  const notice=document.getElementById("categoryNotice");
- if(k==="hospedagem"||k==="dayuse"){
-  kind="todos";state="todos";query="";
-  document.getElementById("search").value="";
-  document.querySelectorAll("[data-kind]").forEach(b=>b.classList.toggle("active",b.dataset.kind===k));
-  notice.style.display="block";
-  notice.innerHTML=k==="hospedagem"
-   ?"<strong>Hospedagem:</strong> escolha um destino nos cartões e toque em <strong>Guia do lugar</strong>. Na seção <strong>Onde ficar</strong>, os links abrem buscas de pousadas, hotéis e campings naquela cidade."
-   :"<strong>Day use:</strong> escolha uma cidade ou destino nos cartões e abra <strong>Guia do lugar</strong>. Use os links de atrações e passeios para localizar opções e confirme funcionamento e valores antes de sair.";
-  render();document.getElementById("destinos").scrollIntoView({behavior:"smooth"});return;
- }
- notice.style.display="none";notice.textContent="";
- kind=k;document.querySelectorAll("[data-kind]").forEach(b=>b.classList.toggle("active",b.dataset.kind===k));render()
+ if(notice){notice.style.display="none";notice.textContent=""}
+ kind=k;document.querySelectorAll("[data-kind]").forEach(b=>b.classList.toggle("active",b.dataset.kind===k));render();
+ document.getElementById("destinos").scrollIntoView({behavior:"smooth",block:"start"});
 }
 function render(){
  const list=places.filter(p=>(kind==="todos"||kind==="favoritos"&&saved.includes(p.id)||p.kind===kind)&&(state==="todos"||p.state===state)&&[p.name,p.name.replace(/Ponta/gi,"Punta"),p.city,p.state,p.region].join(" ").toLowerCase().includes(query.toLowerCase()));
