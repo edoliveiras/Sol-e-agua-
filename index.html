@@ -1000,6 +1000,32 @@ document.querySelectorAll("[data-state]").forEach(b=>b.addEventListener("click",
 document.getElementById("searchForm").addEventListener("submit",e=>{e.preventDefault();query=document.getElementById("search").value;document.getElementById("destinos").scrollIntoView({behavior:"smooth"});render()});
 document.getElementById("search").addEventListener("input",e=>{query=e.target.value;render()});
 document.getElementById("festivalSearch").addEventListener("input",renderFestivals);
-try{renderFestivals();render();}catch(err){const grid=document.getElementById("grid");if(grid)grid.innerHTML="<p style=\"padding:18px;color:#8b1e1e\">Não foi possível carregar os destinos. Recarregue a página.</p>";console.error(err);}
+async function loadCatalog(){
+ try{
+  const response=await fetch("./data/minas-gerais.json",{cache:"no-store"});
+  if(!response.ok) throw new Error("Catálogo de Minas Gerais indisponível.");
+  const catalog=await response.json();
+  const records=Array.isArray(catalog.records)?catalog.records:[];
+  records.forEach(record=>{
+   if(!record||!record.id||!record.name||!record.kind)return;
+   const existing=places.find(place=>place.id===record.id);
+   if(existing){
+    Object.keys(record).forEach(key=>{
+     const value=record[key];
+     if(value!==null&&value!==undefined&&value!==""&&(!Array.isArray(value)||value.length)) existing[key]=value;
+    });
+   }else places.push(record);
+  });
+ }catch(error){
+  console.warn("Usando destinos já incorporados à página:",error);
+ }
+ renderFestivals();
+ render();
+}
+loadCatalog().catch(error=>{
+ console.error("Falha ao iniciar catálogo:",error);
+ const grid=document.getElementById("grid");
+ if(grid)grid.innerHTML="<p style=\"padding:18px;color:#8b1e1e\">Não foi possível carregar os destinos. Atualize a página.</p>";
+});
 </script>
 </body></html>
