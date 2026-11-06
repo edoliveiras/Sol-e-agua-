@@ -1,0 +1,90 @@
+import { createFileRoute, Link, notFound } from "@tanstack/react-router";
+import { ArrowLeft, Heart, MapPin, Navigation } from "lucide-react";
+import { useState } from "react";
+import { getDestination } from "@/data/destinations";
+import { useFavorites } from "@/hooks/use-favorites";
+import { directionsUrl } from "@/services/maps";
+import { DemoBadge } from "@/components/DestinationCard";
+import { MarinePanel, SafetyAlert, WeatherPanel } from "@/components/InfoPanels";
+
+export const Route = createFileRoute("/destino/$id")({
+  loader: ({ params }) => {
+    const d = getDestination(params.id);
+    if (!d) throw notFound();
+    return { name: d.name, city: d.city, state: d.state, desc: d.shortDescription };
+  },
+  head: ({ loaderData }) => ({
+    meta: loaderData
+      ? [
+          { title: `${loaderData.name} (${loaderData.state}) — SOL & ÁGUA` },
+          { name: "description", content: loaderData.desc },
+          { property: "og:title", content: `${loaderData.name} — SOL & ÁGUA` },
+          { property: "og:description", content: loaderData.desc },
+        ]
+      : [{ title: "Destino indisponível — SOL & ÁGUA" }, { name: "robots", content: "noindex" }],
+  }),
+  notFoundComponent: () => (
+    <div className="p-10 text-center">Destino não encontrado. <Link to="/" className="text-primary underline">Voltar</Link></div>
+  ),
+  component: DestinoPage,
+});
+
+function DestinoPage() {
+  const { id } = Route.useParams();
+  const d = getDestination(id)!;
+  const [img, setImg] = useState(0);
+  const { isFavorite, toggle } = useFavorites();
+  const fav = isFavorite(d.id);
+
+  return (
+    <div className="mx-auto max-w-4xl px-4 py-5">
+      <Link to={d.category === "praia" ? "/praias" : "/cachoeiras"} className="mb-3 inline-flex items-center gap-1 text-sm font-semibold text-primary">
+        <ArrowLeft className="h-4 w-4" /> Voltar
+      </Link>
+      <div className="relative overflow-hidden rounded-3xl shadow-lift">
+        <img src={d.images[img]} alt={d.name} width={1024} height={768} className="aspect-[16/10] w-full object-cover" />
+        {d.isDemo && <DemoBadge className="absolute left-4 top-4" />}
+      </div>
+      <div className="mt-3 flex gap-2">
+        {d.images.map((src, i) => (
+          <button key={i} onClick={() => setImg(i)} aria-label={`Foto ${i + 1}`}
+            className={`h-16 w-20 overflow-hidden rounded-xl ring-2 ${i === img ? "ring-primary" : "ring-transparent"}`}>
+            <img src={src} alt="" loading="lazy" className="h-full w-full object-cover" />
+          </button>
+        ))}
+      </div>
+      <p className="mt-1 text-xs text-muted-foreground">Fotos ilustrativas.</p>
+
+      <div className="mt-5 flex items-start justify-between gap-3">
+        <div>
+          <div className="text-xs font-bold uppercase tracking-wide text-turquoise">{d.category === "praia" ? "Praia" : "Cachoeira"} · {d.region}</div>
+          <h1 className="text-3xl font-extrabold">{d.name}</h1>
+          <p className="mt-1 flex items-center gap-1 text-muted-foreground"><MapPin className="h-4 w-4" /> {d.city} - {d.state}</p>
+          <p className="mt-1 text-xs text-muted-foreground">
+            {d.coordinates?.verified ? `Coordenadas: ${d.coordinates.lat}, ${d.coordinates.lng}` : "Coordenadas ainda não verificadas"}
+          </p>
+        </div>
+        <button onClick={() => toggle(d.id)} aria-label="Favoritar" className="rounded-full bg-card p-3 shadow-soft">
+          <Heart className={`h-6 w-6 ${fav ? "fill-destructive text-destructive" : "text-primary"}`} />
+        </button>
+      </div>
+
+      <p className="mt-4 leading-relaxed">{d.description}</p>
+      <div className="mt-3 flex flex-wrap gap-2">
+        {d.tags.map((t) => <span key={t} className="rounded-full bg-secondary px-3 py-1 text-xs font-semibold text-secondary-foreground">{t}</span>)}
+      </div>
+
+      <a href={directionsUrl(d)} target="_blank" rel="noopener noreferrer"
+        className="mt-6 flex h-14 items-center justify-center gap-2 rounded-2xl bg-gradient-ocean text-lg font-bold text-primary-foreground shadow-lift">
+        <Navigation className="h-5 w-5" /> Como chegar
+      </a>
+      <p className="mt-1 text-center text-xs text-muted-foreground">Abre o Google Maps — distância e tempo são calculados por lá.</p>
+
+      <div className="mt-6 grid gap-4">
+        <WeatherPanel d={d} />
+        {d.category === "praia" && <MarinePanel d={d} />}
+        <SafetyAlert d={d} />
+      </div>
+    </div>
+  );
+}
