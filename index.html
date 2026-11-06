@@ -1003,4 +1003,21 @@ document.getElementById("festivalSearch").addEventListener("input",renderFestiva
 renderFestivals();
 render();
 </script>
+
+<style>
+#backToTop{position:fixed;right:18px;bottom:22px;z-index:50;display:none;border:0;border-radius:999px;padding:13px 17px;background:#07536b;color:#fff;font-weight:850;font-size:14px;box-shadow:0 6px 22px #0003;cursor:pointer}
+#backToTop.show{display:block}
+</style>
+<button id="backToTop" type="button" aria-label="Voltar ao topo">↑ Voltar ao topo</button>
+<script>
+(function(){
+ const b=document.getElementById('backToTop');
+ if(!b)return;
+ const update=()=>b.classList.toggle('show',window.scrollY>350);
+ window.addEventListener('scroll',update,{passive:true});
+ b.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+ update();
+})();
+</script>
+
 </body></html>
