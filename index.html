@@ -996,7 +996,17 @@ async function showWeather(city,state,name){
 }
 function toggleFav(id){saved=saved.includes(id)?saved.filter(x=>x!==id):[...saved,id];localStorage.setItem("solagua-favs",JSON.stringify(saved));render()}
 document.querySelectorAll("[data-kind]").forEach(b=>b.addEventListener("click",()=>filterKind(b.dataset.kind)));
-document.querySelectorAll("[data-state]").forEach(b=>b.addEventListener("click",()=>{state=b.dataset.state;document.querySelectorAll("[data-state]").forEach(x=>x.classList.toggle("active",x===b));render()}));
+document.querySelectorAll("[data-state]").forEach(b=>b.addEventListener("click",()=>{
+ state=b.dataset.state;
+ document.querySelectorAll("[data-state]").forEach(x=>x.classList.toggle("active",x===b));
+ render();
+ const count=places.filter(p=>(kind==="todos"||kind==="favoritos"&&saved.includes(p.id)||p.kind===kind)&&(state==="todos"||p.state===state)&&[p.name,p.city,p.state,p.region].join(" ").toLowerCase().includes(query.toLowerCase())).length;
+ const notice=document.getElementById("categoryNotice");
+ if(notice){notice.style.display="block";notice.innerHTML=count
+ ?"<strong>"+count+" destino(s) encontrado(s)"+(state==="MG"?" em Minas Gerais":"")+".</strong> Os resultados estão logo abaixo."
+ :"<strong>Nenhum resultado encontrado.</strong> Selecione outra categoria ou estado.";}
+ document.getElementById("grid").scrollIntoView({behavior:"smooth",block:"start"});
+}));
 document.getElementById("searchForm").addEventListener("submit",e=>{e.preventDefault();query=document.getElementById("search").value;document.getElementById("destinos").scrollIntoView({behavior:"smooth"});render()});
 document.getElementById("search").addEventListener("input",e=>{query=e.target.value;render()});
 document.getElementById("festivalSearch").addEventListener("input",renderFestivals);
