@@ -1027,5 +1027,25 @@ loadCatalog().catch(error=>{
  const grid=document.getElementById("grid");
  if(grid)grid.innerHTML="<p style=\"padding:18px;color:#8b1e1e\">Não foi possível carregar os destinos. Atualize a página.</p>";
 });
+
+/* Liga os controles por eventos explícitos, sem depender de onclick inline. */
+window.filterKind=filterKind;
+window.toggleFav=toggleFav;
+window.openGuide=openGuide;
+window.closeGuide=closeGuide;
+window.showWeather=showWeather;
+document.querySelectorAll("[data-kind]").forEach(button=>{
+ button.removeAttribute("onclick");
+ button.addEventListener("click",()=>filterKind(button.dataset.kind));
+});
+document.querySelectorAll(".feature a").forEach(link=>{
+ link.removeAttribute("onclick");
+ link.addEventListener("click",()=>filterKind("cachoeira"));
+});
+document.querySelectorAll(".links button:not([data-kind])").forEach(button=>{
+ button.removeAttribute("onclick");
+ button.addEventListener("click",()=>document.getElementById("festas").scrollIntoView({behavior:"smooth"}));
+});
+
 </script>
 </body></html>
