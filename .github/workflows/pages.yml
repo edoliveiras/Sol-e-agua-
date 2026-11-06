@@ -1,4 +1,4 @@
-name: Publicar SOL & ÁGUA BRASIL no GitHub Pages
+name: Testar e publicar SOL & ÁGUA BRASIL
 
 on:
   push:
@@ -20,14 +20,16 @@ jobs:
     steps:
       - name: Baixar arquivos
         uses: actions/checkout@v4
-      - name: Validar sintaxe do JavaScript do site
-        run: |
-          sed -n '/<script>/,<\/script>/p' index.html | sed '1d;$d' > /tmp/sol-agua.js
-          node --check /tmp/sol-agua.js
-      - name: Preparar site
+      - name: Instalar Bun
+        uses: oven-sh/setup-bun@v2
+      - name: Instalar dependências
+        run: bun install --frozen-lockfile
+      - name: Gerar versão de produção
+        run: bun run build
+      - name: Preparar artefato do site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: .output/public
   deploy:
     environment:
       name: github-pages
