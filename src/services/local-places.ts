@@ -56,7 +56,7 @@ export async function getLiveFoodPlaces(destination: Destination): Promise<LiveF
     if (!tags.name) return [];
     const pLat=item.lat ?? item.center?.lat, pLon=item.lon ?? item.center?.lon;
     if (typeof pLat !== "number" || typeof pLon !== "number") return [];
-    const kind=tags.amenity==="fast_food" ? "Lanchonete / alimentação rápida" : tags.amenity==="restaurant" ? "Restaurante" : tags.amenity==="bar" || tags.amenity==="pub" ? "Bar" : "Café";
+    const kind=String(tags.cuisine ?? "").toLowerCase().includes("pizza") ? "Pizzaria" : tags.amenity==="fast_food" ? "Lanchonete / alimentação rápida" : tags.amenity==="restaurant" ? "Restaurante" : tags.amenity==="bar" || tags.amenity==="pub" ? "Bar" : "Café";
     const street=[tags["addr:street"],tags["addr:housenumber"]].filter(Boolean).join(", ");
     const address=[street,tags["addr:suburb"],tags["addr:city"] ?? destination.city,tags["addr:state"] ?? destination.state].filter(Boolean).join(" · ");
     const phone=tags["contact:whatsapp"] ?? tags.whatsapp ?? tags["contact:phone"] ?? tags.phone;
