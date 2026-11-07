@@ -34,6 +34,16 @@ export interface Destination {
   whatsapp?: string;
   amenities?: string[];
   address?: string;
+  /** Distrito, povoado ou localidade dentro do município. */
+  locality?: string;
+  /** Atrativo natural ou turístico mais próximo, quando identificado. */
+  nearbyAttraction?: string;
+  /** Distância publicada/confirmada até o atrativo mais próximo. */
+  distanceToAttraction?: string;
+  /** Avaliações mantidas separadas por plataforma; nunca calcular média entre sites. */
+  ratings?: { platform: string; score: number; reviewCount?: number }[];
+  /** Página usada para confirmar os dados do cadastro. */
+  sourceUrl?: string;
 }
 
 /** Contratos para futuras integrações */
