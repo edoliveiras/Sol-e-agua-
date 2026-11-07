@@ -53,6 +53,8 @@ export function DestinationExplorer({ fixedCategory, initialQuery = "" }: { fixe
             <option value="hotel">Hotéis</option>
             <option value="day-use">Day use</option>
             <option value="pousada">Pousadas</option>
+            <option value="cultural">Lugares culturais</option>
+            <option value="passeio">Passeios turísticos</option>
           </select>
         )}
       </div>
