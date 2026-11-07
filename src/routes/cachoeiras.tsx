@@ -13,7 +13,7 @@ export const Route = createFileRoute("/cachoeiras")({
   component: () => (
     <div className="mx-auto max-w-6xl px-4 py-8">
       <h1 className="text-3xl font-extrabold text-nature">Cachoeiras de Minas Gerais</h1>
-      <p className="mb-5 text-muted-foreground">Serras, cânions e trilhas · dados demonstrativos</p>
+      <p className="mb-5 text-muted-foreground">Serras, cânions e trilhas · confirme acesso e regras antes da visita</p>
       <DestinationExplorer fixedCategory="cachoeira" />
     </div>
   ),
