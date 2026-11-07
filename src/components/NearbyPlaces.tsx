@@ -1,8 +1,9 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { ExternalLink, Hotel, MapPinned, PartyPopper, Utensils } from "lucide-react";
 import { destinations } from "@/data/destinations";
 import { searchUrl } from "@/services/maps";
 import type { Destination } from "@/types/destination";
+import { getLiveFoodPlaces, type LiveFoodPlace } from "@/services/local-places";
 
 export type NearbyCategory = "hospedagem" | "gastronomia" | "lazer";
 
@@ -80,6 +81,23 @@ function distanceLabel(destination: Destination, item: Destination): string {
 
 export function NearbyPlaces({ destination }: { destination: Destination }) {
   const [active, setActive] = useState<NearbyCategory | null>(null);
+  const [liveFood, setLiveFood] = useState<LiveFoodPlace[]>([]);
+  const [liveLoading, setLiveLoading] = useState(false);
+  const [liveError, setLiveError] = useState(false);
+  useEffect(() => {
+    if (active !== "gastronomia") {
+      setLiveFood([]);
+      setLiveError(false);
+      return;
+    }
+    let cancelled = false;
+    setLiveLoading(true);
+    getLiveFoodPlaces(destination)
+      .then((items) => { if (!cancelled) setLiveFood(items); })
+      .catch(() => { if (!cancelled) setLiveError(true); })
+      .finally(() => { if (!cancelled) setLiveLoading(false); });
+    return () => { cancelled = true; };
+  }, [active, destination]);
   const places = useMemo(
     () => active ? getNearbyPlaces(destination, active) : [],
     [active, destination],
@@ -108,7 +126,7 @@ export function NearbyPlaces({ destination }: { destination: Destination }) {
       {active && (
         <div className="mt-4" aria-live="polite">
           <h3 className="mb-3 text-base font-bold">{buttons.find((button) => button.id === active)?.label} perto de {destination.name}</h3>
-          {places.length === 0 ? (
+          {places.length === 0 && liveFood.length === 0 && !liveLoading ? (
             <div className="rounded-2xl border border-dashed border-border bg-background px-4 py-6 text-center">
               <p className="font-bold">Em breve</p>
               <p className="mt-1 text-sm text-muted-foreground">Ainda não há itens desta categoria cadastrados para este município.</p>
@@ -148,6 +166,30 @@ export function NearbyPlaces({ destination }: { destination: Destination }) {
                   </div>
                 </article>
               ))}
+            </div>
+          )}
+          {active === "gastronomia" && liveLoading && <p className="mt-3 text-sm text-muted-foreground">Buscando bares, restaurantes e pizzarias próximos…</p>}
+          {active === "gastronomia" && liveError && <p className="mt-3 text-sm text-muted-foreground">A busca ao vivo está temporariamente indisponível. Os cadastros já existentes continuam visíveis.</p>}
+          {active === "gastronomia" && liveFood.length > 0 && (
+            <div className="mt-4 grid gap-3">
+              <h4 className="font-bold">Outros estabelecimentos próximos · OpenStreetMap</h4>
+              {liveFood.map((item) => (
+                <article key={item.id} className="rounded-2xl border border-border bg-background p-3">
+                  <h4 className="font-bold">{item.name}</h4>
+                  <p className="mt-1 text-sm text-muted-foreground">{item.type} · {item.distanceKm < 1 ? Math.round(item.distanceKm * 1000) + " m" : item.distanceKm.toFixed(1).replace(".", ",") + " km"} (linha reta)</p>
+                  <p className="mt-1 text-sm">{item.address}</p>
+                  {item.openingHours && <p className="mt-1 text-sm"><strong>Horário informado:</strong> {item.openingHours}</p>}
+                  {item.priceRange && <p className="mt-1 text-sm"><strong>Preço informado:</strong> {item.priceRange}</p>}
+                  {item.rating && <p className="mt-1 text-sm"><strong>Nota cadastrada no mapa:</strong> {item.rating}</p>}
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <a href={item.mapUrl} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-10 items-center gap-2 rounded-xl bg-gradient-ocean px-3 py-2 text-sm font-bold text-primary-foreground">OpenStreetMap</a>
+                    {item.website && <a href={item.website} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-10 items-center rounded-xl bg-secondary px-3 py-2 text-sm font-bold">Site</a>}
+                    {item.instagram && <a href={item.instagram.startsWith("http") ? item.instagram : "https://instagram.com/" + item.instagram.replace("@","")} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-10 items-center rounded-xl bg-secondary px-3 py-2 text-sm font-bold">Instagram</a>}
+                    {item.whatsapp && <a href={"https://wa.me/" + item.whatsapp.replace(/[^0-9]/g,"")} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-10 items-center rounded-xl bg-secondary px-3 py-2 text-sm font-bold">Contato</a>}
+                  </div>
+                </article>
+              ))}
+              <p className="text-xs text-muted-foreground">Dados colaborativos do OpenStreetMap. Campos sem informação cadastrada não são exibidos.</p>
             </div>
           )}
         </div>
