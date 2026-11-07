@@ -3,12 +3,29 @@ import type { Destination } from "@/types/destination";
 // Praias adicionais do litoral fluminense. Cadastro geográfico inicial:
 // fichas marcadas como demonstração até validação de acesso, serviços e dados locais.
 const image = "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200";
-const makeBeach = (id: string, name: string, city: string, tags: string[] = []): Destination => ({
-  id, name, category: "praia", city, state: "RJ", region: "Sudeste",
-  shortDescription: `${name} — litoral de ${city}, Rio de Janeiro.`,
-  description: `${name} está localizada em ${city}, no litoral do estado do Rio de Janeiro. Consulte as condições do mar, balneabilidade, acesso, regras ambientais e serviços locais antes da visita. A imagem desta ficha é ilustrativa.`,
-  images: [image], coordinates: null, tags: ["Rio de Janeiro", "RJ", ...tags], isDemo: true,
-});
+
+// Guias municipais e polos gastronômicos próximos às praias. Agendas são dinâmicas:
+// consulte sempre os calendários oficiais antes de considerar um evento confirmado.
+const localGuide: Record<string, string> = {
+  "Arraial do Cabo": "A região da Praia dos Anjos reúne opções como El Farol Bar, Bar e Petiscaria Esquina da Onda e Be Happy Sorveteria e Cafeteria; na Praia Grande há Bistrô da Praia e Arraial Mineiro Restaurante. Consulte contatos e localização atualizados no guia de estabelecimentos da Federação de Convention & Visitors Bureaux do RJ: https://www.fcvbrj.org.br/convention/Restaurantes/arraial-do-cabo. Para hospedagem, consulte também https://www.turismo.rj.gov.br/cidades/arraial-do-cabo/. Agenda estadual de eventos: https://www.turismo.rj.gov.br/agenda/.",
+  "Paraty": "Para gastronomia, o portal turístico local destaca Restaurante Lá Em Casa, Thai Brasil, Banana da Terra e Quintal Verde. Confira endereços e informações no portal https://paraty.tur.br/. A cidade também recebe eventos culturais e gastronômicos; consulte a agenda estadual em https://www.turismo.rj.gov.br/agenda/ e a programação local antes da viagem.",
+  "Angra dos Reis": "Na Vila do Abraão, principal base de serviços da Ilha Grande, há concentração de pousadas, restaurantes e agências. O portal oficial Viva Angra apresenta opções como Restaurante Brasileirinho, Casa de Araçá, Casarão da Ilha e Ará Bistrô: https://www.vivaangra.com.br/. Confirme deslocamentos de barco, funcionamento e reservas antes de visitar praias isoladas.",
+  "Cabo Frio": "A cidade concentra opções de bares e restaurantes nos polos da Passagem, Boulevard Canal, Rua Porto Alegre e Praia do Forte. O bairro da Passagem e o Boulevard Canal são boas referências para gastronomia e vida noturna. Consulte o guia municipal em https://www.turismo.rj.gov.br/cidades/cabo-frio/ e a agenda de eventos em https://www.turismo.rj.gov.br/agenda/.",
+  "Armação dos Búzios": "Os principais polos de gastronomia e vida noturna indicados pelo turismo estadual são Rua das Pedras, Orla Bardot, Rua Turíbio de Farias e Porto da Barra. Consulte opções de hospedagem e gastronomia em https://www.turismo.rj.gov.br/cidades/armacao-dos-buzios/ e eventos em https://www.turismo.rj.gov.br/agenda/.",
+  "Rio de Janeiro": "Para encontrar bares, restaurantes, quiosques e hospedagens por bairro, consulte os guias oficiais da Riotur: https://riotur.rio/visit-rio/. Para eventos e programação atualizada, consulte o calendário oficial Rio o Ano Inteiro: https://riotur.rio/editorial/calendario-eventos/.",
+  "Rio das Ostras": "Consulte os diretórios municipais de hospedagem, alimentação e calendário cultural nos links oficiais reunidos pelo Portal de Turismo do Estado: https://www.turismo.rj.gov.br/cidades/rio-das-ostras/.",
+  "Niterói": "Para opções de hospedagem, gastronomia e programação cultural próximas às praias, consulte as informações do Portal Oficial de Turismo do Estado: https://www.turismo.rj.gov.br/cidades/niteroi/ e a agenda estadual: https://www.turismo.rj.gov.br/agenda/.",
+};
+
+const makeBeach = (id: string, name: string, city: string, tags: string[] = []): Destination => {
+  const guide = localGuide[city];
+  return {
+    id, name, category: "praia", city, state: "RJ", region: "Sudeste",
+    shortDescription: `${name} — litoral de ${city}, Rio de Janeiro.`,
+    description: `${name} está localizada em ${city}, no litoral do estado do Rio de Janeiro. Consulte as condições do mar, balneabilidade, acesso, regras ambientais e serviços locais antes da visita. ${guide ? `\n\nOnde comer, ficar e consultar eventos: ${guide}` : ""} A imagem desta ficha é ilustrativa.`,
+    images: [image], coordinates: null, tags: ["Rio de Janeiro", "RJ", ...tags], isDemo: true,
+  };
+};
 
 export const otherRioDeJaneiroBeaches: Destination[] = [
   // Costa Verde — Paraty
