@@ -1,5 +1,5 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
-import { ArrowRight, Droplets, Search, Waves } from "lucide-react";
+import { ArrowRight, BedDouble, Droplets, Search, Waves } from "lucide-react";
 import { useState } from "react";
 import { destinations } from "@/data/destinations";
 import { DestinationCard } from "@/components/DestinationCard";
@@ -44,6 +44,10 @@ function Index() {
           </Link>
           <Link to="/cachoeiras" className="group flex items-center justify-between rounded-2xl bg-gradient-nature p-6 text-primary-foreground shadow-lift">
             <div><Droplets className="mb-3 h-9 w-9 text-sun" /><h2 className="text-2xl font-bold">Cachoeiras de Minas Gerais</h2><p className="text-sm opacity-90">Serras, cânions e trilhas</p></div>
+            <ArrowRight className="h-6 w-6 transition group-hover:translate-x-1" />
+          </Link>
+          <Link to="/buscar" className="group flex items-center justify-between rounded-2xl bg-gradient-ocean p-6 text-primary-foreground shadow-lift">
+            <div><BedDouble className="mb-3 h-9 w-9 text-sun" /><h2 className="text-2xl font-bold">Hotéis, pousadas e day use</h2><p className="text-sm opacity-90">Encontre hospedagem e lazer</p></div>
             <ArrowRight className="h-6 w-6 transition group-hover:translate-x-1" />
           </Link>
         </section>
