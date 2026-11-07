@@ -31,6 +31,7 @@ export function DestinationCard({ d }: { d: Destination }) {
             <MapPin className="h-4 w-4" /> {d.city} - {d.state}
           </p>
           <p className="mt-2 line-clamp-2 text-sm text-muted-foreground">{d.shortDescription}</p>
+          {d.photoCredit && <a href={d.photoSourceUrl} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} className="mt-2 block text-[10px] text-muted-foreground underline">Foto: {d.photoCredit}</a>}
         </div>
       </Link>
       <button onClick={() => toggle(d.id)} aria-label={fav ? "Remover dos favoritos" : "Adicionar aos favoritos"}
