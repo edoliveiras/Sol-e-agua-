@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { ExternalLink, Hotel, MapPinned, PartyPopper, Star, Utensils } from "lucide-react";
+import { ExternalLink, Hotel, MapPinned, PartyPopper, Utensils } from "lucide-react";
 import { destinations } from "@/data/destinations";
 import { searchUrl } from "@/services/maps";
 import type { Destination } from "@/types/destination";
@@ -13,7 +13,7 @@ const categoryByGroup: Record<NearbyCategory, Destination["category"][]> = {
 };
 
 const normalize = (value: string) =>
-  value.normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").toLocaleLowerCase("pt-BR").trim();
+  value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("pt-BR").trim();
 
 export function supportsNearbyDirectory(destination: Destination): boolean {
   return destination.category === "praia" || destination.category === "cachoeira";
@@ -22,10 +22,10 @@ export function supportsNearbyDirectory(destination: Destination): boolean {
 function distanceInKm(value?: string): number | null {
   if (!value) return null;
   const normalized = value.toLocaleLowerCase("pt-BR").replace(",", ".");
-  const match = normalized.match(/(\\d+(?:\\.\\d+)?)/);
+  const match = normalized.match(/(\d+(?:\.\d+)?)/);
   if (!match) return null;
   const amount = Number(match[1]);
-  if (/\\bm\\b|metro/.test(normalized) && !/km/.test(normalized)) return amount / 1000;
+  if (/\bm\b|metro/.test(normalized) && !/km/.test(normalized)) return amount / 1000;
   if (/min|hora|trilha/.test(normalized) && !/km/.test(normalized)) return null;
   return /km/.test(normalized) ? amount : null;
 }
