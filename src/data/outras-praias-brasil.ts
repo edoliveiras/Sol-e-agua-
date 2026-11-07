@@ -30,5 +30,5 @@ export const outrasPraiasBrasil:Destination[]=[
  // PARÁ — prefeitura de Salinópolis e destinos públicos do Pará
  ...([
  ["pa-salinopolis-atalaia","Praia do Atalaia","Salinópolis"],["pa-salinopolis-farol-velho","Praia do Farol Velho","Salinópolis"],["pa-salinopolis-corvina","Praia da Corvina","Salinópolis"],["pa-salinopolis-macarico","Praia do Maçarico","Salinópolis"],["pa-santarem-alter-chao","Praia de Alter do Chão","Santarém"],["pa-mosqueiro-murubira","Praia do Murubira","Belém"],["pa-mosqueiro-chapeu-virado","Praia do Chapéu Virado","Belém"],["pa-mosqueiro-paraiso","Praia do Paraíso","Belém"],["pa-maruda-algodoal","Praia de Algodoal","Maracanã"],
- ] as string[][]).map(([id,name,city])=>make({id,name,city,state:"PA",region:"Norte",sourceUrl:"https://salinopolis.pa.gov.br/o-municipio/turismo-e-lazer/"})),
+ ] as string[][]).map(([id,name,city])=>make({id,name,city,state:"PA",region:"Norte",...(city==="Salinópolis"?{sourceUrl:"https://salinopolis.pa.gov.br/o-municipio/turismo-e-lazer/"}:{})})),
 ];
