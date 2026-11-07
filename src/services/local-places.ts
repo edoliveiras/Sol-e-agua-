@@ -30,13 +30,19 @@ export async function getLiveFoodPlaces(destination: Destination): Promise<LiveF
   let lat = destination.coordinates?.verified ? destination.coordinates.lat : null;
   let lon = destination.coordinates?.verified ? destination.coordinates.lng : null;
   if (lat === null || lon === null) {
-    const query = destination.name + " " + destination.city + " " + (states[destination.state] ?? destination.state) + " Brasil";
-    const response = await fetch("https://geocoding-api.open-meteo.com/v1/search?name=" + encodeURIComponent(query) + "&count=10&language=pt&format=json");
-    if (!response.ok) throw new Error("Geocodificação indisponível");
-    const json = await response.json();
-    const results = json.results ?? [];
-    const match = results.find((item:any) => item.country_code === "BR" && item.admin1?.toLowerCase().includes((states[destination.state] ?? destination.state).toLowerCase()))
-      ?? results.find((item:any) => item.country_code === "BR" && normalize(item.name) === normalize(destination.city));
+    const stateName = states[destination.state] ?? destination.state;
+    const queries = [destination.name, destination.city].filter((value,index,all)=>all.indexOf(value)===index);
+    let match: any = null;
+    for (const placeName of queries) {
+      const query = placeName + " " + stateName + " Brasil";
+      const response = await fetch("https://geocoding-api.open-meteo.com/v1/search?name=" + encodeURIComponent(query) + "&count=20&language=pt&format=json");
+      if (!response.ok) continue;
+      const json = await response.json();
+      const results = json.results ?? [];
+      match = results.find((item:any) => item.country_code === "BR" && item.admin1?.toLowerCase().includes(stateName.toLowerCase()))
+        ?? null;
+      if (match) break;
+    }
     if (!match) return [];
     lat=match.latitude; lon=match.longitude;
   }
