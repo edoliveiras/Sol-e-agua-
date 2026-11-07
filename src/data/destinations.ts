@@ -1,8 +1,8 @@
 import type { Destination } from "@/types/destination";
 
 /**
- * DADOS DE EXEMPLO — textos descritivos genéricos para o protótipo.
- * Fotos são ilustrativas. Coordenadas ficam nulas até verificação oficial.
+ * Dados em expansão. Cada fotografia licenciada tem crédito e fonte na ficha do destino.
+ * Preços, acessos e horários são omitidos quando não há confirmação atual.
  */
 export const destinations: Destination[] = [
   {
@@ -129,8 +129,11 @@ export const destinations: Destination[] = [
     whatsapp: "5531980490263",
     website: "https://acmmg.com.br/veu-da-noiva",
     address: "Rodovia MG-010, km 100, Santana do Riacho - MG",
-    images: ["https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=1200"],
-    coordinates: null,
+    images: ["https://commons.wikimedia.org/wiki/Special:FilePath/Cachoeira_V%C3%A9u_da_Noiva_-_Serra_do_Cip%C3%B3_-_MG_-_panoramio_%281%29.jpg?width=1200"],
+    photoCredit: "Paulo JC Nogueira · CC BY-SA 3.0",
+    photoSourceUrl: "https://commons.wikimedia.org/wiki/File:Cachoeira_V%C3%A9u_da_Noiva_-_Serra_do_Cip%C3%B3_-_MG_-_panoramio_%281%29.jpg",
+    photoLicenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/",
+    coordinates: { lat: -19.31625, lng: -43.605719, verified: true },
     tags: ["Serra do Cipó", "Trilha", "Natureza"],
     isDemo: true,
   },
