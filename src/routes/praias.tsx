@@ -13,7 +13,7 @@ export const Route = createFileRoute("/praias")({
   component: () => (
     <div className="mx-auto max-w-6xl px-4 py-8">
       <h1 className="text-3xl font-extrabold text-ocean">Praias do Brasil</h1>
-      <p className="mb-5 text-muted-foreground">Litoral de norte a sul · dados demonstrativos</p>
+      <p className="mb-5 text-muted-foreground">Litoral brasileiro · confirme condições locais antes da visita</p>
       <DestinationExplorer fixedCategory="praia" />
     </div>
   ),
