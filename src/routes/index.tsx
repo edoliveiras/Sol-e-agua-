@@ -58,8 +58,9 @@ function Index() {
             <span className="text-xs text-muted-foreground">Seleção inicial de destinos</span>
           </div>
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {destinations.map((d) => <DestinationCard key={d.id} d={d} />)}
+            {destinations.slice(0, 6).map((d) => <DestinationCard key={d.id} d={d} />)}
           </div>
+          <div className="mt-5 text-center"><Link to="/buscar" className="inline-flex items-center gap-2 rounded-full border px-5 py-3 text-sm font-bold text-primary hover:bg-secondary">Ver todos os destinos <ArrowRight className="h-4 w-4" /></Link></div>
         </section>
 
         <section className="mt-10">
