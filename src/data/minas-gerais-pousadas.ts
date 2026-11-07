@@ -2488,4 +2488,925 @@ export const minasGeraisPousadas: Destination[] = [
     "sourceUrl": "https://mostratiradentes.com.br/2026/o-evento/pousadas/",
     "locality": "Tiradentes"
   },
+  {
+    "id": "pousada-do-bezerra-caparao",
+    "name": "Pousada do Bezerra",
+    "city": "Alto Caparaó",
+    "locality": "Vale das Hortênsias",
+    "address": "Avenida Vereador Inimá Novaes de Campos, 1418, Vale das Hortênsias, Alto Caparaó - MG",
+    "nearbyAttraction": "Cachoeira ao lado da pousada e Parque Nacional do Caparaó",
+    "shortDescription": "Pousada com piscinas de água corrente da cachoeira, saunas e passeios guiados.",
+    "description": "A propriedade informa piscinas para adultos e crianças abastecidas com água corrente da cachoeira, duchas naturais, saunas, salão de jogos, playground, estacionamento, restaurante, churrasqueiras, aluguel de cavalos e mulas, guias e passeios de jipe. A fonte descreve a pousada como situada ao lado de cachoeira, sem distância em metros.",
+    "phone": "(32) 98485-8687",
+    "instagram": "https://www.instagram.com/pousadadobezerra/",
+    "website": "https://www.pousadadobezerra.com.br/",
+    "amenities": [
+      "Piscinas com água corrente",
+      "Saunas",
+      "Salão de jogos",
+      "Playground",
+      "Estacionamento",
+      "Restaurante",
+      "Churrasqueiras"
+    ],
+    "tags": [
+      "Alto Caparaó",
+      "Parque Nacional do Caparaó",
+      "Cachoeira"
+    ],
+    "sourceUrl": "https://www.turismoaltocaparao.com.br/turismo/hotelaria?catid=36&id=92%3Apousada-do-bezerra&view=article",
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-do-rui-caparao",
+    "name": "Pousada do Rui",
+    "city": "Alto Caparaó",
+    "locality": "Bela Vista",
+    "address": "Rua Francisco Monteiro, 86, Bela Vista, Alto Caparaó - MG",
+    "nearbyAttraction": "Portaria do Parque Nacional do Caparaó",
+    "distanceToAttraction": "2 km",
+    "shortDescription": "Pousada familiar com dez suítes, a 2 km da portaria do Parque Nacional.",
+    "description": "Pousada familiar com dez suítes, situada em rua tranquila e a aproximadamente 2 km da portaria do Parque Nacional do Caparaó, conforme o site oficial.",
+    "phone": "(32) 98422-5791",
+    "website": "https://www.pousadadorui.com.br/",
+    "instagram": "https://www.instagram.com/pousadadorui/",
+    "tags": [
+      "Alto Caparaó",
+      "Parque Nacional do Caparaó",
+      "Pico da Bandeira"
+    ],
+    "sourceUrl": "https://www.turismoaltocaparao.com.br/turismo/hotelaria?catid=36&id=87%3Apousada-do-rui&view=article",
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-querencia-caparao",
+    "name": "Pousada Querência",
+    "city": "Alto Caparaó",
+    "locality": "Independência",
+    "address": "Rua Edelvira Peixoto, 135, Independência, Alto Caparaó - MG",
+    "nearbyAttraction": "Parque Nacional do Caparaó e Pico da Bandeira",
+    "shortDescription": "Pousada com 47 leitos, refeitórios, biblioteca e cafeteria com fogão a lenha.",
+    "description": "Pousada em Alto Caparaó, aos pés da cordilheira do Parque Nacional do Caparaó. A página oficial informa 47 leitos, quartos e suítes para casais e grupos, refeitórios, biblioteca, sala de DVD, cafeteria, fogão a lenha, churrasqueira e varanda com vista para a serra.",
+    "phone": "(32) 98491-4391",
+    "instagram": "https://www.instagram.com/hotelpousadaquerencia/",
+    "amenities": [
+      "47 leitos",
+      "Refeitórios",
+      "Biblioteca",
+      "Cafeteria",
+      "Fogão a lenha",
+      "Churrasqueira"
+    ],
+    "tags": [
+      "Alto Caparaó",
+      "Parque Nacional do Caparaó"
+    ],
+    "sourceUrl": "https://www.turismoaltocaparao.com.br/turismo/hotelaria?catid=36&id=93%3Apousada-querencia&view=article",
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-recanto-da-lua-caparao",
+    "name": "Pousada Recanto da Lua",
+    "city": "Alto Caparaó",
+    "locality": "Córrego Três Barras, Zona Rural",
+    "address": "Córrego Três Barras, Zona Rural, Alto Caparaó - MG",
+    "nearbyAttraction": "Parque Nacional do Caparaó e cachoeiras da zona rural",
+    "shortDescription": "Pousada rural cadastrada no portal oficial de turismo de Alto Caparaó.",
+    "description": "Pousada listada no diretório de hotelaria do portal de turismo de Alto Caparaó. O cadastro informa endereço rural, telefone e perfis de redes sociais; comodidades, tarifas e distância até cachoeiras específicas não foram publicadas.",
+    "phone": "(32) 98489-0315",
+    "instagram": "https://www.instagram.com/recantodalua.altocaparao/",
+    "sourceUrl": "https://turismoaltocaparao.com.br/turismo/hotelaria?catid=36&id=102%3Apousada-recanto-da-lua&view=article",
+    "tags": [
+      "Alto Caparaó",
+      "Zona rural",
+      "Parque Nacional"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-cachoeira-do-flavio",
+    "name": "Pousada Cachoeira do Flávio",
+    "city": "São Thomé das Letras",
+    "locality": "Serra do Areado / Fazenda Vargem Grande do Pinhal",
+    "address": "Fazenda Vargem Grande do Pinhal, km 4,5 da estrada São Thomé–Baependi, São Thomé das Letras - MG",
+    "nearbyAttraction": "Trilhas e cachoeiras da Serra do Areado",
+    "shortDescription": "Pousada em área de proteção ambiental, com trilhas, nascentes e cachoeiras na propriedade.",
+    "description": "Pousada rural com 96 alqueires de vegetação nativa na Serra do Areado. Informa trilhas, cachoeiras, água de nascente e estacionamento amplo, inclusive para ônibus. Aceita animais de pequeno porte.",
+    "phone": "(11) 3082-4081",
+    "whatsapp": "5511996270265",
+    "website": "https://www.pousadacachoeiradoflavio.com.br/",
+    "amenities": [
+      "Trilhas",
+      "Cachoeiras",
+      "Água de nascente",
+      "Estacionamento",
+      "Aceita pets de pequeno porte"
+    ],
+    "tags": [
+      "São Thomé das Letras",
+      "Serra do Areado",
+      "Cachoeiras"
+    ],
+    "sourceUrl": "https://www.pousadacachoeiradoflavio.com.br/",
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-mineira-sao-thome",
+    "name": "Pousada Mineira",
+    "city": "São Thomé das Letras",
+    "locality": "Centro",
+    "address": "Rua Emílio Teodoro da Silva, 121, Centro, São Thomé das Letras - MG",
+    "nearbyAttraction": "Centro histórico e cachoeiras de São Thomé das Letras",
+    "shortDescription": "Pousada no centro de São Thomé das Letras, com contato por WhatsApp.",
+    "description": "Pousada no Centro de São Thomé das Letras. O site oficial informa endereço, telefone e WhatsApp; preços, comodidades e distância até as cachoeiras devem ser confirmados diretamente.",
+    "phone": "(35) 3237-1306",
+    "whatsapp": "5535999263115",
+    "website": "https://pousadamineira.com.br/contato/",
+    "tags": [
+      "São Thomé das Letras",
+      "Centro"
+    ],
+    "sourceUrl": "https://pousadamineira.com.br/contato/",
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-fazenda-matinha",
+    "name": "Pousada Fazenda Matinha",
+    "city": "São Thomé das Letras",
+    "locality": "Bairro Matinha, Zona Rural",
+    "address": "Estrada São Thomé das Letras–Três Corações, km 3, Bairro Matinha, São Thomé das Letras - MG",
+    "nearbyAttraction": "Ladeira do Amendoim e cachoeiras de São Thomé",
+    "shortDescription": "Pousada rural com piscina, quadra de tênis e café da manhã mineiro.",
+    "description": "Pousada rural a aproximadamente 2 km do centro e próxima à Ladeira do Amendoim. O portal oficial de turismo de São Thomé informa piscina, quadra de tênis, áreas ao ar livre, café da manhã, estacionamento e faixa de diária exibida entre R$ 399 e R$ 739, sujeita a data e disponibilidade.",
+    "phone": "(35) 99744-4282",
+    "whatsapp": "5535997444282",
+    "instagram": "https://www.instagram.com/pousadamatinha/",
+    "priceRange": "R$ 399–739 por noite (referência exibida no portal; varia por data)",
+    "amenities": [
+      "Café da manhã",
+      "Piscina",
+      "Quadra de tênis",
+      "Estacionamento"
+    ],
+    "tags": [
+      "São Thomé das Letras",
+      "Matinha",
+      "Ladeira do Amendoim"
+    ],
+    "sourceUrl": "https://descubrasaotome.com.br/sao-tome/hospedagem/pousada-fazenda-matinha",
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-tabuleiro-eco",
+    "name": "Pousada Tabuleiro Eco",
+    "city": "Conceição do Mato Dentro",
+    "locality": "Povoado do Tabuleiro",
+    "nearbyAttraction": "Parque da Cachoeira do Tabuleiro",
+    "distanceToAttraction": "3 km da entrada do parque",
+    "shortDescription": "Pousada com restaurante, café da manhã, camping e vista para o paredão do Tabuleiro.",
+    "description": "Pousada em meio à natureza, a 3 km da entrada do parque da Cachoeira do Tabuleiro. A página oficial de turismo municipal informa Wi-Fi, bar, restaurante, buffet de café da manhã, playground, camping, sinuca, churrasqueira, estacionamento e quartos com vista para o jardim e o paredão da cachoeira.",
+    "phone": "(31) 98778-3288",
+    "instagram": "https://www.instagram.com/pousadatabuleiroeco/",
+    "website": "https://linktr.ee/pousadatabuleiroeco",
+    "amenities": [
+      "Wi-Fi",
+      "Bar",
+      "Restaurante",
+      "Café da manhã",
+      "Playground",
+      "Camping",
+      "Sinuca",
+      "Churrasqueira",
+      "Estacionamento"
+    ],
+    "tags": [
+      "Tabuleiro",
+      "Cachoeira do Tabuleiro",
+      "Ecoturismo"
+    ],
+    "sourceUrl": "https://turismo.cmd.mg.gov.br/turismo/pousada-tabuleiro-eco/34",
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-luar-da-serra-tabuleiro",
+    "name": "Pousada Luar da Serra",
+    "city": "Conceição do Mato Dentro",
+    "locality": "Região do Tabuleiro",
+    "nearbyAttraction": "Cachoeira do Tabuleiro",
+    "shortDescription": "Pousada com mirante, lagoa com canoa e moinho de pedras, a poucos quilômetros da cachoeira.",
+    "description": "A página oficial de turismo de Conceição do Mato Dentro descreve mirante, lagoa com canoa e moinho de pedras, além de localização a poucos quilômetros da Cachoeira do Tabuleiro. A distância exata e demais comodidades não foram informadas.",
+    "phone": "(31) 98244-2944",
+    "instagram": "https://www.instagram.com/pousadaluardaserra.tabuleiro/",
+    "sourceUrl": "https://turismo.cmd.mg.gov.br/turismo/pousada-luar-da-serra/45",
+    "tags": [
+      "Tabuleiro",
+      "Cachoeira do Tabuleiro"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-rd-conceicao",
+    "name": "Pousada RD",
+    "city": "Conceição do Mato Dentro",
+    "locality": "Córrego Pereira",
+    "address": "Rua Geraldo Pires Carneiro, 226, Córrego Pereira, Conceição do Mato Dentro - MG",
+    "nearbyAttraction": "Cachoeira do Tabuleiro e atrativos naturais do município",
+    "shortDescription": "Pousada em Córrego Pereira com telefone e site próprios.",
+    "description": "Hospedagem em Córrego Pereira, com endereço e contatos publicados no site oficial. A pousada apresenta Conceição do Mato Dentro como destino de cachoeiras e ecoturismo; distância até a Cachoeira do Tabuleiro e comodidades específicas devem ser confirmadas.",
+    "phone": "(31) 3868-1771",
+    "whatsapp": "5531996470350",
+    "website": "https://www.pousadard.com/",
+    "tags": [
+      "Conceição do Mato Dentro",
+      "Córrego Pereira",
+      "Cachoeiras"
+    ],
+    "sourceUrl": "https://www.pousadard.com/",
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-vila-de-conceicao",
+    "name": "Pousada Vila de Conceição",
+    "city": "Conceição do Mato Dentro",
+    "locality": "Bairro Bandeirinha",
+    "address": "Rua Expedito Fininho, 31, Bairro Bandeirinha, Conceição do Mato Dentro - MG",
+    "nearbyAttraction": "Cachoeira do Tabuleiro e Serra da Ferrugem",
+    "shortDescription": "Pousada com 12 suítes, cozinha coletiva e estacionamento privativo.",
+    "description": "Pousada com 12 suítes, ar-condicionado, aquecimento solar, TV, frigobar, Wi-Fi, cozinha coletiva equipada e estacionamento privativo. O site oficial a apresenta como base para explorar a Cachoeira do Tabuleiro e trilhas históricas da Estrada Real.",
+    "phone": "(31) 99155-3131",
+    "whatsapp": "5531991553131",
+    "website": "https://www.pousadaviladeconceicao.com.br/",
+    "amenities": [
+      "12 suítes",
+      "Ar-condicionado",
+      "Aquecimento solar",
+      "Wi-Fi",
+      "Cozinha coletiva",
+      "Estacionamento privativo"
+    ],
+    "tags": [
+      "Conceição do Mato Dentro",
+      "Serra da Ferrugem",
+      "Cachoeira do Tabuleiro"
+    ],
+    "sourceUrl": "https://www.pousadaviladeconceicao.com.br/",
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-villa-da-serra-piumhi",
+    "name": "Pousada Villa da Serra",
+    "city": "Piumhi",
+    "locality": "Centro",
+    "address": "Rua Floriano Peixoto, 1686, Piumhi - MG",
+    "nearbyAttraction": "Roteiros de cachoeiras da Serra da Canastra",
+    "shortDescription": "Pousada com café da manhã, jardins, estacionamento e Wi-Fi.",
+    "description": "O Circuito Turístico Nascentes das Gerais e Canastra informa oito unidades habitacionais, café da manhã, jardins para atividades ao ar livre, estacionamento e Wi-Fi.",
+    "phone": "(37) 99917-5877",
+    "website": "https://pousadavilladaserra.com/",
+    "amenities": [
+      "Café da manhã",
+      "Jardins",
+      "Estacionamento",
+      "Wi-Fi"
+    ],
+    "tags": [
+      "Piumhi",
+      "Serra da Canastra"
+    ],
+    "sourceUrl": "https://nascentesecanastra.com.br/hospedagem-piumhi/",
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-bella-canastra-piumhi",
+    "name": "Pousada Bella Canastra",
+    "city": "Piumhi",
+    "locality": "Rodovia MG-050",
+    "address": "Rodovia MG-050, km 256, Piumhi - MG",
+    "nearbyAttraction": "Roteiros de cachoeiras da Serra da Canastra",
+    "shortDescription": "Pousada com café da manhã, estacionamento e Wi-Fi.",
+    "description": "O Circuito Turístico Nascentes das Gerais e Canastra informa 16 unidades habitacionais, 32 leitos, café da manhã, estacionamento e Wi-Fi. O diretório também publica perfil no Instagram e telefone.",
+    "phone": "(37) 99866-3167",
+    "instagram": "https://www.instagram.com/pousadabellacanastra/",
+    "amenities": [
+      "Café da manhã",
+      "Estacionamento",
+      "Wi-Fi"
+    ],
+    "tags": [
+      "Piumhi",
+      "Serra da Canastra"
+    ],
+    "sourceUrl": "https://nascentesecanastra.com.br/hospedagem-piumhi/",
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-sao-francisco-piumhi",
+    "name": "Pousada São Francisco",
+    "city": "Piumhi",
+    "locality": "Centro",
+    "address": "Rua Melvira Cassini, 142, Piumhi - MG",
+    "nearbyAttraction": "Roteiros de cachoeiras da Serra da Canastra",
+    "shortDescription": "Pousada cadastrada no Circuito Turístico Nascentes das Gerais e Canastra.",
+    "description": "Pousada listada no diretório regional de hospedagem, com 16 unidades habitacionais e 35 leitos. A fonte informa endereço, e-mail e telefone; serviços adicionais não foram registrados.",
+    "phone": "(37) 3371-7508",
+    "website": "https://visitepiumhi.com.br/trades/pousada-sao-francisco",
+    "tags": [
+      "Piumhi",
+      "Serra da Canastra"
+    ],
+    "sourceUrl": "https://nascentesecanastra.com.br/hospedagem-piumhi/",
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-luar-da-canastra-piumhi",
+    "name": "Pousada Luar da Canastra",
+    "city": "Piumhi",
+    "locality": "Centro",
+    "address": "Rua Getúlio Vargas, 126, Centro, Piumhi - MG",
+    "nearbyAttraction": "Roteiros de cachoeiras da Serra da Canastra",
+    "shortDescription": "Pousada com café da manhã e sala de estar.",
+    "description": "O diretório do Circuito Turístico Nascentes das Gerais e Canastra informa seis unidades habitacionais, 12 leitos, café da manhã, sala de estar com televisão e Wi-Fi.",
+    "phone": "(37) 99841-2177",
+    "website": "https://www.pousadaluardacanastra.com.br/",
+    "amenities": [
+      "Café da manhã",
+      "Sala de estar",
+      "Wi-Fi"
+    ],
+    "tags": [
+      "Piumhi",
+      "Serra da Canastra"
+    ],
+    "sourceUrl": "https://nascentesecanastra.com.br/hospedagem-piumhi/",
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-perola-mineira-piumhi",
+    "name": "Pousada Pérola Mineira",
+    "city": "Piumhi",
+    "locality": "Pérola Negra",
+    "address": "Rua Misseno Lopes da Cunha, 310, Pérola Negra, Piumhi - MG",
+    "nearbyAttraction": "Roteiros de cachoeiras da Serra da Canastra",
+    "shortDescription": "Pousada com café da manhã, sala de estar, estacionamento e Wi-Fi.",
+    "description": "Pousada listada no diretório regional de turismo, com oito unidades habitacionais, 25 leitos, café da manhã, sala de estar, estacionamento e Wi-Fi.",
+    "phone": "(37) 99866-3167",
+    "instagram": "https://www.instagram.com/pousadaperolamineira/",
+    "amenities": [
+      "Café da manhã",
+      "Sala de estar",
+      "Estacionamento",
+      "Wi-Fi"
+    ],
+    "tags": [
+      "Piumhi",
+      "Serra da Canastra"
+    ],
+    "sourceUrl": "https://nascentesecanastra.com.br/hospedagem-piumhi/",
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-presidente-diamantina",
+    "name": "Pousada Presidente",
+    "city": "Diamantina",
+    "locality": "Diamantina",
+    "address": "Rua Oscar Batista, 365, Diamantina - MG",
+    "nearbyAttraction": "Centro Histórico de Diamantina e cachoeiras da região",
+    "shortDescription": "Pousada listada no diretório oficial de hospedagens de Diamantina.",
+    "description": "Pousada incluída no diretório de meios de hospedagem do portal oficial de turismo de Diamantina. A fonte municipal informa endereço e telefone; comodidades, preços e distância até atrativos naturais devem ser confirmados.",
+    "phone": "(38) 3531-6369",
+    "sourceUrl": "https://visitediamantina.com.br/informacoes-uteis-detalhes?tag=hospedagens",
+    "tags": [
+      "Diamantina",
+      "Centro Histórico"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-capim-limao-diamantina",
+    "name": "Pousada Capim Limão",
+    "city": "Diamantina",
+    "locality": "Diamantina",
+    "address": "Rua Nações Unidas, 66, Diamantina - MG",
+    "nearbyAttraction": "Centro Histórico de Diamantina e cachoeiras da região",
+    "shortDescription": "Pousada cadastrada no portal oficial de turismo de Diamantina.",
+    "description": "Pousada listada no diretório oficial de hospedagens de Diamantina, com endereço e telefone publicados. Outros dados não foram informados na página municipal.",
+    "phone": "(38) 3531-0051",
+    "sourceUrl": "https://visitediamantina.com.br/informacoes-uteis-detalhes?tag=hospedagens",
+    "tags": [
+      "Diamantina",
+      "Centro"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-acayaca-diamantina",
+    "name": "Pousada Acayaca",
+    "city": "Diamantina",
+    "locality": "Centro",
+    "address": "Rua Acaiaca, 65, Centro, Diamantina - MG",
+    "nearbyAttraction": "Centro Histórico de Diamantina",
+    "shortDescription": "Pousada no Centro Histórico, listada no diretório turístico municipal.",
+    "description": "Pousada cadastrada no portal oficial de turismo de Diamantina. O diretório informa endereço e telefone; comodidades e tarifas precisam de confirmação direta.",
+    "phone": "(38) 3531-8383",
+    "sourceUrl": "https://visitediamantina.com.br/informacoes-uteis-detalhes?tag=hospedagens",
+    "tags": [
+      "Diamantina",
+      "Centro Histórico"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-caminho-dos-escravos",
+    "name": "Pousada Caminho dos Escravos",
+    "city": "Diamantina",
+    "locality": "Diamantina",
+    "address": "Rua Acaiaca, 5, Diamantina - MG",
+    "nearbyAttraction": "Centro Histórico de Diamantina",
+    "shortDescription": "Pousada cadastrada no diretório oficial de turismo de Diamantina.",
+    "description": "Pousada listada no diretório de meios de hospedagem do portal de turismo de Diamantina. A fonte municipal informa endereço e telefone; serviços e preços não foram detalhados.",
+    "phone": "(38) 3531-6416",
+    "sourceUrl": "https://visitediamantina.com.br/informacoes-uteis-detalhes?tag=hospedagens",
+    "tags": [
+      "Diamantina",
+      "Centro Histórico"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-vale-do-garimpeiro",
+    "name": "Pousada Vale do Garimpeiro",
+    "city": "Diamantina",
+    "locality": "Diamantina",
+    "address": "Rua do Tijuco, 186, Diamantina - MG",
+    "nearbyAttraction": "Centro Histórico de Diamantina e cachoeiras da região",
+    "shortDescription": "Pousada listada no diretório municipal de hospedagens.",
+    "description": "Pousada cadastrada no portal oficial de turismo de Diamantina. A fonte consultada informa endereço e telefone, sem detalhes adicionais de comodidades e preços.",
+    "phone": "(38) 3531-3844",
+    "sourceUrl": "https://visitediamantina.com.br/informacoes-uteis-detalhes?tag=hospedagens",
+    "tags": [
+      "Diamantina",
+      "Tijuco"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-ouro-de-minas",
+    "name": "Pousada Ouro de Minas",
+    "city": "Diamantina",
+    "locality": "Centro",
+    "address": "Rua do Amparo, 90, Centro, Diamantina - MG",
+    "nearbyAttraction": "Centro Histórico de Diamantina",
+    "shortDescription": "Pousada no Centro de Diamantina, com telefone no diretório turístico municipal.",
+    "description": "Pousada listada no portal oficial de turismo de Diamantina. Endereço e telefone são os dados publicados pela fonte municipal; outros detalhes permanecem pendentes.",
+    "phone": "(38) 3531-2306",
+    "sourceUrl": "https://visitediamantina.com.br/informacoes-uteis-detalhes?tag=hospedagens",
+    "tags": [
+      "Diamantina",
+      "Centro"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-vila-do-imperador",
+    "name": "Pousada Vila do Imperador",
+    "city": "Diamantina",
+    "locality": "Centro",
+    "address": "Rua do Rosário, 71, Centro, Diamantina - MG",
+    "nearbyAttraction": "Centro Histórico de Diamantina",
+    "shortDescription": "Pousada no Centro Histórico, listada pelo portal de turismo de Diamantina.",
+    "description": "Pousada incluída no diretório municipal de meios de hospedagem de Diamantina. A fonte informa endereço e telefone; comodidades e valores não foram publicados.",
+    "phone": "(38) 99814-0071",
+    "sourceUrl": "https://visitediamantina.com.br/informacoes-uteis-detalhes?tag=hospedagens",
+    "tags": [
+      "Diamantina",
+      "Centro Histórico"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-da-seresta-diamantina",
+    "name": "Pousada da Seresta",
+    "city": "Diamantina",
+    "locality": "Centro",
+    "address": "Rua Jogo da Bola, 415, Centro, Diamantina - MG",
+    "nearbyAttraction": "Centro Histórico de Diamantina",
+    "shortDescription": "Pousada listada no diretório oficial de hospedagem de Diamantina.",
+    "description": "Pousada registrada no diretório oficial de turismo de Diamantina, com endereço e telefone. Comodidades, valores e distâncias não foram detalhados pela fonte.",
+    "phone": "(38) 3531-2368",
+    "sourceUrl": "https://visitediamantina.com.br/informacoes-uteis-detalhes?tag=hospedagens",
+    "tags": [
+      "Diamantina",
+      "Centro Histórico"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-do-garimpo-diamantina",
+    "name": "Pousada do Garimpo",
+    "city": "Diamantina",
+    "locality": "Centro",
+    "address": "Avenida da Saudade, 265, Centro, Diamantina - MG",
+    "nearbyAttraction": "Centro Histórico de Diamantina",
+    "shortDescription": "Pousada cadastrada no portal municipal de turismo.",
+    "description": "Pousada listada no diretório oficial de hospedagens de Diamantina, com endereço e telefone publicados. Serviços e tarifas precisam de confirmação direta.",
+    "phone": "(38) 3531-2782",
+    "sourceUrl": "https://visitediamantina.com.br/informacoes-uteis-detalhes?tag=hospedagens",
+    "tags": [
+      "Diamantina",
+      "Centro"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-pouso-da-chica",
+    "name": "Pousada Pouso da Chica",
+    "city": "Diamantina",
+    "locality": "Centro Histórico",
+    "address": "Rua Macau de Cima, 129, Centro Histórico, Diamantina - MG",
+    "nearbyAttraction": "Centro Histórico de Diamantina",
+    "shortDescription": "Pousada no Centro Histórico, listada no portal oficial de turismo.",
+    "description": "Pousada cadastrada no diretório de meios de hospedagem do portal de turismo de Diamantina. A fonte informa endereço e telefone, sem dados adicionais de comodidades ou preços.",
+    "phone": "(38) 3531-6190",
+    "sourceUrl": "https://visitediamantina.com.br/informacoes-uteis-detalhes?tag=hospedagens",
+    "tags": [
+      "Diamantina",
+      "Centro Histórico"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-beira-de-rio-conselheiro-mata",
+    "name": "Pousada Beira de Rio",
+    "city": "Diamantina",
+    "locality": "Conselheiro Mata",
+    "nearbyAttraction": "Cachoeiras de Conselheiro Mata",
+    "shortDescription": "Pousada no distrito de Conselheiro Mata, região com diversas cachoeiras.",
+    "description": "Hospedagem listada no portal oficial de turismo de Diamantina para o distrito de Conselheiro Mata, conhecido pelas cachoeiras. O diretório informa telefone, mas não publica endereço completo, comodidades ou distância até uma queda específica.",
+    "phone": "(38) 99923-9352",
+    "sourceUrl": "https://visitediamantina.com.br/atrativos-detalhes?atrativo=conselheiro-mata",
+    "tags": [
+      "Conselheiro Mata",
+      "Diamantina",
+      "Cachoeiras"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-do-kussu-conselheiro-mata",
+    "name": "Pousada do Kussu",
+    "city": "Diamantina",
+    "locality": "Conselheiro Mata",
+    "nearbyAttraction": "Cachoeiras de Conselheiro Mata",
+    "shortDescription": "Pousada no distrito de Conselheiro Mata, listado com 22 cachoeiras no portal turístico.",
+    "description": "Pousada indicada pelo portal oficial de turismo de Diamantina para Conselheiro Mata. O distrito é apresentado como destino com 22 cachoeiras; o diretório informa telefone, sem endereço completo ou distância específica.",
+    "phone": "(38) 99941-4768",
+    "sourceUrl": "https://visitediamantina.com.br/atrativos-detalhes?atrativo=conselheiro-mata",
+    "tags": [
+      "Conselheiro Mata",
+      "Diamantina",
+      "Cachoeiras"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-solar-dos-cristais",
+    "name": "Pousada Solar dos Cristais",
+    "city": "Diamantina",
+    "locality": "Conselheiro Mata",
+    "nearbyAttraction": "Cachoeiras de Conselheiro Mata",
+    "shortDescription": "Pousada em Conselheiro Mata, distrito de Diamantina.",
+    "description": "Hospedagem listada no portal de turismo de Diamantina para o distrito de Conselheiro Mata. A fonte informa telefone, mas não publica endereço completo nem comodidades.",
+    "phone": "(31) 99554-3157",
+    "sourceUrl": "https://visitediamantina.com.br/atrativos-detalhes?atrativo=conselheiro-mata",
+    "tags": [
+      "Conselheiro Mata",
+      "Diamantina",
+      "Cachoeiras"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-recanto-das-cachoeiras-diamantina",
+    "name": "Pousada Recanto das Cachoeiras",
+    "city": "Diamantina",
+    "locality": "Conselheiro Mata",
+    "nearbyAttraction": "Cachoeiras de Conselheiro Mata",
+    "shortDescription": "Pousada em distrito de Diamantina conhecido por suas cachoeiras.",
+    "description": "Pousada listada no diretório de hospedagem do portal oficial de turismo de Diamantina. A fonte informa telefone, sem endereço detalhado ou distância até uma cachoeira específica.",
+    "phone": "(38) 99963-3010",
+    "sourceUrl": "https://visitediamantina.com.br/informacoes-uteis-detalhes?tag=hospedagens",
+    "tags": [
+      "Conselheiro Mata",
+      "Diamantina",
+      "Cachoeiras"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-minha-casa-conselheiro-mata",
+    "name": "Pousada Minha Casa",
+    "city": "Diamantina",
+    "locality": "Conselheiro Mata",
+    "nearbyAttraction": "Cachoeiras de Conselheiro Mata",
+    "shortDescription": "Pousada cadastrada para o distrito de Conselheiro Mata.",
+    "description": "Pousada listada no diretório oficial de turismo de Diamantina, com indicação do distrito de Conselheiro Mata e telefone. Endereço completo, comodidades e distância não foram informados.",
+    "phone": "(38) 99833-0694",
+    "sourceUrl": "https://visitediamantina.com.br/informacoes-uteis-detalhes?tag=hospedagens",
+    "tags": [
+      "Conselheiro Mata",
+      "Diamantina",
+      "Cachoeiras"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-sinho-mariano-sacramento",
+    "name": "Pousada Sinhô Mariano",
+    "city": "Sacramento",
+    "locality": "Fazenda Santa Maria",
+    "nearbyAttraction": "Fazenda Santa Maria e Instituto Cultural Leopoldina Geovana de Araújo",
+    "shortDescription": "Pousada em fazenda histórica, ligada ao patrimônio cultural de Sacramento.",
+    "description": "A Prefeitura de Sacramento informa que a antiga fazenda histórica abriga atividades culturais e ambientais e que o antigo albergue foi transformado em pousada. O local é conhecido como Recanto Sinhô Mariano; telefone publicado no portal municipal.",
+    "phone": "(34) 3353-1566",
+    "website": "https://recantosinhomariano.org.br/",
+    "tags": [
+      "Sacramento",
+      "Fazenda histórica",
+      "Turismo cultural"
+    ],
+    "sourceUrl": "https://sacramento.mg.gov.br/turismo/fazenda-santa-maria",
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "recanto-castelinho-sacramento",
+    "name": "Recanto Castelinho",
+    "city": "Sacramento",
+    "locality": "Fazenda Santa Maria",
+    "nearbyAttraction": "Fazenda Santa Maria e patrimônio histórico-cultural",
+    "shortDescription": "Hospedagem na área da Fazenda Santa Maria, em Sacramento.",
+    "description": "O portal da Prefeitura de Sacramento cita o Recanto Castelinho entre as hospedagens em funcionamento no complexo histórico da Fazenda Santa Maria. Endereço detalhado, comodidades e tarifas não foram publicados na página consultada.",
+    "phone": "(34) 3351-8191",
+    "website": "https://recantosinhomariano.org.br/",
+    "tags": [
+      "Sacramento",
+      "Fazenda Santa Maria"
+    ],
+    "sourceUrl": "https://sacramento.mg.gov.br/turismo/fazenda-santa-maria",
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-novo-alvorecer-sacramento",
+    "name": "Pousada Novo Alvorecer",
+    "city": "Sacramento",
+    "locality": "Fazenda Santa Maria",
+    "nearbyAttraction": "Fazenda Santa Maria e patrimônio histórico-cultural",
+    "shortDescription": "Pousada citada no portal oficial de turismo de Sacramento.",
+    "description": "A Prefeitura de Sacramento lista a Pousada Novo Alvorecer entre as hospedagens na área da Fazenda Santa Maria. A fonte informa telefone; endereço detalhado, comodidades, preços e distância até atrativos naturais não foram publicados.",
+    "phone": "(34) 3353-1578",
+    "website": "https://recantosinhomariano.org.br/",
+    "tags": [
+      "Sacramento",
+      "Fazenda Santa Maria"
+    ],
+    "sourceUrl": "https://sacramento.mg.gov.br/turismo/fazenda-santa-maria",
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
 ];
