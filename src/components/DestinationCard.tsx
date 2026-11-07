@@ -24,7 +24,7 @@ export function DestinationCard({ d }: { d: Destination }) {
         </div>
         <div className="p-4">
           <div className="mb-1 text-xs font-bold uppercase tracking-wide text-turquoise">
-            {d.category === "praia" ? "Praia" : "Cachoeira"}
+            {{ praia: "Praia", cachoeira: "Cachoeira", hotel: "Hotel", "day-use": "Day use", pousada: "Pousada" }[d.category]}
           </div>
           <h3 className="text-lg font-bold">{d.name}</h3>
           <p className="mt-1 flex items-center gap-1 text-sm text-muted-foreground">
