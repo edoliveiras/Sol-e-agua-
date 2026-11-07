@@ -14,8 +14,8 @@ export const minasGeraisPousadas: Destination[] = [
     "address": "Rua Francisco Monteiro, 86, Bela Vista, Alto Caparaó - MG",
     "nearbyAttraction": "Portaria do Parque Nacional do Caparaó",
     "distanceToAttraction": "2 km",
-    "shortDescription": "Pousada familiar com dez suítes, a 2 km da portaria do Parque Nacional.",
-    "description": "Pousada familiar com dez suítes, situada em rua tranquila e a aproximadamente 2 km da portaria do Parque Nacional do Caparaó, conforme o site oficial.",
+    "shortDescription": "Pousada familiar com dez suítes, a 2 km da portaria do Parque Nacional. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada familiar com dez suítes, situada em rua tranquila e a aproximadamente 2 km da portaria do Parque Nacional do Caparaó, conforme o site oficial. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(32) 98422-5791",
     "website": "https://www.pousadadorui.com.br/",
     "instagram": "https://www.instagram.com/pousadadorui/",
@@ -32,8 +32,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-recanto-da-lua-caparao",
@@ -42,8 +41,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Córrego Três Barras, Zona Rural",
     "address": "Córrego Três Barras, Zona Rural, Alto Caparaó - MG",
     "nearbyAttraction": "Parque Nacional do Caparaó e cachoeiras da zona rural",
-    "shortDescription": "Pousada rural cadastrada no portal oficial de turismo de Alto Caparaó.",
-    "description": "Pousada listada no diretório de hotelaria do portal de turismo de Alto Caparaó. O cadastro informa endereço rural, telefone e perfis de redes sociais; comodidades, tarifas e distância até cachoeiras específicas não foram publicadas.",
+    "shortDescription": "Pousada rural cadastrada no portal oficial de turismo de Alto Caparaó. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada listada no diretório de hotelaria do portal de turismo de Alto Caparaó. O cadastro informa endereço rural, telefone e perfis de redes sociais; comodidades, tarifas e distância até cachoeiras específicas não foram publicadas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(32) 98489-0315",
     "instagram": "https://www.instagram.com/recantodalua.altocaparao/",
     "sourceUrl": "https://turismoaltocaparao.com.br/turismo/hotelaria?catid=36&id=102%3Apousada-recanto-da-lua&view=article",
@@ -59,8 +58,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-querencia-caparao",
@@ -69,8 +67,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Independência",
     "address": "Rua Edelvira Peixoto, 135, Independência, Alto Caparaó - MG",
     "nearbyAttraction": "Parque Nacional do Caparaó e Pico da Bandeira",
-    "shortDescription": "Pousada com 47 leitos, refeitórios, biblioteca e cafeteria com fogão a lenha.",
-    "description": "Pousada em Alto Caparaó, aos pés da cordilheira do Parque Nacional do Caparaó. A página oficial informa 47 leitos, quartos e suítes para casais e grupos, refeitórios, biblioteca, sala de DVD, cafeteria, fogão a lenha, churrasqueira e varanda com vista para a serra.",
+    "shortDescription": "Pousada com 47 leitos, refeitórios, biblioteca e cafeteria com fogão a lenha. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada em Alto Caparaó, aos pés da cordilheira do Parque Nacional do Caparaó. A página oficial informa 47 leitos, quartos e suítes para casais e grupos, refeitórios, biblioteca, sala de DVD, cafeteria, fogão a lenha, churrasqueira e varanda com vista para a serra. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(32) 98491-4391",
     "instagram": "https://www.instagram.com/hotelpousadaquerencia/",
     "amenities": [
@@ -93,8 +91,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-do-bezerra-caparao",
@@ -103,8 +100,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Vale das Hortênsias",
     "address": "Avenida Vereador Inimá Novaes de Campos, 1418, Vale das Hortênsias, Alto Caparaó - MG",
     "nearbyAttraction": "Cachoeira ao lado da pousada e Parque Nacional do Caparaó",
-    "shortDescription": "Pousada com piscinas de água corrente da cachoeira, saunas e passeios guiados.",
-    "description": "A propriedade informa piscinas para adultos e crianças abastecidas com água corrente da cachoeira, duchas naturais, saunas, salão de jogos, playground, estacionamento, restaurante, churrasqueiras, aluguel de cavalos e mulas, guias e passeios de jipe. A fonte descreve a pousada como situada ao lado de cachoeira, sem distância em metros.",
+    "shortDescription": "Pousada com piscinas de água corrente da cachoeira, saunas e passeios guiados. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "A propriedade informa piscinas para adultos e crianças abastecidas com água corrente da cachoeira, duchas naturais, saunas, salão de jogos, playground, estacionamento, restaurante, churrasqueiras, aluguel de cavalos e mulas, guias e passeios de jipe. A fonte descreve a pousada como situada ao lado de cachoeira, sem distância em metros. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(32) 98485-8687",
     "instagram": "https://www.instagram.com/pousadadobezerra/",
     "website": "https://www.pousadadobezerra.com.br/",
@@ -130,8 +127,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "hotel-pousada-bela-vista-araxa",
@@ -140,8 +136,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Aeroporto / BR-262",
     "address": "BR-262, km 693, Aeroporto, Araxá - MG",
     "nearbyAttraction": "Atrativos naturais e Complexo do Barreiro",
-    "shortDescription": "Hotel-pousada listado em diretório local de Araxá.",
-    "description": "Estabelecimento cadastrado como hotel-pousada em diretórios de Araxá, com endereço na BR-262 e telefone. Como as informações públicas encontradas não detalham comodidades ou tarifas, confirme os serviços e a localização exata antes de reservar.",
+    "shortDescription": "Hotel-pousada listado em diretório local de Araxá. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Estabelecimento cadastrado como hotel-pousada em diretórios de Araxá, com endereço na BR-262 e telefone. Como as informações públicas encontradas não detalham comodidades ou tarifas, confirme os serviços e a localização exata antes de reservar. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(34) 3662-5310",
     "tags": [
       "Araxá",
@@ -155,8 +151,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-medalha-milagrosa-araxa",
@@ -165,8 +160,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Centro",
     "address": "Avenida Vereador João Sena, 852, Centro, Araxá - MG",
     "nearbyAttraction": "Centro de Araxá e Complexo do Barreiro",
-    "shortDescription": "Pousada no Centro de Araxá, com endereço e telefone publicados.",
-    "description": "Pousada cadastrada em diretórios locais de hospedagem de Araxá. Endereço e telefone foram encontrados em mais de uma listagem; comodidades, faixa de preço e distância até o Complexo do Barreiro devem ser confirmadas diretamente.",
+    "shortDescription": "Pousada no Centro de Araxá, com endereço e telefone publicados. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada cadastrada em diretórios locais de hospedagem de Araxá. Endereço e telefone foram encontrados em mais de uma listagem; comodidades, faixa de preço e distância até o Complexo do Barreiro devem ser confirmadas diretamente. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(34) 3662-1560",
     "tags": [
       "Araxá",
@@ -180,8 +175,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "sesc-pousada-araxa",
@@ -190,8 +184,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Santa Terezinha",
     "address": "Avenida Prefeito Aracely de Paula, 3235, Santa Terezinha, Araxá - MG",
     "nearbyAttraction": "Complexo Hidromineral do Barreiro e Parque do Barreiro",
-    "shortDescription": "Hospedagem do Sesc com piscinas, recreação, restaurante e café da manhã.",
-    "description": "Unidade do Sesc em Araxá, com recepção 24 horas, piscinas adulta e infantil, quadras, ginásio, academia, playground, sala gamer, restaurante, copa do hóspede, estacionamento e café da manhã. Consulte o Sesc para tarifas e condições de reserva.",
+    "shortDescription": "Hospedagem do Sesc com piscinas, recreação, restaurante e café da manhã. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Unidade do Sesc em Araxá, com recepção 24 horas, piscinas adulta e infantil, quadras, ginásio, academia, playground, sala gamer, restaurante, copa do hóspede, estacionamento e café da manhã. Consulte o Sesc para tarifas e condições de reserva. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(34) 3201-8129",
     "website": "https://hoteis.sescmg.com.br/araxa/",
     "amenities": [
@@ -218,8 +212,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "hotel-pousada-dona-beja-araxa",
@@ -228,8 +221,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "São Geraldo",
     "address": "Avenida Amazonas, 1005, São Geraldo, Araxá - MG",
     "nearbyAttraction": "Complexo Hidromineral do Barreiro",
-    "shortDescription": "Hotel-pousada listado no Portal Minas Gerais, com contato de reservas.",
-    "description": "Hotel-pousada cadastrado no Portal Minas Gerais para Araxá. A listagem oficial informa endereço e telefone; comodidades e distância até o Complexo do Barreiro devem ser confirmadas diretamente.",
+    "shortDescription": "Hotel-pousada listado no Portal Minas Gerais, com contato de reservas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Hotel-pousada cadastrado no Portal Minas Gerais para Araxá. A listagem oficial informa endereço e telefone; comodidades e distância até o Complexo do Barreiro devem ser confirmadas diretamente. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(34) 3201-3000",
     "sourceUrl": "https://www.minasgerais.com.br/pt/apoio-destino/araxa",
     "tags": [
@@ -243,8 +236,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-chales-vida-verde-bom-jardim",
@@ -253,8 +245,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Bairro Viegas",
     "address": "Rua Jatobá, 100, Bairro Viegas, Bom Jardim de Minas - MG",
     "nearbyAttraction": "Cachoeira das Pitangueiras e atrativos naturais do município",
-    "shortDescription": "Pousada com chalés e jardim, listada no Booking para Bom Jardim de Minas.",
-    "description": "Hospedagem anunciada no Booking.com, com endereço no Bairro Viegas, Bom Jardim de Minas. A página pública consultada não exibe telefone antes da reserva; comodidades, preços para datas específicas e distância até as cachoeiras devem ser confirmados na plataforma.",
+    "shortDescription": "Pousada com chalés e jardim, listada no Booking para Bom Jardim de Minas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Hospedagem anunciada no Booking.com, com endereço no Bairro Viegas, Bom Jardim de Minas. A página pública consultada não exibe telefone antes da reserva; comodidades, preços para datas específicas e distância até as cachoeiras devem ser confirmados na plataforma. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "website": "https://www.booking.com/hotel/br/chales-vida-verde.pt-br.html",
     "tags": [
       "Bom Jardim de Minas",
@@ -269,8 +261,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "category": "pousada",
@@ -289,8 +280,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Camanducaia",
     "address": "Rua Bem-Te-Vi, 405, Monte Verde, Camanducaia - MG",
     "nearbyAttraction": "Trilhas e atrativos naturais de Monte Verde",
-    "shortDescription": "Hospedagem pioneira em Monte Verde, com chalés e estacionamento.",
-    "description": "Chalés em Monte Verde, com histórico de hospedagem desde 1973. O site oficial informa endereço e central de reservas; comodidades específicas e distância até cachoeiras não foram confirmadas.",
+    "shortDescription": "Hospedagem pioneira em Monte Verde, com chalés e estacionamento. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Chalés em Monte Verde, com histórico de hospedagem desde 1973. O site oficial informa endereço e central de reservas; comodidades específicas e distância até cachoeiras não foram confirmadas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 99912-7485",
     "website": "https://chalesdonazenta.com.br/",
     "amenities": [
@@ -299,8 +290,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://chalesdonazenta.com.br/",
     "locality": "Monte Verde",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -320,16 +310,15 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Camanducaia",
     "address": "Avenida Monte Verde, 1057, Monte Verde, Camanducaia - MG",
     "nearbyAttraction": "Trilhas do Pico do Selado e Pedra Partida",
-    "shortDescription": "Pousada boutique com sete quartos no centro comercial de Monte Verde.",
-    "description": "Pousada intimista com sete quartos, estacionamento próprio e localização na principal avenida turística de Monte Verde, a poucos minutos a pé do centrinho. O site oficial informa proximidade de trilhas como Pico do Selado e Pedra Partida.",
+    "shortDescription": "Pousada boutique com sete quartos no centro comercial de Monte Verde. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada intimista com sete quartos, estacionamento próprio e localização na principal avenida turística de Monte Verde, a poucos minutos a pé do centrinho. O site oficial informa proximidade de trilhas como Pico do Selado e Pedra Partida. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "website": "https://www.pousadaavenidamonteverde.com.br/",
     "amenities": [
       "Estacionamento próprio"
     ],
     "sourceUrl": "https://www.pousadaavenidamonteverde.com.br/",
     "locality": "Monte Verde",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -349,8 +338,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Camanducaia",
     "address": "Avenida das Montanhas, 1020, Monte Verde, Camanducaia - MG",
     "nearbyAttraction": "Trilhas do Parque de Monte Verde",
-    "shortDescription": "Pousada com café da manhã, piscina e ofurô.",
-    "description": "Pousada no centro de Monte Verde. O site oficial informa Wi-Fi gratuito, café da manhã, piscina e ofurô, além de endereço e telefone para reservas.",
+    "shortDescription": "Pousada com café da manhã, piscina e ofurô. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada no centro de Monte Verde. O site oficial informa Wi-Fi gratuito, café da manhã, piscina e ofurô, além de endereço e telefone para reservas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 3438-2132",
     "whatsapp": "553534382132",
     "website": "https://www.jardimdasmontanhas.com.br/",
@@ -362,8 +351,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://www.jardimdasmontanhas.com.br/",
     "locality": "Monte Verde",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -383,8 +371,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Camanducaia",
     "address": "Rua do Paiol, 177, Monte Verde, Camanducaia - MG",
     "nearbyAttraction": "Trilhas do Parque de Monte Verde",
-    "shortDescription": "Pousada com jardim, piscina e estrutura de lazer.",
-    "description": "Pousada cadastrada no portal oficial de turismo de Camanducaia. A página da hospedagem informa endereço e telefone; o site oficial destaca chalés, café da manhã, piscina e ofurô. O site anuncia nota 4,9/5 com mais de 800 avaliações, sem detalhar na página consultada a plataforma específica.",
+    "shortDescription": "Pousada com jardim, piscina e estrutura de lazer. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada cadastrada no portal oficial de turismo de Camanducaia. A página da hospedagem informa endereço e telefone; o site oficial destaca chalés, café da manhã, piscina e ofurô. O site anuncia nota 4,9/5 com mais de 800 avaliações, sem detalhar na página consultada a plataforma específica. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 3438-1350",
     "website": "https://www.jardimmonteverde.com.br/",
     "amenities": [
@@ -395,8 +383,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://turismo.camanducaia.mg.gov.br/onde-ficar/pousada-jardim-monte-verde",
     "locality": "Monte Verde",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -416,15 +403,14 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Camanducaia",
     "address": "Rua Netuno, 42, Monte Verde, Camanducaia - MG",
     "nearbyAttraction": "Trilhas do Pico do Selado e Pedra Partida",
-    "shortDescription": "Pousada com chalés, lazer e contato direto para reservas.",
-    "description": "Pousada em Monte Verde, distrito de Camanducaia. O site oficial informa endereço e telefones de WhatsApp; consulte as tarifas e comodidades atualizadas diretamente com a hospedagem.",
+    "shortDescription": "Pousada com chalés, lazer e contato direto para reservas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada em Monte Verde, distrito de Camanducaia. O site oficial informa endereço e telefones de WhatsApp; consulte as tarifas e comodidades atualizadas diretamente com a hospedagem. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 98867-8105",
     "whatsapp": "5535988678105",
     "website": "https://www.recantomonteverde.com.br/",
     "sourceUrl": "https://www.recantomonteverde.com.br/",
     "locality": "Monte Verde",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -443,15 +429,14 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Camanducaia",
     "address": "Avenida Monte Verde, 1950, Monte Verde, Camanducaia - MG",
     "nearbyAttraction": "Trilhas e atrativos naturais de Monte Verde",
-    "shortDescription": "Pousada no centro de Monte Verde com reservas por telefone e WhatsApp.",
-    "description": "Unidade Centro do grupo Suíça Mineira, com endereço e contatos publicados no site oficial. Consulte diretamente tarifas, comodidades e distância até trilhas e cachoeiras.",
+    "shortDescription": "Pousada no centro de Monte Verde com reservas por telefone e WhatsApp. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Unidade Centro do grupo Suíça Mineira, com endereço e contatos publicados no site oficial. Consulte diretamente tarifas, comodidades e distância até trilhas e cachoeiras. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 2235-0539",
     "whatsapp": "5535988002842",
     "website": "https://www.pousadasuicamineira.com.br/contato/",
     "sourceUrl": "https://www.pousadasuicamineira.com.br/contato/",
     "locality": "Monte Verde",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -470,15 +455,14 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Camanducaia",
     "address": "Avenida das Montanhas, 1610, Monte Verde, Camanducaia - MG",
     "nearbyAttraction": "Trilhas e atrativos naturais de Monte Verde",
-    "shortDescription": "Unidade Garden do grupo Suíça Mineira em Monte Verde.",
-    "description": "Unidade Garden com endereço, telefone e WhatsApp publicados no site oficial do grupo. Tarifas, comodidades detalhadas e distância até atrativos devem ser confirmadas na reserva.",
+    "shortDescription": "Unidade Garden do grupo Suíça Mineira em Monte Verde. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Unidade Garden com endereço, telefone e WhatsApp publicados no site oficial do grupo. Tarifas, comodidades detalhadas e distância até atrativos devem ser confirmadas na reserva. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 3438-2302",
     "whatsapp": "553534382302",
     "website": "https://www.pousadasuicamineira.com.br/contato/",
     "sourceUrl": "https://www.pousadasuicamineira.com.br/contato/",
     "locality": "Monte Verde",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -497,13 +481,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Capitólio",
     "address": "Rua Vicente Paulo Ramos, 400, Água das Vertentes, Capitólio - MG",
     "nearbyAttraction": "Cânions e cachoeiras do Lago de Furnas",
-    "shortDescription": "Pousada registrada no cadastro turístico de Capitólio.",
-    "description": "A Prefeitura de Capitólio lista a pousada em seu diretório oficial de hospedagem. Endereço e telefone constam do cadastro municipal; demais dados precisam de confirmação com o estabelecimento.",
+    "shortDescription": "Pousada registrada no cadastro turístico de Capitólio. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "A Prefeitura de Capitólio lista a pousada em seu diretório oficial de hospedagem. Endereço e telefone constam do cadastro municipal; demais dados precisam de confirmação com o estabelecimento. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(37) 3406-0800",
     "sourceUrl": "https://www.capitolio.mg.gov.br/portal/turismo/0/9/732/www.pousadamardeminas.com.br",
     "locality": "Água das Vertentes",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -522,13 +505,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Capitólio",
     "address": "Rua São Sebastião, 369, Centro, Capitólio - MG",
     "nearbyAttraction": "Lago de Furnas e atrativos do município",
-    "shortDescription": "Pousada no centro de Capitólio, listada no diretório municipal.",
-    "description": "Pousada registrada no portal oficial de turismo de Capitólio. O endereço e telefone constam do cadastro municipal; confirme serviços e tarifas diretamente.",
+    "shortDescription": "Pousada no centro de Capitólio, listada no diretório municipal. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada registrada no portal oficial de turismo de Capitólio. O endereço e telefone constam do cadastro municipal; confirme serviços e tarifas diretamente. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(37) 99197-8795",
     "sourceUrl": "https://www.capitolio.mg.gov.br/portal/turismo/0/9/732/www.pousadamardeminas.com.br",
     "locality": "Centro",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -547,13 +529,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Capitólio",
     "address": "Rua Mangueira, 430, Cidade Jardim, Capitólio - MG",
     "nearbyAttraction": "Cânions e cachoeiras do Lago de Furnas",
-    "shortDescription": "Pousada cadastrada no portal oficial de turismo de Capitólio.",
-    "description": "Pousada listada no cadastro municipal de hospedagem de Capitólio. A fonte consultada informa endereço e telefone; comodidades, tarifas e distância exata até os atrativos devem ser confirmadas diretamente.",
+    "shortDescription": "Pousada cadastrada no portal oficial de turismo de Capitólio. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada listada no cadastro municipal de hospedagem de Capitólio. A fonte consultada informa endereço e telefone; comodidades, tarifas e distância exata até os atrativos devem ser confirmadas diretamente. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(37) 99964-9999",
     "sourceUrl": "https://www.capitolio.mg.gov.br/portal/turismo/0/9/732/www.pousadamardeminas.com.br",
     "locality": "Cidade Jardim",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -572,13 +553,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Capitólio",
     "address": "Rodovia MG-050, km 298, Expansão Urbana, Capitólio - MG",
     "nearbyAttraction": "Cânions do Lago de Furnas",
-    "shortDescription": "Pousada listada no cadastro oficial de hospedagem de Capitólio.",
-    "description": "Estabelecimento listado na página de hospedagem do portal de turismo da Prefeitura de Capitólio. Telefone e endereço são os publicados no cadastro municipal. Distância até cachoeiras específicas, comodidades e tarifas não foram confirmadas.",
+    "shortDescription": "Pousada listada no cadastro oficial de hospedagem de Capitólio. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Estabelecimento listado na página de hospedagem do portal de turismo da Prefeitura de Capitólio. Telefone e endereço são os publicados no cadastro municipal. Distância até cachoeiras específicas, comodidades e tarifas não foram confirmadas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(37) 99957-6781",
     "sourceUrl": "https://www.capitolio.mg.gov.br/portal/turismo/0/9/732/www.pousadamardeminas.com.br",
     "locality": "Expansão Urbana",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -597,13 +577,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Capitólio",
     "address": "Rua Joaquim Ramos de Oliveira, 445, Expansão Urbana, Capitólio - MG",
     "nearbyAttraction": "Cânions do Lago de Furnas",
-    "shortDescription": "Pousada com cadastro no portal municipal de turismo.",
-    "description": "Pousada listada no diretório oficial de hospedagem de Capitólio. Endereço e telefone foram publicados pela Prefeitura; consulte a empresa para confirmar comodidades, preços e distância dos atrativos.",
+    "shortDescription": "Pousada com cadastro no portal municipal de turismo. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada listada no diretório oficial de hospedagem de Capitólio. Endereço e telefone foram publicados pela Prefeitura; consulte a empresa para confirmar comodidades, preços e distância dos atrativos. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(37) 99911-0791",
     "sourceUrl": "https://www.capitolio.mg.gov.br/portal/turismo/0/9/732/www.pousadamardeminas.com.br",
     "locality": "Expansão Urbana",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -622,13 +601,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Capitólio",
     "address": "Rua Clotilde Hortêncio Ramos, 395, Expansão Urbana, Capitólio - MG",
     "nearbyAttraction": "Cânions e cachoeiras do Lago de Furnas",
-    "shortDescription": "Hospedagem urbana registrada no diretório municipal.",
-    "description": "Estabelecimento listado na página oficial de hospedagem de Capitólio. O cadastro informa endereço e telefone; outras informações não foram confirmadas.",
+    "shortDescription": "Hospedagem urbana registrada no diretório municipal. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Estabelecimento listado na página oficial de hospedagem de Capitólio. O cadastro informa endereço e telefone; outras informações não foram confirmadas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(37) 99845-4356",
     "sourceUrl": "https://www.capitolio.mg.gov.br/portal/turismo/0/9/732/www.pousadamardeminas.com.br",
     "locality": "Expansão Urbana",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -647,13 +625,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Capitólio",
     "address": "Rodovia MG-050, km 296, Expansão Urbana, Capitólio - MG",
     "nearbyAttraction": "Cânions e cachoeiras do Lago de Furnas",
-    "shortDescription": "Pousada listada no cadastro oficial de hospedagem de Capitólio.",
-    "description": "Estabelecimento listado pela Prefeitura de Capitólio. O cadastro municipal informa endereço e telefone, mas não detalha comodidades, tarifas ou distância até uma cachoeira específica.",
+    "shortDescription": "Pousada listada no cadastro oficial de hospedagem de Capitólio. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Estabelecimento listado pela Prefeitura de Capitólio. O cadastro municipal informa endereço e telefone, mas não detalha comodidades, tarifas ou distância até uma cachoeira específica. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 99757-6387",
     "sourceUrl": "https://www.capitolio.mg.gov.br/portal/turismo/0/9/732/www.pousadamardeminas.com.br",
     "locality": "Expansão Urbana",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -673,13 +650,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Capitólio",
     "address": "Fazenda Barreiro, km 1,5, Zona Rural, Capitólio - MG",
     "nearbyAttraction": "Lago de Furnas",
-    "shortDescription": "Hospedagem rural cadastrada pela Prefeitura de Capitólio.",
-    "description": "Pousada localizada em área rural de Capitólio, conforme cadastro oficial municipal. A distância até cachoeiras, as comodidades e as tarifas não foram publicadas na fonte consultada.",
+    "shortDescription": "Hospedagem rural cadastrada pela Prefeitura de Capitólio. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada localizada em área rural de Capitólio, conforme cadastro oficial municipal. A distância até cachoeiras, as comodidades e as tarifas não foram publicadas na fonte consultada. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(37) 99874-0008",
     "sourceUrl": "https://www.capitolio.mg.gov.br/portal/turismo/0/9/732/www.pousadamardeminas.com.br",
     "locality": "Fazenda Barreiro, Zona Rural",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -698,13 +674,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Capitólio",
     "address": "Fazenda Onça, Zona Rural, Capitólio - MG",
     "nearbyAttraction": "Cachoeiras da região rural de Capitólio",
-    "shortDescription": "Pousada rural listada no portal de turismo municipal.",
-    "description": "Hospedagem rural cadastrada pela Prefeitura de Capitólio. A fonte consultada informa localização geral e telefone; atrativo mais próximo, distância, comodidades e tarifas precisam de confirmação direta.",
+    "shortDescription": "Pousada rural listada no portal de turismo municipal. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Hospedagem rural cadastrada pela Prefeitura de Capitólio. A fonte consultada informa localização geral e telefone; atrativo mais próximo, distância, comodidades e tarifas precisam de confirmação direta. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(37) 99905-4206",
     "sourceUrl": "https://www.capitolio.mg.gov.br/portal/turismo/0/9/732/www.pousadamardeminas.com.br",
     "locality": "Fazenda Onça, Zona Rural",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -722,8 +697,8 @@ export const minasGeraisPousadas: Destination[] = [
     "name": "Pousada Cateto",
     "city": "Capitólio",
     "nearbyAttraction": "Cachoeiras e cânions do Lago de Furnas",
-    "shortDescription": "Pousada na região de Capitólio, próxima aos atrativos naturais do Lago de Furnas.",
-    "description": "A Pousada Cateto informa estar na região de Capitólio, conhecida pelo Lago de Furnas e pelas cachoeiras com trilhas e piscinas naturais. A página oficial lista comodidades como internet, ar-condicionado e área de recreação infantil. Endereço completo e distância até uma cachoeira específica devem ser confirmados com a pousada.",
+    "shortDescription": "Pousada na região de Capitólio, próxima aos atrativos naturais do Lago de Furnas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "A Pousada Cateto informa estar na região de Capitólio, conhecida pelo Lago de Furnas e pelas cachoeiras com trilhas e piscinas naturais. A página oficial lista comodidades como internet, ar-condicionado e área de recreação infantil. Endereço completo e distância até uma cachoeira específica devem ser confirmados com a pousada. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "website": "https://pousadacateto.com.br/",
     "amenities": [
       "Wi-Fi",
@@ -732,8 +707,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://pousadacateto.com.br/",
     "locality": "Região do Lago de Furnas",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -753,14 +727,13 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Capitólio",
     "address": "Rodovia MG-050, km 306, Capitólio - MG",
     "nearbyAttraction": "Lago de Furnas e região do Turvo",
-    "shortDescription": "Pousada às margens do corredor turístico da MG-050.",
-    "description": "Pousada cadastrada pela Prefeitura de Capitólio, na Rodovia MG-050, km 306. Confirme diretamente tarifas, comodidades e distância até os atrativos específicos.",
+    "shortDescription": "Pousada às margens do corredor turístico da MG-050. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada cadastrada pela Prefeitura de Capitólio, na Rodovia MG-050, km 306. Confirme diretamente tarifas, comodidades e distância até os atrativos específicos. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(37) 3373-1066",
     "website": "https://www.pousadadorioturvo.com.br/",
     "sourceUrl": "https://www.capitolio.mg.gov.br/portal/turismo/0/9/732/www.pousadamardeminas.com.br",
     "locality": "Região do Turvo",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -779,13 +752,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Capitólio",
     "address": "Endereço não especificado no cadastro municipal, Capitólio - MG",
     "nearbyAttraction": "Cânions e cachoeiras do Lago de Furnas",
-    "shortDescription": "Pousada registrada no diretório municipal de hospedagem.",
-    "description": "A Pousada Doce Maria aparece no diretório oficial de hospedagem de Capitólio. O cadastro consultado não apresenta endereço completo nem detalhes de comodidades; confirme localização e serviços antes da reserva.",
+    "shortDescription": "Pousada registrada no diretório municipal de hospedagem. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "A Pousada Doce Maria aparece no diretório oficial de hospedagem de Capitólio. O cadastro consultado não apresenta endereço completo nem detalhes de comodidades; confirme localização e serviços antes da reserva. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(31) 99709-1099",
     "sourceUrl": "https://www.capitolio.mg.gov.br/portal/turismo/0/9/732/www.pousadamardeminas.com.br",
     "locality": "Zona urbana",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -804,14 +776,13 @@ export const minasGeraisPousadas: Destination[] = [
     "name": "Pousada Roda Viva",
     "city": "Carrancas",
     "nearbyAttraction": "Complexos de cachoeiras de Carrancas",
-    "shortDescription": "Pousada no centro de Carrancas, próxima à Igreja Matriz.",
-    "description": "Pousada situada na cidade de Carrancas, próxima à Igreja Matriz. O diretório local informa área de lazer e acomodações; comodidades específicas, endereço completo e distância até cachoeiras devem ser confirmados com a pousada.",
+    "shortDescription": "Pousada no centro de Carrancas, próxima à Igreja Matriz. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada situada na cidade de Carrancas, próxima à Igreja Matriz. O diretório local informa área de lazer e acomodações; comodidades específicas, endereço completo e distância até cachoeiras devem ser confirmados com a pousada. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 3327-1031",
     "website": "https://www.carrancasrodaviva.com.br/",
     "sourceUrl": "https://www.carrancas.com.br/hospedagem/pousadas.shtml",
     "locality": "Centro",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -831,8 +802,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Carrancas",
     "address": "Estrada Carrancas–Itutinga, km 2, Carrancas - MG",
     "nearbyAttraction": "Complexos da Toca e da Ponte",
-    "shortDescription": "Pousada entre os complexos da Toca e da Ponte, com piscina e restaurante.",
-    "description": "Pousada localizada a cerca de 2 km do centro de Carrancas, entre os complexos da Toca e da Ponte. Informa cachoeiras, piscina, cavalgada, trilhas, restaurante e aceitação de pets. O acesso à Cachoeira da Toca e ao Poço do Coração é gratuito para hóspedes, conforme a página oficial.",
+    "shortDescription": "Pousada entre os complexos da Toca e da Ponte, com piscina e restaurante. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada localizada a cerca de 2 km do centro de Carrancas, entre os complexos da Toca e da Ponte. Informa cachoeiras, piscina, cavalgada, trilhas, restaurante e aceitação de pets. O acesso à Cachoeira da Toca e ao Poço do Coração é gratuito para hóspedes, conforme a página oficial. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 99150-0717",
     "website": "https://www.datoca.com.br/",
     "amenities": [
@@ -844,8 +815,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://www.datoca.com.br/",
     "locality": "Estrada Carrancas–Itutinga",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -865,8 +835,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Carrancas",
     "address": "Rodovia Carrancas–Itutinga, km 25, Serra de Carrancas - MG",
     "nearbyAttraction": "Piscinas naturais e corredeiras na propriedade",
-    "shortDescription": "Chalés em meio à natureza, com piscinas naturais e corredeiras no terreno.",
-    "description": "Pousada na Serra de Carrancas. A descrição oficial informa suítes com frigobar, TV, aquecimento solar e varanda, além de corredeiras e piscinas naturais dentro da propriedade. Distância exata até outros complexos de cachoeiras não publicada.",
+    "shortDescription": "Chalés em meio à natureza, com piscinas naturais e corredeiras no terreno. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada na Serra de Carrancas. A descrição oficial informa suítes com frigobar, TV, aquecimento solar e varanda, além de corredeiras e piscinas naturais dentro da propriedade. Distância exata até outros complexos de cachoeiras não publicada. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 3327-1253",
     "website": "https://www.pousadaalemdasformas.com.br/",
     "amenities": [
@@ -877,8 +847,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://www.carrancas.com.br/hospedagem/pousadas.shtml",
     "locality": "Serra de Carrancas",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -897,8 +866,8 @@ export const minasGeraisPousadas: Destination[] = [
     "name": "Pousada Mirante Serra Verde",
     "city": "Carrancas",
     "nearbyAttraction": "Cachoeiras da Serra de Carrancas",
-    "shortDescription": "Chalés em área de montanha com restaurante e vista panorâmica.",
-    "description": "A página de hospedagem de Carrancas descreve chalés familiares e para casais, varandas, lareira, frigobar e restaurante. Informa que fica a aproximadamente 3,5 km da cidade e perto de cachoeiras, sem indicar qual atrativo ou a distância exata até ele.",
+    "shortDescription": "Chalés em área de montanha com restaurante e vista panorâmica. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "A página de hospedagem de Carrancas descreve chalés familiares e para casais, varandas, lareira, frigobar e restaurante. Informa que fica a aproximadamente 3,5 km da cidade e perto de cachoeiras, sem indicar qual atrativo ou a distância exata até ele. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 99270-4210",
     "website": "https://www.pousadamiranteserraverde.com.br/",
     "amenities": [
@@ -909,8 +878,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://www.carrancas.com.br/hospedagem/pousadas.shtml",
     "locality": "Zona rural / Serra de Carrancas",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "id": "pousada-vila-de-conceicao",
@@ -919,8 +887,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Bairro Bandeirinha",
     "address": "Rua Expedito Fininho, 31, Bairro Bandeirinha, Conceição do Mato Dentro - MG",
     "nearbyAttraction": "Cachoeira do Tabuleiro e Serra da Ferrugem",
-    "shortDescription": "Pousada com 12 suítes, cozinha coletiva e estacionamento privativo.",
-    "description": "Pousada com 12 suítes, ar-condicionado, aquecimento solar, TV, frigobar, Wi-Fi, cozinha coletiva equipada e estacionamento privativo. O site oficial a apresenta como base para explorar a Cachoeira do Tabuleiro e trilhas históricas da Estrada Real.",
+    "shortDescription": "Pousada com 12 suítes, cozinha coletiva e estacionamento privativo. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada com 12 suítes, ar-condicionado, aquecimento solar, TV, frigobar, Wi-Fi, cozinha coletiva equipada e estacionamento privativo. O site oficial a apresenta como base para explorar a Cachoeira do Tabuleiro e trilhas históricas da Estrada Real. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(31) 99155-3131",
     "whatsapp": "5531991553131",
     "website": "https://www.pousadaviladeconceicao.com.br/",
@@ -945,8 +913,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-rd-conceicao",
@@ -955,8 +922,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Córrego Pereira",
     "address": "Rua Geraldo Pires Carneiro, 226, Córrego Pereira, Conceição do Mato Dentro - MG",
     "nearbyAttraction": "Cachoeira do Tabuleiro e atrativos naturais do município",
-    "shortDescription": "Pousada em Córrego Pereira com telefone e site próprios.",
-    "description": "Hospedagem em Córrego Pereira, com endereço e contatos publicados no site oficial. A pousada apresenta Conceição do Mato Dentro como destino de cachoeiras e ecoturismo; distância até a Cachoeira do Tabuleiro e comodidades específicas devem ser confirmadas.",
+    "shortDescription": "Pousada em Córrego Pereira com telefone e site próprios. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Hospedagem em Córrego Pereira, com endereço e contatos publicados no site oficial. A pousada apresenta Conceição do Mato Dentro como destino de cachoeiras e ecoturismo; distância até a Cachoeira do Tabuleiro e comodidades específicas devem ser confirmadas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(31) 3868-1771",
     "whatsapp": "5531996470350",
     "website": "https://www.pousadard.com/",
@@ -973,8 +940,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-tabuleiro-eco",
@@ -983,8 +949,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Povoado do Tabuleiro",
     "nearbyAttraction": "Parque da Cachoeira do Tabuleiro",
     "distanceToAttraction": "3 km da entrada do parque",
-    "shortDescription": "Pousada com restaurante, café da manhã, camping e vista para o paredão do Tabuleiro.",
-    "description": "Pousada em meio à natureza, a 3 km da entrada do parque da Cachoeira do Tabuleiro. A página oficial de turismo municipal informa Wi-Fi, bar, restaurante, buffet de café da manhã, playground, camping, sinuca, churrasqueira, estacionamento e quartos com vista para o jardim e o paredão da cachoeira.",
+    "shortDescription": "Pousada com restaurante, café da manhã, camping e vista para o paredão do Tabuleiro. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada em meio à natureza, a 3 km da entrada do parque da Cachoeira do Tabuleiro. A página oficial de turismo municipal informa Wi-Fi, bar, restaurante, buffet de café da manhã, playground, camping, sinuca, churrasqueira, estacionamento e quartos com vista para o jardim e o paredão da cachoeira. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(31) 98778-3288",
     "instagram": "https://www.instagram.com/pousadatabuleiroeco/",
     "website": "https://linktr.ee/pousadatabuleiroeco",
@@ -1012,8 +978,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-luar-da-serra-tabuleiro",
@@ -1021,8 +986,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Conceição do Mato Dentro",
     "locality": "Região do Tabuleiro",
     "nearbyAttraction": "Cachoeira do Tabuleiro",
-    "shortDescription": "Pousada com mirante, lagoa com canoa e moinho de pedras, a poucos quilômetros da cachoeira.",
-    "description": "A página oficial de turismo de Conceição do Mato Dentro descreve mirante, lagoa com canoa e moinho de pedras, além de localização a poucos quilômetros da Cachoeira do Tabuleiro. A distância exata e demais comodidades não foram informadas.",
+    "shortDescription": "Pousada com mirante, lagoa com canoa e moinho de pedras, a poucos quilômetros da cachoeira. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "A página oficial de turismo de Conceição do Mato Dentro descreve mirante, lagoa com canoa e moinho de pedras, além de localização a poucos quilômetros da Cachoeira do Tabuleiro. A distância exata e demais comodidades não foram informadas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(31) 98244-2944",
     "instagram": "https://www.instagram.com/pousadaluardaserra.tabuleiro/",
     "sourceUrl": "https://turismo.cmd.mg.gov.br/turismo/pousada-luar-da-serra/45",
@@ -1037,8 +1002,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "category": "pousada",
@@ -1057,8 +1021,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Delfinópolis",
     "address": "Avenida Antenor Pereira de Moraes, 40, Delfinópolis - MG",
     "nearbyAttraction": "Complexos de cachoeiras da Serra da Canastra",
-    "shortDescription": "Pousada com café da manhã, estacionamento fechado e 15 apartamentos.",
-    "description": "Pousada em Delfinópolis, ponto de apoio para conhecer a Serra da Canastra. Informa 15 apartamentos para duas a cinco pessoas, TV, ar-condicionado, frigobar, Wi-Fi, estacionamento fechado e café da manhã com produtos regionais. Distâncias até cachoeiras específicas devem ser confirmadas.",
+    "shortDescription": "Pousada com café da manhã, estacionamento fechado e 15 apartamentos. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada em Delfinópolis, ponto de apoio para conhecer a Serra da Canastra. Informa 15 apartamentos para duas a cinco pessoas, TV, ar-condicionado, frigobar, Wi-Fi, estacionamento fechado e café da manhã com produtos regionais. Distâncias até cachoeiras específicas devem ser confirmadas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 99948-1086",
     "website": "https://pousadaaguaesol.com.br/",
     "amenities": [
@@ -1070,8 +1034,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://pousadaaguaesol.com.br/",
     "locality": "Centro",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "id": "pousada-acayaca-diamantina",
@@ -1080,8 +1043,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Centro",
     "address": "Rua Acaiaca, 65, Centro, Diamantina - MG",
     "nearbyAttraction": "Centro Histórico de Diamantina",
-    "shortDescription": "Pousada no Centro Histórico, listada no diretório turístico municipal.",
-    "description": "Pousada cadastrada no portal oficial de turismo de Diamantina. O diretório informa endereço e telefone; comodidades e tarifas precisam de confirmação direta.",
+    "shortDescription": "Pousada no Centro Histórico, listada no diretório turístico municipal. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada cadastrada no portal oficial de turismo de Diamantina. O diretório informa endereço e telefone; comodidades e tarifas precisam de confirmação direta. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 3531-8383",
     "sourceUrl": "https://visitediamantina.com.br/informacoes-uteis-detalhes?tag=hospedagens",
     "tags": [
@@ -1095,8 +1058,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-da-seresta-diamantina",
@@ -1105,8 +1067,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Centro",
     "address": "Rua Jogo da Bola, 415, Centro, Diamantina - MG",
     "nearbyAttraction": "Centro Histórico de Diamantina",
-    "shortDescription": "Pousada listada no diretório oficial de hospedagem de Diamantina.",
-    "description": "Pousada registrada no diretório oficial de turismo de Diamantina, com endereço e telefone. Comodidades, valores e distâncias não foram detalhados pela fonte.",
+    "shortDescription": "Pousada listada no diretório oficial de hospedagem de Diamantina. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada registrada no diretório oficial de turismo de Diamantina, com endereço e telefone. Comodidades, valores e distâncias não foram detalhados pela fonte. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 3531-2368",
     "sourceUrl": "https://visitediamantina.com.br/informacoes-uteis-detalhes?tag=hospedagens",
     "tags": [
@@ -1120,8 +1082,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-do-garimpo-diamantina",
@@ -1130,8 +1091,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Centro",
     "address": "Avenida da Saudade, 265, Centro, Diamantina - MG",
     "nearbyAttraction": "Centro Histórico de Diamantina",
-    "shortDescription": "Pousada cadastrada no portal municipal de turismo.",
-    "description": "Pousada listada no diretório oficial de hospedagens de Diamantina, com endereço e telefone publicados. Serviços e tarifas precisam de confirmação direta.",
+    "shortDescription": "Pousada cadastrada no portal municipal de turismo. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada listada no diretório oficial de hospedagens de Diamantina, com endereço e telefone publicados. Serviços e tarifas precisam de confirmação direta. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 3531-2782",
     "sourceUrl": "https://visitediamantina.com.br/informacoes-uteis-detalhes?tag=hospedagens",
     "tags": [
@@ -1145,8 +1106,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-ouro-de-minas",
@@ -1155,8 +1115,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Centro",
     "address": "Rua do Amparo, 90, Centro, Diamantina - MG",
     "nearbyAttraction": "Centro Histórico de Diamantina",
-    "shortDescription": "Pousada no Centro de Diamantina, com telefone no diretório turístico municipal.",
-    "description": "Pousada listada no portal oficial de turismo de Diamantina. Endereço e telefone são os dados publicados pela fonte municipal; outros detalhes permanecem pendentes.",
+    "shortDescription": "Pousada no Centro de Diamantina, com telefone no diretório turístico municipal. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada listada no portal oficial de turismo de Diamantina. Endereço e telefone são os dados publicados pela fonte municipal; outros detalhes permanecem pendentes. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 3531-2306",
     "sourceUrl": "https://visitediamantina.com.br/informacoes-uteis-detalhes?tag=hospedagens",
     "tags": [
@@ -1170,8 +1130,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-vila-do-imperador",
@@ -1180,8 +1139,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Centro",
     "address": "Rua do Rosário, 71, Centro, Diamantina - MG",
     "nearbyAttraction": "Centro Histórico de Diamantina",
-    "shortDescription": "Pousada no Centro Histórico, listada pelo portal de turismo de Diamantina.",
-    "description": "Pousada incluída no diretório municipal de meios de hospedagem de Diamantina. A fonte informa endereço e telefone; comodidades e valores não foram publicados.",
+    "shortDescription": "Pousada no Centro Histórico, listada pelo portal de turismo de Diamantina. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada incluída no diretório municipal de meios de hospedagem de Diamantina. A fonte informa endereço e telefone; comodidades e valores não foram publicados. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 99814-0071",
     "sourceUrl": "https://visitediamantina.com.br/informacoes-uteis-detalhes?tag=hospedagens",
     "tags": [
@@ -1195,8 +1154,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-pouso-da-chica",
@@ -1205,8 +1163,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Centro Histórico",
     "address": "Rua Macau de Cima, 129, Centro Histórico, Diamantina - MG",
     "nearbyAttraction": "Centro Histórico de Diamantina",
-    "shortDescription": "Pousada no Centro Histórico, listada no portal oficial de turismo.",
-    "description": "Pousada cadastrada no diretório de meios de hospedagem do portal de turismo de Diamantina. A fonte informa endereço e telefone, sem dados adicionais de comodidades ou preços.",
+    "shortDescription": "Pousada no Centro Histórico, listada no portal oficial de turismo. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada cadastrada no diretório de meios de hospedagem do portal de turismo de Diamantina. A fonte informa endereço e telefone, sem dados adicionais de comodidades ou preços. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 3531-6190",
     "sourceUrl": "https://visitediamantina.com.br/informacoes-uteis-detalhes?tag=hospedagens",
     "tags": [
@@ -1220,8 +1178,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-beira-de-rio-conselheiro-mata",
@@ -1229,8 +1186,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Diamantina",
     "locality": "Conselheiro Mata",
     "nearbyAttraction": "Cachoeiras de Conselheiro Mata",
-    "shortDescription": "Pousada no distrito de Conselheiro Mata, região com diversas cachoeiras.",
-    "description": "Hospedagem listada no portal oficial de turismo de Diamantina para o distrito de Conselheiro Mata, conhecido pelas cachoeiras. O diretório informa telefone, mas não publica endereço completo, comodidades ou distância até uma queda específica.",
+    "shortDescription": "Pousada no distrito de Conselheiro Mata, região com diversas cachoeiras. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Hospedagem listada no portal oficial de turismo de Diamantina para o distrito de Conselheiro Mata, conhecido pelas cachoeiras. O diretório informa telefone, mas não publica endereço completo, comodidades ou distância até uma queda específica. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 99923-9352",
     "sourceUrl": "https://visitediamantina.com.br/atrativos-detalhes?atrativo=conselheiro-mata",
     "tags": [
@@ -1245,8 +1202,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-do-kussu-conselheiro-mata",
@@ -1254,8 +1210,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Diamantina",
     "locality": "Conselheiro Mata",
     "nearbyAttraction": "Cachoeiras de Conselheiro Mata",
-    "shortDescription": "Pousada no distrito de Conselheiro Mata, listado com 22 cachoeiras no portal turístico.",
-    "description": "Pousada indicada pelo portal oficial de turismo de Diamantina para Conselheiro Mata. O distrito é apresentado como destino com 22 cachoeiras; o diretório informa telefone, sem endereço completo ou distância específica.",
+    "shortDescription": "Pousada no distrito de Conselheiro Mata, listado com 22 cachoeiras no portal turístico. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada indicada pelo portal oficial de turismo de Diamantina para Conselheiro Mata. O distrito é apresentado como destino com 22 cachoeiras; o diretório informa telefone, sem endereço completo ou distância específica. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 99941-4768",
     "sourceUrl": "https://visitediamantina.com.br/atrativos-detalhes?atrativo=conselheiro-mata",
     "tags": [
@@ -1270,8 +1226,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-minha-casa-conselheiro-mata",
@@ -1279,8 +1234,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Diamantina",
     "locality": "Conselheiro Mata",
     "nearbyAttraction": "Cachoeiras de Conselheiro Mata",
-    "shortDescription": "Pousada cadastrada para o distrito de Conselheiro Mata.",
-    "description": "Pousada listada no diretório oficial de turismo de Diamantina, com indicação do distrito de Conselheiro Mata e telefone. Endereço completo, comodidades e distância não foram informados.",
+    "shortDescription": "Pousada cadastrada para o distrito de Conselheiro Mata. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada listada no diretório oficial de turismo de Diamantina, com indicação do distrito de Conselheiro Mata e telefone. Endereço completo, comodidades e distância não foram informados. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 99833-0694",
     "sourceUrl": "https://visitediamantina.com.br/informacoes-uteis-detalhes?tag=hospedagens",
     "tags": [
@@ -1295,8 +1250,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-recanto-das-cachoeiras-diamantina",
@@ -1304,8 +1258,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Diamantina",
     "locality": "Conselheiro Mata",
     "nearbyAttraction": "Cachoeiras de Conselheiro Mata",
-    "shortDescription": "Pousada em distrito de Diamantina conhecido por suas cachoeiras.",
-    "description": "Pousada listada no diretório de hospedagem do portal oficial de turismo de Diamantina. A fonte informa telefone, sem endereço detalhado ou distância até uma cachoeira específica.",
+    "shortDescription": "Pousada em distrito de Diamantina conhecido por suas cachoeiras. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada listada no diretório de hospedagem do portal oficial de turismo de Diamantina. A fonte informa telefone, sem endereço detalhado ou distância até uma cachoeira específica. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 99963-3010",
     "sourceUrl": "https://visitediamantina.com.br/informacoes-uteis-detalhes?tag=hospedagens",
     "tags": [
@@ -1320,8 +1274,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-solar-dos-cristais",
@@ -1329,8 +1282,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Diamantina",
     "locality": "Conselheiro Mata",
     "nearbyAttraction": "Cachoeiras de Conselheiro Mata",
-    "shortDescription": "Pousada em Conselheiro Mata, distrito de Diamantina.",
-    "description": "Hospedagem listada no portal de turismo de Diamantina para o distrito de Conselheiro Mata. A fonte informa telefone, mas não publica endereço completo nem comodidades.",
+    "shortDescription": "Pousada em Conselheiro Mata, distrito de Diamantina. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Hospedagem listada no portal de turismo de Diamantina para o distrito de Conselheiro Mata. A fonte informa telefone, mas não publica endereço completo nem comodidades. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(31) 99554-3157",
     "sourceUrl": "https://visitediamantina.com.br/atrativos-detalhes?atrativo=conselheiro-mata",
     "tags": [
@@ -1345,8 +1298,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-caminho-dos-escravos",
@@ -1355,8 +1307,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Diamantina",
     "address": "Rua Acaiaca, 5, Diamantina - MG",
     "nearbyAttraction": "Centro Histórico de Diamantina",
-    "shortDescription": "Pousada cadastrada no diretório oficial de turismo de Diamantina.",
-    "description": "Pousada listada no diretório de meios de hospedagem do portal de turismo de Diamantina. A fonte municipal informa endereço e telefone; serviços e preços não foram detalhados.",
+    "shortDescription": "Pousada cadastrada no diretório oficial de turismo de Diamantina. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada listada no diretório de meios de hospedagem do portal de turismo de Diamantina. A fonte municipal informa endereço e telefone; serviços e preços não foram detalhados. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 3531-6416",
     "sourceUrl": "https://visitediamantina.com.br/informacoes-uteis-detalhes?tag=hospedagens",
     "tags": [
@@ -1370,8 +1322,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-capim-limao-diamantina",
@@ -1380,8 +1331,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Diamantina",
     "address": "Rua Nações Unidas, 66, Diamantina - MG",
     "nearbyAttraction": "Centro Histórico de Diamantina e cachoeiras da região",
-    "shortDescription": "Pousada cadastrada no portal oficial de turismo de Diamantina.",
-    "description": "Pousada listada no diretório oficial de hospedagens de Diamantina, com endereço e telefone publicados. Outros dados não foram informados na página municipal.",
+    "shortDescription": "Pousada cadastrada no portal oficial de turismo de Diamantina. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada listada no diretório oficial de hospedagens de Diamantina, com endereço e telefone publicados. Outros dados não foram informados na página municipal. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 3531-0051",
     "sourceUrl": "https://visitediamantina.com.br/informacoes-uteis-detalhes?tag=hospedagens",
     "tags": [
@@ -1395,8 +1346,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-presidente-diamantina",
@@ -1405,8 +1355,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Diamantina",
     "address": "Rua Oscar Batista, 365, Diamantina - MG",
     "nearbyAttraction": "Centro Histórico de Diamantina e cachoeiras da região",
-    "shortDescription": "Pousada listada no diretório oficial de hospedagens de Diamantina.",
-    "description": "Pousada incluída no diretório de meios de hospedagem do portal oficial de turismo de Diamantina. A fonte municipal informa endereço e telefone; comodidades, preços e distância até atrativos naturais devem ser confirmados.",
+    "shortDescription": "Pousada listada no diretório oficial de hospedagens de Diamantina. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada incluída no diretório de meios de hospedagem do portal oficial de turismo de Diamantina. A fonte municipal informa endereço e telefone; comodidades, preços e distância até atrativos naturais devem ser confirmados. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 3531-6369",
     "sourceUrl": "https://visitediamantina.com.br/informacoes-uteis-detalhes?tag=hospedagens",
     "tags": [
@@ -1420,8 +1370,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-vale-do-garimpeiro",
@@ -1430,8 +1379,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Diamantina",
     "address": "Rua do Tijuco, 186, Diamantina - MG",
     "nearbyAttraction": "Centro Histórico de Diamantina e cachoeiras da região",
-    "shortDescription": "Pousada listada no diretório municipal de hospedagens.",
-    "description": "Pousada cadastrada no portal oficial de turismo de Diamantina. A fonte consultada informa endereço e telefone, sem detalhes adicionais de comodidades e preços.",
+    "shortDescription": "Pousada listada no diretório municipal de hospedagens. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada cadastrada no portal oficial de turismo de Diamantina. A fonte consultada informa endereço e telefone, sem detalhes adicionais de comodidades e preços. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 3531-3844",
     "sourceUrl": "https://visitediamantina.com.br/informacoes-uteis-detalhes?tag=hospedagens",
     "tags": [
@@ -1445,8 +1394,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-real-de-itamonte",
@@ -1455,8 +1403,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Área urbana",
     "address": "Rua Projetada Dois, 93, Itamonte - MG",
     "nearbyAttraction": "Cachoeira da Fragária e atrativos do Parque Nacional do Itatiaia",
-    "shortDescription": "Pousada cadastrada no Portal Minas Gerais, com endereço e telefone públicos.",
-    "description": "Pousada listada no Portal Minas Gerais para Itamonte. A fonte informa endereço, telefone e e-mail; comodidades, faixa de diária e distância até cachoeiras específicas não foram detalhadas.",
+    "shortDescription": "Pousada cadastrada no Portal Minas Gerais, com endereço e telefone públicos. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada listada no Portal Minas Gerais para Itamonte. A fonte informa endereço, telefone e e-mail; comodidades, faixa de diária e distância até cachoeiras específicas não foram detalhadas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 3363-1035",
     "sourceUrl": "https://www.minasgerais.com.br/pt/apoio-destino/itamonte?tipo_lazer=84",
     "tags": [
@@ -1470,8 +1418,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-estancia-rio-acima-itamonte",
@@ -1479,8 +1426,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Itamonte",
     "locality": "Bairro Rio Acima",
     "nearbyAttraction": "Rios e cachoeiras da Serra da Mantiqueira",
-    "shortDescription": "Pousada em área rural de Itamonte, citada pelo Instituto Estrada Real.",
-    "description": "Pousada listada pelo Instituto Estrada Real entre as opções de hospedagem de Itamonte. A fonte confirma o nome, mas não detalha endereço, contato, comodidades ou distância até atrativos.",
+    "shortDescription": "Pousada em área rural de Itamonte, citada pelo Instituto Estrada Real. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada listada pelo Instituto Estrada Real entre as opções de hospedagem de Itamonte. A fonte confirma o nome, mas não detalha endereço, contato, comodidades ou distância até atrativos. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "sourceUrl": "https://institutoestradareal.com.br/cidades/itamonte-mg/",
     "tags": [
       "Itamonte",
@@ -1494,8 +1441,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-sobradinho-itamonte",
@@ -1504,8 +1450,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Bairro Sobradinho",
     "address": "Rodovia BR-354, km 752, Bairro Sobradinho, Itamonte - MG",
     "nearbyAttraction": "Cachoeira da Fragária e atrativos da Mantiqueira",
-    "shortDescription": "Pousada em Sobradinho, listada no diretório de hospedagem de Itamonte.",
-    "description": "Pousada identificada no diretório regional de meios de hospedagem de Itamonte, com referência de localização na BR-354, km 752. Telefone, comodidades e valores não foram informados na ficha consultada.",
+    "shortDescription": "Pousada em Sobradinho, listada no diretório de hospedagem de Itamonte. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada identificada no diretório regional de meios de hospedagem de Itamonte, com referência de localização na BR-354, km 752. Telefone, comodidades e valores não foram informados na ficha consultada. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "sourceUrl": "https://idasbrasil.com.br/hoteispousadas/Itamonte/minas-gerais",
     "tags": [
       "Itamonte",
@@ -1519,8 +1465,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-fazenda-serra-bonita-itamonte",
@@ -1528,8 +1473,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Itamonte",
     "locality": "Berta, Zona Rural",
     "nearbyAttraction": "Cachoeira da Fragária e Parque Nacional do Itatiaia",
-    "shortDescription": "Pousada-fazenda listada no diretório de hospedagens de Itamonte.",
-    "description": "Hospedagem rural identificada no diretório de meios de hospedagem de Itamonte, na localidade de Berta. A listagem não informa endereço completo, telefone, comodidades ou preços.",
+    "shortDescription": "Pousada-fazenda listada no diretório de hospedagens de Itamonte. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Hospedagem rural identificada no diretório de meios de hospedagem de Itamonte, na localidade de Berta. A listagem não informa endereço completo, telefone, comodidades ou preços. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "sourceUrl": "https://idasbrasil.com.br/hoteispousadas/Itamonte/minas-gerais",
     "tags": [
       "Itamonte",
@@ -1543,8 +1488,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-abrigo-das-aguas-itamonte",
@@ -1552,8 +1496,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Itamonte",
     "locality": "Fazenda Velha, Zona Rural",
     "nearbyAttraction": "Cachoeira da Fragária e Parque Nacional do Itatiaia",
-    "shortDescription": "Pousada rural identificada no diretório de hospedagens de Itamonte.",
-    "description": "Pousada listada no diretório regional de meios de hospedagem de Itamonte, na localidade rural Fazenda Velha. Endereço completo, contato, comodidades, preços e distância até atrativos naturais não foram confirmados.",
+    "shortDescription": "Pousada rural identificada no diretório de hospedagens de Itamonte. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada listada no diretório regional de meios de hospedagem de Itamonte, na localidade rural Fazenda Velha. Endereço completo, contato, comodidades, preços e distância até atrativos naturais não foram confirmados. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "sourceUrl": "https://idasbrasil.com.br/hoteispousadas/Itamonte/minasgerais",
     "tags": [
       "Itamonte",
@@ -1567,8 +1511,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-fragaria-itamonte",
@@ -1577,8 +1520,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Fragária",
     "address": "Estrada da Fragária, s/n, Fragária, Itamonte - MG",
     "nearbyAttraction": "Cachoeira da Fragária e cachoeira próxima à pousada",
-    "shortDescription": "Pousada rural com chalés, piscina, sauna e cachoeira nas proximidades.",
-    "description": "Pousada em área rural de montanha, com dois núcleos de hospedagem. Informa chalés com lareira, varanda, rede e frigobar; restaurante, piscina, sauna, churrasqueira e sala de jogos. O portal turístico descreve uma cachoeira próxima, mas não publica distância em metros.",
+    "shortDescription": "Pousada rural com chalés, piscina, sauna e cachoeira nas proximidades. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada em área rural de montanha, com dois núcleos de hospedagem. Informa chalés com lareira, varanda, rede e frigobar; restaurante, piscina, sauna, churrasqueira e sala de jogos. O portal turístico descreve uma cachoeira próxima, mas não publica distância em metros. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 99955-5267",
     "website": "https://euamofragaria.wixsite.com/pousada-frag-ria",
     "amenities": [
@@ -1603,8 +1546,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "chales-cachoeira-da-pedra-itamonte",
@@ -1614,8 +1556,8 @@ export const minasGeraisPousadas: Destination[] = [
     "address": "Estrada Campo Redondo, região da Fragária, Itamonte - MG, CEP 37466-000",
     "nearbyAttraction": "Cachoeira da Pedra",
     "distanceToAttraction": "Trilha leve de 5 a 8 minutos",
-    "shortDescription": "Chalés rústicos com acesso à Cachoeira da Pedra por trilha curta.",
-    "description": "Hospedagem em chalés rústicos na região da Fragária. O portal oficial de turismo de Itamonte informa acesso à Cachoeira da Pedra por uma trilha leve de aproximadamente 5 a 8 minutos, mediante agendamento e taxa de visitação. Os serviços no local são limitados; confirme orientações e disponibilidade antes da viagem.",
+    "shortDescription": "Chalés rústicos com acesso à Cachoeira da Pedra por trilha curta. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Hospedagem em chalés rústicos na região da Fragária. O portal oficial de turismo de Itamonte informa acesso à Cachoeira da Pedra por uma trilha leve de aproximadamente 5 a 8 minutos, mediante agendamento e taxa de visitação. Os serviços no local são limitados; confirme orientações e disponibilidade antes da viagem. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 99961-9467",
     "whatsapp": "5535999619467",
     "ratings": [
@@ -1647,8 +1589,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-dos-lobos-itamonte",
@@ -1656,8 +1597,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Itamonte",
     "locality": "Itamonte",
     "nearbyAttraction": "Parque Nacional do Itatiaia e Cachoeira da Fragária",
-    "shortDescription": "Pousada citada em diretório de hospedagens de Itamonte.",
-    "description": "Pousada listada em diretório regional de hospedagens de Itamonte, com telefone publicado. Endereço completo, comodidades, preço e distância até atrativos naturais não foram confirmados em fonte oficial.",
+    "shortDescription": "Pousada citada em diretório de hospedagens de Itamonte. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada listada em diretório regional de hospedagens de Itamonte, com telefone publicado. Endereço completo, comodidades, preço e distância até atrativos naturais não foram confirmados em fonte oficial. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 3332-2779",
     "sourceUrl": "https://visiteminasgerais.com.br/mg/hotel-itamonte/",
     "tags": [
@@ -1671,8 +1612,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-encanto-das-aguas-itamonte",
@@ -1680,8 +1620,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Itamonte",
     "locality": "Morro Grande",
     "nearbyAttraction": "Rio e cachoeiras da região de Morro Grande",
-    "shortDescription": "Pousada em parque cortado por rio, com chalés e lareira.",
-    "description": "A listagem regional descreve a Pousada Encanto das Águas como hospedagem em parque cortado por um rio, com chalés aconchegantes e lareira. Um agregador de hospedagem apresenta faixa de referência entre R$ 210 e R$ 260 por diária; confirme diretamente antes da reserva. Distância exata até cachoeiras não publicada.",
+    "shortDescription": "Pousada em parque cortado por rio, com chalés e lareira. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "A listagem regional descreve a Pousada Encanto das Águas como hospedagem em parque cortado por um rio, com chalés aconchegantes e lareira. Um agregador de hospedagem apresenta faixa de referência entre R$ 210 e R$ 260 por diária; confirme diretamente antes da reserva. Distância exata até cachoeiras não publicada. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "priceRange": "R$ 210–260 por diária (referência de agregador; confirmar com a pousada)",
     "sourceUrl": "https://melhorespousadas.tur.br/mg/itamonte/pousadas",
     "tags": [
@@ -1696,8 +1636,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-bululu-itamonte",
@@ -1706,8 +1645,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Ribeirão do Ouro",
     "address": "Rodovia BR-354, km 758,5, Ribeirão do Ouro, Itamonte - MG",
     "nearbyAttraction": "Rio Capivari e Cachoeira da Fragária",
-    "shortDescription": "Pousada rural listada no diretório de hospedagem de Itamonte.",
-    "description": "Pousada identificada no diretório regional de hospedagens de Itamonte, no bairro Ribeirão do Ouro. O diretório informa a localidade, mas não apresenta telefone, comodidades ou preço na ficha resumida consultada.",
+    "shortDescription": "Pousada rural listada no diretório de hospedagem de Itamonte. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada identificada no diretório regional de hospedagens de Itamonte, no bairro Ribeirão do Ouro. O diretório informa a localidade, mas não apresenta telefone, comodidades ou preço na ficha resumida consultada. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "sourceUrl": "https://idasbrasil.com.br/hoteispousadas/Itamonte/minas-gerais",
     "tags": [
       "Itamonte",
@@ -1721,8 +1660,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-ribeirao-do-ouro-itamonte",
@@ -1731,8 +1669,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Ribeirão do Ouro",
     "address": "Rodovia BR-354, km 759, Ribeirão do Ouro, Itamonte - MG",
     "nearbyAttraction": "Rio Capivari e áreas naturais da Serra da Mantiqueira",
-    "shortDescription": "Pousada às margens do Rio Capivari, com piscina, sauna e restaurante.",
-    "description": "Pousada localizada a cerca de 5 km do centro de Itamonte, cercada por mata nativa e às margens do Rio Capivari. Informa quartos familiares, piscina externa, sauna, restaurante, café da manhã, Wi-Fi, lounge, churrasqueira, estacionamento, playground, quadra, lago para pesca e passeios a cavalo.",
+    "shortDescription": "Pousada às margens do Rio Capivari, com piscina, sauna e restaurante. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada localizada a cerca de 5 km do centro de Itamonte, cercada por mata nativa e às margens do Rio Capivari. Informa quartos familiares, piscina externa, sauna, restaurante, café da manhã, Wi-Fi, lounge, churrasqueira, estacionamento, playground, quadra, lago para pesca e passeios a cavalo. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 3363-1082",
     "website": "https://www.ribeiraodoouro.com.br/",
     "amenities": [
@@ -1767,8 +1705,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-dos-lirios-itamonte",
@@ -1776,8 +1713,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Itamonte",
     "locality": "Zona Rural",
     "nearbyAttraction": "Cachoeira da Fragária e Parque Nacional do Itatiaia",
-    "shortDescription": "Pousada rural listada no diretório de hospedagens de Itamonte.",
-    "description": "Pousada identificada no diretório regional de hospedagem de Itamonte, com indicação de localização na zona rural. Endereço completo, telefone, comodidades e tarifas não constam da listagem consultada.",
+    "shortDescription": "Pousada rural listada no diretório de hospedagens de Itamonte. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada identificada no diretório regional de hospedagem de Itamonte, com indicação de localização na zona rural. Endereço completo, telefone, comodidades e tarifas não constam da listagem consultada. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "sourceUrl": "https://idasbrasil.com.br/hoteispousadas/Itamonte/minas-gerais",
     "tags": [
       "Itamonte",
@@ -1791,8 +1728,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "category": "pousada",
@@ -1811,8 +1747,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Lima Duarte",
     "address": "Rua Lava Pés, Conceição do Ibitipoca, Lima Duarte - MG",
     "nearbyAttraction": "Parque Estadual do Ibitipoca",
-    "shortDescription": "Chalés familiares com Wi-Fi, frigobar e estacionamento.",
-    "description": "Hospedagem listada no guia de Ibitipoca. A descrição informa chalés para grupos e famílias, Wi-Fi, frigobar, roupas de cama e toalhas, além de estacionamento. Não oferece café da manhã, segundo o cadastro consultado.",
+    "shortDescription": "Chalés familiares com Wi-Fi, frigobar e estacionamento. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Hospedagem listada no guia de Ibitipoca. A descrição informa chalés para grupos e famílias, Wi-Fi, frigobar, roupas de cama e toalhas, além de estacionamento. Não oferece café da manhã, segundo o cadastro consultado. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(32) 98404-8058",
     "whatsapp": "5532984048058",
     "website": "https://www.ibitipoca.tur.br/hospedagem/",
@@ -1823,8 +1759,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://www.ibitipoca.tur.br/hospedagem/",
     "locality": "Conceição do Ibitipoca",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -1843,8 +1778,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Lima Duarte",
     "address": "LMG-871, Conceição do Ibitipoca, Lima Duarte - MG",
     "nearbyAttraction": "Parque Estadual do Ibitipoca",
-    "shortDescription": "Chalés com opções de cozinha, hidromassagem e estacionamento.",
-    "description": "Hospedagem em meio à natureza, com vista para a região da Lombada. O guia local informa chalés com banheiro, TV, lareira, frigobar, churrasqueira e Wi-Fi, além de estacionamento gratuito.",
+    "shortDescription": "Chalés com opções de cozinha, hidromassagem e estacionamento. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Hospedagem em meio à natureza, com vista para a região da Lombada. O guia local informa chalés com banheiro, TV, lareira, frigobar, churrasqueira e Wi-Fi, além de estacionamento gratuito. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(32) 98412-5971",
     "instagram": "https://www.instagram.com/villanovaibiti/",
     "website": "https://www.ibitipoca.tur.br/hospedagem/",
@@ -1857,8 +1792,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://www.ibitipoca.tur.br/hospedagem/",
     "locality": "Conceição do Ibitipoca",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -1877,14 +1811,13 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Lima Duarte",
     "address": "Rua do Céu, s/n, Conceição do Ibitipoca, Lima Duarte - MG",
     "nearbyAttraction": "Parque Estadual do Ibitipoca e atrativos da vila",
-    "shortDescription": "Hospedagem na Rua do Céu, em Conceição do Ibitipoca.",
-    "description": "A página oficial de contato informa endereço e telefone em Conceição do Ibitipoca. Consulte a propriedade para obter detalhes atuais de acomodações, comodidades, tarifas e distância até os atrativos.",
+    "shortDescription": "Hospedagem na Rua do Céu, em Conceição do Ibitipoca. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "A página oficial de contato informa endereço e telefone em Conceição do Ibitipoca. Consulte a propriedade para obter detalhes atuais de acomodações, comodidades, tarifas e distância até os atrativos. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(32) 98424-8304",
     "website": "https://www.pousadapoenteibitipoca.com/",
     "sourceUrl": "https://www.pousadapoenteibitipoca.com/contact",
     "locality": "Conceição do Ibitipoca",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -1904,8 +1837,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Lima Duarte",
     "address": "Rua do Céu, s/n, Conceição do Ibitipoca, Lima Duarte - MG",
     "nearbyAttraction": "Parque Estadual do Ibitipoca",
-    "shortDescription": "Suítes com varanda, jardim, Wi-Fi e café da manhã incluso.",
-    "description": "Pousada na vila de Conceição do Ibitipoca, próxima à Igreja Matriz. A listagem local informa suítes com frigobar, varanda, rede, Wi-Fi, roupas de cama e banho, jardim e café da manhã incluso.",
+    "shortDescription": "Suítes com varanda, jardim, Wi-Fi e café da manhã incluso. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada na vila de Conceição do Ibitipoca, próxima à Igreja Matriz. A listagem local informa suítes com frigobar, varanda, rede, Wi-Fi, roupas de cama e banho, jardim e café da manhã incluso. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(21) 99116-5990",
     "website": "https://www.ibitipoca.tur.br/hospedagem/",
     "amenities": [
@@ -1916,8 +1849,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://www.ibitipoca.tur.br/hospedagem/",
     "locality": "Conceição do Ibitipoca",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -1935,14 +1867,13 @@ export const minasGeraisPousadas: Destination[] = [
     "name": "Pousada do Artista",
     "city": "Lima Duarte",
     "nearbyAttraction": "Parque Estadual do Ibitipoca",
-    "shortDescription": "Pousada cadastrada no guia de hospedagem de Ibitipoca.",
-    "description": "A Pousada do Artista aparece no diretório local de hospedagem de Conceição do Ibitipoca. O cadastro consultado informa telefone, mas não detalha endereço, comodidades, preços ou distância até o parque.",
+    "shortDescription": "Pousada cadastrada no guia de hospedagem de Ibitipoca. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "A Pousada do Artista aparece no diretório local de hospedagem de Conceição do Ibitipoca. O cadastro consultado informa telefone, mas não detalha endereço, comodidades, preços ou distância até o parque. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(32) 99936-1953",
     "website": "https://www.ibitipoca.tur.br/hospedagem/",
     "sourceUrl": "https://www.ibitipoca.tur.br/hospedagem/",
     "locality": "Conceição do Ibitipoca",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -1960,14 +1891,13 @@ export const minasGeraisPousadas: Destination[] = [
     "name": "Pousada do Sossego",
     "city": "Lima Duarte",
     "nearbyAttraction": "Parque Estadual do Ibitipoca",
-    "shortDescription": "Hospedagem listada no guia local de Conceição do Ibitipoca.",
-    "description": "A Pousada do Sossego consta no diretório de hospedagem de Ibitipoca. Endereço, comodidades, tarifas e distância até a portaria do parque não foram detalhados na página consultada; confirme com a propriedade.",
+    "shortDescription": "Hospedagem listada no guia local de Conceição do Ibitipoca. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "A Pousada do Sossego consta no diretório de hospedagem de Ibitipoca. Endereço, comodidades, tarifas e distância até a portaria do parque não foram detalhados na página consultada; confirme com a propriedade. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(32) 98511-5084",
     "website": "https://www.ibitipoca.tur.br/hospedagem/",
     "sourceUrl": "https://www.ibitipoca.tur.br/hospedagem/",
     "locality": "Conceição do Ibitipoca",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -1986,8 +1916,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Lima Duarte",
     "address": "Rua Salvador Barra (Rua Principal), 1, Conceição do Ibitipoca, Lima Duarte - MG",
     "nearbyAttraction": "Parque Estadual do Ibitipoca",
-    "shortDescription": "Conjunto de 15 chalés com privacidade e acesso à vila de Ibitipoca.",
-    "description": "Hospedagem em Conceição do Ibitipoca com 15 chalés distribuídos em jardim. O site oficial apresenta informações sobre o Parque Estadual do Ibitipoca, acomodações e tarifário; confirme valores e distância até a portaria do parque.",
+    "shortDescription": "Conjunto de 15 chalés com privacidade e acesso à vila de Ibitipoca. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Hospedagem em Conceição do Ibitipoca com 15 chalés distribuídos em jardim. O site oficial apresenta informações sobre o Parque Estadual do Ibitipoca, acomodações e tarifário; confirme valores e distância até a portaria do parque. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(32) 3281-8112",
     "whatsapp": "553232818112",
     "website": "https://www.repousada.com/",
@@ -1997,8 +1927,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://www.repousada.com/",
     "locality": "Conceição do Ibitipoca",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -2017,15 +1946,14 @@ export const minasGeraisPousadas: Destination[] = [
     "name": "Reserva Canto da Vida Chalés",
     "city": "Lima Duarte",
     "nearbyAttraction": "Parque Estadual do Ibitipoca",
-    "shortDescription": "Chalés em área natural próximos à portaria do parque.",
-    "description": "O guia local de Ibitipoca apresenta a Reserva Canto da Vida como hospedagem em chalés, situada a aproximadamente 1 km da portaria do Parque Estadual do Ibitipoca. Consulte a propriedade para confirmar comodidades e tarifas.",
+    "shortDescription": "Chalés em área natural próximos à portaria do parque. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "O guia local de Ibitipoca apresenta a Reserva Canto da Vida como hospedagem em chalés, situada a aproximadamente 1 km da portaria do Parque Estadual do Ibitipoca. Consulte a propriedade para confirmar comodidades e tarifas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(32) 99944-7891",
     "whatsapp": "5532999447891",
     "website": "https://cantodavida.com.br/",
     "sourceUrl": "https://www.ibitipoca.tur.br/noticias/chales-em-ibitipoca/",
     "locality": "Conceição do Ibitipoca",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -2044,8 +1972,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Lima Duarte",
     "address": "Fazenda Tapera, Conceição do Ibitipoca, Lima Duarte - MG",
     "nearbyAttraction": "Parque Estadual do Ibitipoca e mirantes da serra",
-    "shortDescription": "Chalés com lareira, varanda, churrasqueira e cozinha equipada.",
-    "description": "Chalés listados no guia local de hospedagem de Ibitipoca. A descrição informa unidades com suíte, TV, frigobar, lareira, varanda com rede e churrasqueira, além de opção maior com cozinha completa.",
+    "shortDescription": "Chalés com lareira, varanda, churrasqueira e cozinha equipada. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Chalés listados no guia local de hospedagem de Ibitipoca. A descrição informa unidades com suíte, TV, frigobar, lareira, varanda com rede e churrasqueira, além de opção maior com cozinha completa. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(32) 98471-9679",
     "whatsapp": "5532984719679",
     "website": "https://www.ibitipoca.tur.br/hospedagem/",
@@ -2057,8 +1985,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://www.ibitipoca.tur.br/hospedagem/",
     "locality": "Fazenda Tapera, Conceição do Ibitipoca",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -2078,8 +2005,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Ouro Preto",
     "address": "Rua 02, nº 100, Lavras Novas, Ouro Preto - MG",
     "nearbyAttraction": "Trilha dos Pocinhos",
-    "shortDescription": "Pousada próxima à trilha dos Pocinhos, com café da manhã.",
-    "description": "Pousada em uma travessa da rua principal de Lavras Novas, próxima a opções gastronômicas e praticamente ao lado da Trilha dos Pocinhos. O site oficial publica avaliações de hóspedes identificadas como Google com nota 5,0, sem informar quantidade total de avaliações na página consultada.",
+    "shortDescription": "Pousada próxima à trilha dos Pocinhos, com café da manhã. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada em uma travessa da rua principal de Lavras Novas, próxima a opções gastronômicas e praticamente ao lado da Trilha dos Pocinhos. O site oficial publica avaliações de hóspedes identificadas como Google com nota 5,0, sem informar quantidade total de avaliações na página consultada. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(31) 98500-8694",
     "website": "https://www.pousadaalforriamg.com.br/",
     "amenities": [
@@ -2095,8 +2022,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://www.pousadaalforriamg.com.br/",
     "locality": "Lavras Novas",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -2116,8 +2042,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Ouro Preto",
     "address": "Rua do Campo, 228, Lavras Novas, Ouro Preto - MG",
     "nearbyAttraction": "Cachoeira na propriedade e trilhas de Lavras Novas",
-    "shortDescription": "Chalés com lareira, piscina aquecida e trilhas em parque arborizado.",
-    "description": "Pousada em Lavras Novas, em parque com piscina aquecida, trilhas para caminhada e uma cachoeira. Os chalés têm lareira; a página municipal também informa Wi-Fi, café da manhã e estacionamento gratuito.",
+    "shortDescription": "Chalés com lareira, piscina aquecida e trilhas em parque arborizado. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada em Lavras Novas, em parque com piscina aquecida, trilhas para caminhada e uma cachoeira. Os chalés têm lareira; a página municipal também informa Wi-Fi, café da manhã e estacionamento gratuito. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(31) 98611-9496",
     "website": "https://lavrasnovascandeia.wixsite.com/lavras",
     "amenities": [
@@ -2130,8 +2056,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://www.ouropreto.mg.gov.br/turismo/local/1028",
     "locality": "Lavras Novas",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -2151,8 +2076,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Ouro Preto",
     "address": "Rua da Fonte, 92, Lavras Novas, Ouro Preto - MG",
     "nearbyAttraction": "Trilhas e cachoeiras de Lavras Novas",
-    "shortDescription": "Hospedagem com quartos familiares, cozinha equipada e aceita pets.",
-    "description": "Hospedagem no distrito de Lavras Novas. A Secretaria Municipal de Turismo lista Wi-Fi, estacionamento gratuito, quartos para família, cozinha equipada e aceitação de animais de estimação.",
+    "shortDescription": "Hospedagem com quartos familiares, cozinha equipada e aceita pets. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Hospedagem no distrito de Lavras Novas. A Secretaria Municipal de Turismo lista Wi-Fi, estacionamento gratuito, quartos para família, cozinha equipada e aceitação de animais de estimação. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(31) 98775-7737",
     "instagram": "https://instagram.com/pousada_fonte_viva_lavrasnovas",
     "amenities": [
@@ -2164,8 +2089,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://www.dev.ouropreto.mg.gov.br/turismo/local/2554",
     "locality": "Lavras Novas",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -2185,8 +2109,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Ouro Preto",
     "address": "Rua Nossa Senhora dos Prazeres, 1110, Lavras Novas, Ouro Preto - MG",
     "nearbyAttraction": "Trilhas e cachoeiras de Lavras Novas",
-    "shortDescription": "Pousada com vista panorâmica, piscinas e café da manhã.",
-    "description": "Pousada no distrito de Lavras Novas, com vista panorâmica, restaurante, café da manhã, chá da tarde, piscina ao ar livre e piscina coberta. A pousada informa estacionamento gratuito. Não aceita crianças nem animais, conforme o cadastro municipal consultado.",
+    "shortDescription": "Pousada com vista panorâmica, piscinas e café da manhã. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada no distrito de Lavras Novas, com vista panorâmica, restaurante, café da manhã, chá da tarde, piscina ao ar livre e piscina coberta. A pousada informa estacionamento gratuito. Não aceita crianças nem animais, conforme o cadastro municipal consultado. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(31) 98567-7447",
     "website": "https://www.pousadapalavrasnovas.com.br/",
     "amenities": [
@@ -2198,8 +2122,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://www.ouropreto.mg.gov.br/turismo/local/981",
     "locality": "Lavras Novas",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -2219,8 +2142,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Ouro Preto",
     "address": "Beco do Artesão (Rua Nossa Senhora dos Prazeres), 186, Lavras Novas, Ouro Preto - MG",
     "nearbyAttraction": "Trilhas e cachoeiras do distrito de Lavras Novas",
-    "shortDescription": "Pousada com café da manhã à la carte, estacionamento e aceita pets.",
-    "description": "Pousada no distrito de Lavras Novas, em área mais silenciosa fora da rua principal. A Secretaria Municipal de Turismo informa café da manhã à la carte, estacionamento gratuito, Wi-Fi e aceitação de animais de estimação.",
+    "shortDescription": "Pousada com café da manhã à la carte, estacionamento e aceita pets. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada no distrito de Lavras Novas, em área mais silenciosa fora da rua principal. A Secretaria Municipal de Turismo informa café da manhã à la carte, estacionamento gratuito, Wi-Fi e aceitação de animais de estimação. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(31) 98812-7747",
     "amenities": [
       "Café da manhã",
@@ -2231,8 +2154,7 @@ export const minasGeraisPousadas: Destination[] = [
     "sourceUrl": "https://www.ouropreto.mg.gov.br/turismo/local/982",
     "locality": "Lavras Novas",
     "facebook": "https://www.facebook.com/pousadapousoeprosa/",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -2251,8 +2173,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Ouro Preto",
     "address": "Rua Joel Afonso de Oliveira, 234 (também indicada como Rua Nossa Senhora dos Prazeres, 334), Lavras Novas, Ouro Preto - MG",
     "nearbyAttraction": "Trilhas e cachoeiras de Lavras Novas",
-    "shortDescription": "Pousada com quartos familiares, estacionamento e buffet de café da manhã.",
-    "description": "Pousada no distrito de Lavras Novas. O cadastro municipal informa Wi-Fi, estacionamento, quartos familiares, banheiro privativo, TV, frigobar e buffet de café da manhã. O endereço aparece com duas referências de rua no cadastro municipal; confirme antes de ir.",
+    "shortDescription": "Pousada com quartos familiares, estacionamento e buffet de café da manhã. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada no distrito de Lavras Novas. O cadastro municipal informa Wi-Fi, estacionamento, quartos familiares, banheiro privativo, TV, frigobar e buffet de café da manhã. O endereço aparece com duas referências de rua no cadastro municipal; confirme antes de ir. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(31) 98812-6490",
     "instagram": "https://www.instagram.com/pousadaserradaneblinamg/",
     "amenities": [
@@ -2263,8 +2185,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://www.ouropreto.mg.gov.br/turismo/local/2534",
     "locality": "Lavras Novas",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -2283,8 +2204,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Ouro Preto",
     "address": "Rua da Fonte, 89, Lavras Novas, Ouro Preto - MG",
     "nearbyAttraction": "Trilhas e cachoeiras de Lavras Novas",
-    "shortDescription": "Chalés com banheira, piscina e varanda.",
-    "description": "Pousada formada por chalés em estilo rústico, com Wi-Fi, banheiro privativo, frigobar, opções com banheira de hidromassagem, piscina e varanda, conforme cadastro da Secretaria Municipal de Turismo.",
+    "shortDescription": "Chalés com banheira, piscina e varanda. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada formada por chalés em estilo rústico, com Wi-Fi, banheiro privativo, frigobar, opções com banheira de hidromassagem, piscina e varanda, conforme cadastro da Secretaria Municipal de Turismo. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(31) 98839-2019",
     "instagram": "https://www.instagram.com/pousadasesmaria/",
     "amenities": [
@@ -2295,8 +2216,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://www.dev.ouropreto.mg.gov.br/turismo/local/658",
     "locality": "Lavras Novas",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -2316,8 +2236,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Ouro Preto",
     "address": "Rua Nossa Senhora dos Prazeres, 406, Lavras Novas, Ouro Preto - MG",
     "nearbyAttraction": "Trilhas e cachoeiras de Lavras Novas",
-    "shortDescription": "Pousada central com café da manhã e aceita animais de estimação.",
-    "description": "Pousada localizada ao lado da igreja de Lavras Novas, com vista para o vale. A listagem municipal informa buffet de café da manhã, Wi-Fi, quartos com TV e frigobar e aceitação de animais. Não possui estacionamento.",
+    "shortDescription": "Pousada central com café da manhã e aceita animais de estimação. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada localizada ao lado da igreja de Lavras Novas, com vista para o vale. A listagem municipal informa buffet de café da manhã, Wi-Fi, quartos com TV e frigobar e aceitação de animais. Não possui estacionamento. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(31) 99541-2975",
     "instagram": "https://www.instagram.com/pousada.solar.dos.anjos/",
     "amenities": [
@@ -2327,8 +2247,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://www.ouropreto.mg.gov.br/turismo/local/1023",
     "locality": "Lavras Novas",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -2347,8 +2266,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Ouro Preto",
     "address": "Rua Alto do Campo, 103, Lavras Novas, Ouro Preto - MG",
     "nearbyAttraction": "Trilhas e cachoeiras de Lavras Novas",
-    "shortDescription": "Pousada com café da manhã, estacionamento e hidromassagem.",
-    "description": "Pousada no vilarejo de Lavras Novas, com quartos equipados com TV, banheiro privativo e frigobar. A Secretaria Municipal informa buffet de café da manhã, estacionamento gratuito e hidromassagem.",
+    "shortDescription": "Pousada com café da manhã, estacionamento e hidromassagem. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada no vilarejo de Lavras Novas, com quartos equipados com TV, banheiro privativo e frigobar. A Secretaria Municipal informa buffet de café da manhã, estacionamento gratuito e hidromassagem. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(31) 99714-5992",
     "website": "https://villadilavras.com.br/a-pousada-villa-di-lavras/",
     "amenities": [
@@ -2358,8 +2277,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://www.ouropreto.mg.gov.br/turismo/local/1092",
     "locality": "Lavras Novas",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -2379,14 +2297,13 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Passa Quatro",
     "address": "Rua General Barcelos, 59, Centro, Passa Quatro - MG",
     "nearbyAttraction": "Atrativos naturais e cachoeiras de Passa Quatro",
-    "shortDescription": "Pousada no centro com site próprio e cadastro municipal.",
-    "description": "Hospedagem listada pela Prefeitura de Passa Quatro, com endereço no Centro, telefone, site e Facebook publicados. Consulte o estabelecimento para detalhes de comodidades e valores.",
+    "shortDescription": "Pousada no centro com site próprio e cadastro municipal. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Hospedagem listada pela Prefeitura de Passa Quatro, com endereço no Centro, telefone, site e Facebook publicados. Consulte o estabelecimento para detalhes de comodidades e valores. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 3371-1659",
     "website": "http://www.ecodamontanha.com.br",
     "sourceUrl": "https://www.passaquatro.mg.gov.br/onde-ficar",
     "locality": "Centro",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -2405,14 +2322,13 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Passa Quatro",
     "address": "Rua Doutor Salgado Scarp, 340, Copacabana, Passa Quatro - MG",
     "nearbyAttraction": "Atrativos naturais da Mantiqueira em Passa Quatro",
-    "shortDescription": "Pousada em bairro residencial de Passa Quatro.",
-    "description": "Pousada listada no diretório oficial da Prefeitura de Passa Quatro, com endereço, telefone e site cadastrados. Comodidades e distância até cachoeiras não foram publicadas na fonte consultada.",
+    "shortDescription": "Pousada em bairro residencial de Passa Quatro. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada listada no diretório oficial da Prefeitura de Passa Quatro, com endereço, telefone e site cadastrados. Comodidades e distância até cachoeiras não foram publicadas na fonte consultada. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 3371-1739",
     "website": "http://www.pousadafloradasnaserra.com.br",
     "sourceUrl": "https://www.passaquatro.mg.gov.br/onde-ficar",
     "locality": "Copacabana",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -2431,15 +2347,14 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Passa Quatro",
     "address": "Avenida Nicolau Mota, 560, Copacabana, Passa Quatro - MG",
     "nearbyAttraction": "Atrativos naturais de Passa Quatro",
-    "shortDescription": "Hospedaria cadastrada no diretório oficial de turismo municipal.",
-    "description": "Pousada listada no portal da Prefeitura de Passa Quatro, com telefone, WhatsApp e perfil no Facebook. Comodidades, preços e distância até cachoeiras não foram informados pela fonte.",
+    "shortDescription": "Hospedaria cadastrada no diretório oficial de turismo municipal. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada listada no portal da Prefeitura de Passa Quatro, com telefone, WhatsApp e perfil no Facebook. Comodidades, preços e distância até cachoeiras não foram informados pela fonte. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 99145-6220",
     "whatsapp": "5535991257909",
     "sourceUrl": "https://www.passaquatro.mg.gov.br/onde-ficar",
     "locality": "Copacabana",
     "facebook": "https://www.facebook.com/PousadaPenas/",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -2459,14 +2374,13 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Passa Quatro",
     "address": "Fazenda Córrego Fundo, Pé do Morro, Passa Quatro - MG",
     "nearbyAttraction": "Atrativos naturais da região do Pé do Morro",
-    "shortDescription": "Hospedagem rural na região do Pé do Morro.",
-    "description": "Hospedagem cadastrada pela Prefeitura de Passa Quatro, na Fazenda Córrego Fundo, região do Pé do Morro. A fonte municipal informa telefone e Instagram; outras comodidades e distâncias devem ser confirmadas.",
+    "shortDescription": "Hospedagem rural na região do Pé do Morro. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Hospedagem cadastrada pela Prefeitura de Passa Quatro, na Fazenda Córrego Fundo, região do Pé do Morro. A fonte municipal informa telefone e Instagram; outras comodidades e distâncias devem ser confirmadas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(11) 99666-6428",
     "instagram": "https://www.instagram.com/chales.dosossego_/",
     "sourceUrl": "https://www.passaquatro.mg.gov.br/onde-ficar",
     "locality": "Fazenda Córrego Fundo / Pé do Morro",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -2486,14 +2400,13 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Passa Quatro",
     "address": "Fazenda Quilombo, bairro Quilombo, Passa Quatro - MG",
     "nearbyAttraction": "Atrativos naturais e trilhas da região de Passa Quatro",
-    "shortDescription": "Chalés na região rural de Quilombo, cadastrados pela Prefeitura.",
-    "description": "Hospedagem listada na página oficial Onde Ficar da Prefeitura de Passa Quatro. O cadastro informa localização rural, telefone e Instagram; comodidades e distância até cachoeiras não foram detalhadas.",
+    "shortDescription": "Chalés na região rural de Quilombo, cadastrados pela Prefeitura. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Hospedagem listada na página oficial Onde Ficar da Prefeitura de Passa Quatro. O cadastro informa localização rural, telefone e Instagram; comodidades e distância até cachoeiras não foram detalhadas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 99751-1382",
     "instagram": "https://www.instagram.com/chales_cafe_delminas/",
     "sourceUrl": "https://www.passaquatro.mg.gov.br/onde-ficar",
     "locality": "Fazenda Quilombo",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -2511,14 +2424,13 @@ export const minasGeraisPousadas: Destination[] = [
     "name": "Pousada do Verde",
     "city": "Passa Quatro",
     "nearbyAttraction": "Cachoeiras e trilhas da Mantiqueira",
-    "shortDescription": "Pousada listada no portal municipal com site próprio.",
-    "description": "Pousada cadastrada no diretório oficial da Prefeitura de Passa Quatro. O portal publica telefone e site; endereço completo, comodidades e distância até os atrativos devem ser confirmados.",
+    "shortDescription": "Pousada listada no portal municipal com site próprio. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada cadastrada no diretório oficial da Prefeitura de Passa Quatro. O portal publica telefone e site; endereço completo, comodidades e distância até os atrativos devem ser confirmados. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 3371-3000",
     "website": "http://www.pousadadoverde.com.br",
     "sourceUrl": "https://www.passaquatro.mg.gov.br/onde-ficar",
     "locality": "Passa Quatro",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -2537,15 +2449,14 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Passa Quatro",
     "address": "Rua Dona Ana da Mota Paes, Passa Quatro - MG",
     "nearbyAttraction": "Serra da Mantiqueira e trilhas da região",
-    "shortDescription": "Pousada cadastrada pela Prefeitura com site, Facebook e Instagram.",
-    "description": "Hospedagem listada no diretório oficial da Prefeitura de Passa Quatro. A fonte informa telefone, endereço de rua, site e redes sociais; demais informações devem ser confirmadas.",
+    "shortDescription": "Pousada cadastrada pela Prefeitura com site, Facebook e Instagram. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Hospedagem listada no diretório oficial da Prefeitura de Passa Quatro. A fonte informa telefone, endereço de rua, site e redes sociais; demais informações devem ser confirmadas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 99709-8556",
     "website": "https://www.pousadapedradamina.com.br",
     "instagram": "https://www.instagram.com/pousadapedradamina",
     "sourceUrl": "https://www.passaquatro.mg.gov.br/onde-ficar",
     "locality": "Passa Quatro",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -2564,14 +2475,13 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Passa Quatro",
     "address": "Rodovia MG-158, Pinheirinhos, Passa Quatro - MG",
     "nearbyAttraction": "Atrativos naturais e trilhas de Passa Quatro",
-    "shortDescription": "Estalagem em Pinheirinhos, registrada no portal municipal de turismo.",
-    "description": "Hospedagem listada no portal oficial da Prefeitura de Passa Quatro. O cadastro informa endereço, telefone e página no Facebook; comodidades, preços e distância até cachoeiras não foram confirmados.",
+    "shortDescription": "Estalagem em Pinheirinhos, registrada no portal municipal de turismo. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Hospedagem listada no portal oficial da Prefeitura de Passa Quatro. O cadastro informa endereço, telefone e página no Facebook; comodidades, preços e distância até cachoeiras não foram confirmados. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 99716-6684",
     "sourceUrl": "https://www.passaquatro.mg.gov.br/onde-ficar",
     "locality": "Pinheirinhos",
     "facebook": "https://www.facebook.com/estalagemusinavelhap4/",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -2590,15 +2500,14 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Passa Quatro",
     "address": "Avenida Clementino José de Siqueira, 2229, Pinheirinhos, Passa Quatro - MG",
     "nearbyAttraction": "Atrativos naturais de Passa Quatro",
-    "shortDescription": "Pousada e hostel com site oficial e contato telefônico.",
-    "description": "Estabelecimento cadastrado pela Prefeitura de Passa Quatro como pousada e hostel. Endereço e telefones constam no cadastro municipal; consulte o site para detalhes de acomodações e serviços.",
+    "shortDescription": "Pousada e hostel com site oficial e contato telefônico. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Estabelecimento cadastrado pela Prefeitura de Passa Quatro como pousada e hostel. Endereço e telefones constam no cadastro municipal; consulte o site para detalhes de acomodações e serviços. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 3371-3300",
     "whatsapp": "5535997009631",
     "website": "https://pousadacaminhodosventos.com/",
     "sourceUrl": "https://www.passaquatro.mg.gov.br/onde-ficar",
     "locality": "Pinheirinhos",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -2617,14 +2526,13 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Passa Quatro",
     "address": "MG-158, próximo ao trevo de Passa Quatro - MG",
     "nearbyAttraction": "Atrativos naturais de Passa Quatro",
-    "shortDescription": "Pousada cadastrada no diretório oficial do município.",
-    "description": "A Pousada Pé de Pano consta no cadastro municipal de hospedagem de Passa Quatro, com referência de localização na MG-158 e perfil oficial no Instagram. Confirme endereço exato, serviços e tarifas diretamente.",
+    "shortDescription": "Pousada cadastrada no diretório oficial do município. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "A Pousada Pé de Pano consta no cadastro municipal de hospedagem de Passa Quatro, com referência de localização na MG-158 e perfil oficial no Instagram. Confirme endereço exato, serviços e tarifas diretamente. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 99116-4958",
     "instagram": "https://www.instagram.com/pousada_pe_de_pano/",
     "sourceUrl": "https://www.passaquatro.mg.gov.br/onde-ficar",
     "locality": "Próximo ao trevo",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -2643,15 +2551,14 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Passa Quatro",
     "address": "Rua Cruzeiro, 715, Rio das Pedras, Passa Quatro - MG",
     "nearbyAttraction": "Atrativos naturais e cachoeiras de Passa Quatro",
-    "shortDescription": "Pousada na região de Rio das Pedras, com site e redes sociais.",
-    "description": "Pousada cadastrada no portal da Prefeitura de Passa Quatro. A fonte municipal informa endereço, telefone, site e Facebook; comodidades, preços e distância até cachoeiras precisam ser confirmados.",
+    "shortDescription": "Pousada na região de Rio das Pedras, com site e redes sociais. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada cadastrada no portal da Prefeitura de Passa Quatro. A fonte municipal informa endereço, telefone, site e Facebook; comodidades, preços e distância até cachoeiras precisam ser confirmados. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 3371-1798",
     "whatsapp": "5535991670336",
     "website": "http://www.hotelpousadadaspedras.com.br",
     "sourceUrl": "https://www.passaquatro.mg.gov.br/onde-ficar",
     "locality": "Rio das Pedras",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -2670,15 +2577,14 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Passa Quatro",
     "address": "Avenida Avelino Luiz Ribeiro, 3000, Tronqueiras, Passa Quatro - MG",
     "nearbyAttraction": "Atrativos naturais da Mantiqueira",
-    "shortDescription": "Pousada em Tronqueiras, listada no diretório oficial municipal.",
-    "description": "Pousada cadastrada no portal da Prefeitura de Passa Quatro, com telefone, WhatsApp, endereço, site e Facebook. Distância até cachoeiras e comodidades específicas não foram confirmadas.",
+    "shortDescription": "Pousada em Tronqueiras, listada no diretório oficial municipal. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada cadastrada no portal da Prefeitura de Passa Quatro, com telefone, WhatsApp, endereço, site e Facebook. Distância até cachoeiras e comodidades específicas não foram confirmadas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 3371-3100",
     "whatsapp": "5535991135875",
     "website": "http://www.pousadamariamanha.com.br",
     "sourceUrl": "https://www.passaquatro.mg.gov.br/onde-ficar",
     "locality": "Tronqueiras",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "id": "pousada-luar-da-canastra-piumhi",
@@ -2687,8 +2593,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Centro",
     "address": "Rua Getúlio Vargas, 126, Centro, Piumhi - MG",
     "nearbyAttraction": "Roteiros de cachoeiras da Serra da Canastra",
-    "shortDescription": "Pousada com café da manhã e sala de estar.",
-    "description": "O diretório do Circuito Turístico Nascentes das Gerais e Canastra informa seis unidades habitacionais, 12 leitos, café da manhã, sala de estar com televisão e Wi-Fi.",
+    "shortDescription": "Pousada com café da manhã e sala de estar. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "O diretório do Circuito Turístico Nascentes das Gerais e Canastra informa seis unidades habitacionais, 12 leitos, café da manhã, sala de estar com televisão e Wi-Fi. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(37) 99841-2177",
     "website": "https://www.pousadaluardacanastra.com.br/",
     "amenities": [
@@ -2708,8 +2614,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-sao-francisco-piumhi",
@@ -2718,8 +2623,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Centro",
     "address": "Rua Melvira Cassini, 142, Piumhi - MG",
     "nearbyAttraction": "Roteiros de cachoeiras da Serra da Canastra",
-    "shortDescription": "Pousada cadastrada no Circuito Turístico Nascentes das Gerais e Canastra.",
-    "description": "Pousada listada no diretório regional de hospedagem, com 16 unidades habitacionais e 35 leitos. A fonte informa endereço, e-mail e telefone; serviços adicionais não foram registrados.",
+    "shortDescription": "Pousada cadastrada no Circuito Turístico Nascentes das Gerais e Canastra. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada listada no diretório regional de hospedagem, com 16 unidades habitacionais e 35 leitos. A fonte informa endereço, e-mail e telefone; serviços adicionais não foram registrados. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(37) 3371-7508",
     "website": "https://visitepiumhi.com.br/trades/pousada-sao-francisco",
     "tags": [
@@ -2734,8 +2639,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-villa-da-serra-piumhi",
@@ -2744,8 +2648,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Centro",
     "address": "Rua Floriano Peixoto, 1686, Piumhi - MG",
     "nearbyAttraction": "Roteiros de cachoeiras da Serra da Canastra",
-    "shortDescription": "Pousada com café da manhã, jardins, estacionamento e Wi-Fi.",
-    "description": "O Circuito Turístico Nascentes das Gerais e Canastra informa oito unidades habitacionais, café da manhã, jardins para atividades ao ar livre, estacionamento e Wi-Fi.",
+    "shortDescription": "Pousada com café da manhã, jardins, estacionamento e Wi-Fi. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "O Circuito Turístico Nascentes das Gerais e Canastra informa oito unidades habitacionais, café da manhã, jardins para atividades ao ar livre, estacionamento e Wi-Fi. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(37) 99917-5877",
     "website": "https://pousadavilladaserra.com/",
     "amenities": [
@@ -2766,8 +2670,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-perola-mineira-piumhi",
@@ -2776,8 +2679,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Pérola Negra",
     "address": "Rua Misseno Lopes da Cunha, 310, Pérola Negra, Piumhi - MG",
     "nearbyAttraction": "Roteiros de cachoeiras da Serra da Canastra",
-    "shortDescription": "Pousada com café da manhã, sala de estar, estacionamento e Wi-Fi.",
-    "description": "Pousada listada no diretório regional de turismo, com oito unidades habitacionais, 25 leitos, café da manhã, sala de estar, estacionamento e Wi-Fi.",
+    "shortDescription": "Pousada com café da manhã, sala de estar, estacionamento e Wi-Fi. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada listada no diretório regional de turismo, com oito unidades habitacionais, 25 leitos, café da manhã, sala de estar, estacionamento e Wi-Fi. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(37) 99866-3167",
     "instagram": "https://www.instagram.com/pousadaperolamineira/",
     "amenities": [
@@ -2798,8 +2701,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-bella-canastra-piumhi",
@@ -2808,8 +2710,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Rodovia MG-050",
     "address": "Rodovia MG-050, km 256, Piumhi - MG",
     "nearbyAttraction": "Roteiros de cachoeiras da Serra da Canastra",
-    "shortDescription": "Pousada com café da manhã, estacionamento e Wi-Fi.",
-    "description": "O Circuito Turístico Nascentes das Gerais e Canastra informa 16 unidades habitacionais, 32 leitos, café da manhã, estacionamento e Wi-Fi. O diretório também publica perfil no Instagram e telefone.",
+    "shortDescription": "Pousada com café da manhã, estacionamento e Wi-Fi. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "O Circuito Turístico Nascentes das Gerais e Canastra informa 16 unidades habitacionais, 32 leitos, café da manhã, estacionamento e Wi-Fi. O diretório também publica perfil no Instagram e telefone. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(37) 99866-3167",
     "instagram": "https://www.instagram.com/pousadabellacanastra/",
     "amenities": [
@@ -2829,8 +2731,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-novo-alvorecer-sacramento",
@@ -2838,8 +2739,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Sacramento",
     "locality": "Fazenda Santa Maria",
     "nearbyAttraction": "Fazenda Santa Maria e patrimônio histórico-cultural",
-    "shortDescription": "Pousada citada no portal oficial de turismo de Sacramento.",
-    "description": "A Prefeitura de Sacramento lista a Pousada Novo Alvorecer entre as hospedagens na área da Fazenda Santa Maria. A fonte informa telefone; endereço detalhado, comodidades, preços e distância até atrativos naturais não foram publicados.",
+    "shortDescription": "Pousada citada no portal oficial de turismo de Sacramento. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "A Prefeitura de Sacramento lista a Pousada Novo Alvorecer entre as hospedagens na área da Fazenda Santa Maria. A fonte informa telefone; endereço detalhado, comodidades, preços e distância até atrativos naturais não foram publicados. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(34) 3353-1578",
     "website": "https://recantosinhomariano.org.br/",
     "tags": [
@@ -2854,8 +2755,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-sinho-mariano-sacramento",
@@ -2863,8 +2763,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Sacramento",
     "locality": "Fazenda Santa Maria",
     "nearbyAttraction": "Fazenda Santa Maria e Instituto Cultural Leopoldina Geovana de Araújo",
-    "shortDescription": "Pousada em fazenda histórica, ligada ao patrimônio cultural de Sacramento.",
-    "description": "A Prefeitura de Sacramento informa que a antiga fazenda histórica abriga atividades culturais e ambientais e que o antigo albergue foi transformado em pousada. O local é conhecido como Recanto Sinhô Mariano; telefone publicado no portal municipal.",
+    "shortDescription": "Pousada em fazenda histórica, ligada ao patrimônio cultural de Sacramento. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "A Prefeitura de Sacramento informa que a antiga fazenda histórica abriga atividades culturais e ambientais e que o antigo albergue foi transformado em pousada. O local é conhecido como Recanto Sinhô Mariano; telefone publicado no portal municipal. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(34) 3353-1566",
     "website": "https://recantosinhomariano.org.br/",
     "tags": [
@@ -2880,8 +2780,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "recanto-castelinho-sacramento",
@@ -2889,8 +2788,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Sacramento",
     "locality": "Fazenda Santa Maria",
     "nearbyAttraction": "Fazenda Santa Maria e patrimônio histórico-cultural",
-    "shortDescription": "Hospedagem na área da Fazenda Santa Maria, em Sacramento.",
-    "description": "O portal da Prefeitura de Sacramento cita o Recanto Castelinho entre as hospedagens em funcionamento no complexo histórico da Fazenda Santa Maria. Endereço detalhado, comodidades e tarifas não foram publicados na página consultada.",
+    "shortDescription": "Hospedagem na área da Fazenda Santa Maria, em Sacramento. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "O portal da Prefeitura de Sacramento cita o Recanto Castelinho entre as hospedagens em funcionamento no complexo histórico da Fazenda Santa Maria. Endereço detalhado, comodidades e tarifas não foram publicados na página consultada. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(34) 3351-8191",
     "website": "https://recantosinhomariano.org.br/",
     "tags": [
@@ -2905,8 +2804,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "category": "pousada",
@@ -2926,8 +2824,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Santana do Riacho",
     "address": "Rodovia MG-010, km 112, Fazenda Palácio, Santana do Riacho - MG",
     "nearbyAttraction": "Riachos e trilhas da região da Pedra do Elefante",
-    "shortDescription": "Pousada em área serrana, com riachos, jardins naturais e trilhas.",
-    "description": "Hospedagem na região da antiga Fazenda Palácio, no alto da Serra do Cipó. A propriedade informa acesso a riachos, jardins naturais dos campos rupestres, lounge compartilhado e trilhas para caminhadas.",
+    "shortDescription": "Pousada em área serrana, com riachos, jardins naturais e trilhas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Hospedagem na região da antiga Fazenda Palácio, no alto da Serra do Cipó. A propriedade informa acesso a riachos, jardins naturais dos campos rupestres, lounge compartilhado e trilhas para caminhadas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(31) 99952-0745",
     "website": "https://www.pousadapousodoelefante.com.br/",
     "amenities": [
@@ -2936,8 +2834,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://www.pousadapousodoelefante.com.br/",
     "locality": "Pedra do Elefante / Fazenda Palácio, Serra do Cipó",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -2956,8 +2853,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Santana do Riacho",
     "address": "Alameda das Bromélias, 90, Serra do Cipó, Santana do Riacho - MG",
     "nearbyAttraction": "Parque Nacional da Serra do Cipó e cachoeiras da região",
-    "shortDescription": "Pousada com café da manhã incluso e suítes com varanda.",
-    "description": "Pousada na Serra do Cipó com opções de suítes e chalés. A hospedagem informa café da manhã incluso e não recebe animais de estimação. Consulte diretamente os valores e demais serviços.",
+    "shortDescription": "Pousada com café da manhã incluso e suítes com varanda. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada na Serra do Cipó com opções de suítes e chalés. A hospedagem informa café da manhã incluso e não recebe animais de estimação. Consulte diretamente os valores e demais serviços. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(31) 99981-7296",
     "website": "https://pousadaadegacipo.com.br/",
     "amenities": [
@@ -2967,8 +2864,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://pousadaadegacipo.com.br/",
     "locality": "Serra do Cipó",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -2987,8 +2883,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Santana do Riacho",
     "address": "Rodovia MG-010, km 99, 2289, Serra do Cipó, Santana do Riacho - MG",
     "nearbyAttraction": "Cachoeiras da Serra do Cipó",
-    "shortDescription": "Hospedagem na MG-010 com café da manhã e área de piscina.",
-    "description": "Pousada localizada na MG-010, no distrito da Serra do Cipó. A página de contato informa atendimento por telefone e regras de funcionamento, incluindo café da manhã servido das 8h às 10h. Confirme os serviços disponíveis na data da reserva.",
+    "shortDescription": "Hospedagem na MG-010 com café da manhã e área de piscina. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada localizada na MG-010, no distrito da Serra do Cipó. A página de contato informa atendimento por telefone e regras de funcionamento, incluindo café da manhã servido das 8h às 10h. Confirme os serviços disponíveis na data da reserva. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(31) 99958-2502",
     "whatsapp": "5531999582502",
     "website": "https://pousadaanauecipo.com.br/",
@@ -2998,8 +2894,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://pousadaanauecipo.com.br/contato",
     "locality": "Serra do Cipó",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -3018,14 +2913,13 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Santana do Riacho",
     "address": "Rua Bonfim, 226, Serra do Cipó, Santana do Riacho - MG",
     "nearbyAttraction": "Cachoeira Véu da Noiva",
-    "shortDescription": "Hospedagem no distrito da Serra do Cipó, ao lado da Cachoeira Véu da Noiva.",
-    "description": "Pousada situada ao lado da Cachoeira Véu da Noiva, na Serra do Cipó. Informações sobre acomodações, tarifas e comodidades específicas devem ser confirmadas diretamente com a hospedagem.",
+    "shortDescription": "Hospedagem no distrito da Serra do Cipó, ao lado da Cachoeira Véu da Noiva. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada situada ao lado da Cachoeira Véu da Noiva, na Serra do Cipó. Informações sobre acomodações, tarifas e comodidades específicas devem ser confirmadas diretamente com a hospedagem. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(31) 99885-7467",
     "website": "https://www.pousadaflordelotuscipo.com.br/",
     "sourceUrl": "https://www.pousadaflordelotuscipo.com.br/contato",
     "locality": "Serra do Cipó",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -3046,8 +2940,8 @@ export const minasGeraisPousadas: Destination[] = [
     "address": "Rua Pau D’Oleo, 51, Serra do Cipó, Santana do Riacho - MG",
     "nearbyAttraction": "Cachoeira Grande",
     "distanceToAttraction": "200 m",
-    "shortDescription": "Pousada com piscina, café da manhã e estrutura para famílias.",
-    "description": "Localizada no distrito da Serra do Cipó, a cerca de 200 metros da Cachoeira Grande. Oferece suítes, piscina, estacionamento, Wi-Fi, café da manhã e aceita animais de estimação. Consulte tarifas e regras diretamente com a pousada.",
+    "shortDescription": "Pousada com piscina, café da manhã e estrutura para famílias. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Localizada no distrito da Serra do Cipó, a cerca de 200 metros da Cachoeira Grande. Oferece suítes, piscina, estacionamento, Wi-Fi, café da manhã e aceita animais de estimação. Consulte tarifas e regras diretamente com a pousada. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(31) 98804-3940",
     "whatsapp": "5531988043940",
     "website": "https://pousadapordosol.com/",
@@ -3060,8 +2954,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://pousadapordosol.com/",
     "locality": "Serra do Cipó",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -3081,8 +2974,8 @@ export const minasGeraisPousadas: Destination[] = [
     "address": "Rua da Pedreira, 345, Serra do Cipó, Santana do Riacho - MG",
     "nearbyAttraction": "Cachoeira Véu da Noiva",
     "distanceToAttraction": "450 m",
-    "shortDescription": "Pousada com piscina climatizada e estacionamento a 450 metros da Cachoeira Véu da Noiva.",
-    "description": "Hospedagem na Serra do Cipó. A pousada informa que a Cachoeira Véu da Noiva fica a aproximadamente 450 metros. Conta com piscina climatizada, piscina externa, café da manhã, Wi-Fi de fibra e estacionamento gratuito.",
+    "shortDescription": "Pousada com piscina climatizada e estacionamento a 450 metros da Cachoeira Véu da Noiva. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Hospedagem na Serra do Cipó. A pousada informa que a Cachoeira Véu da Noiva fica a aproximadamente 450 metros. Conta com piscina climatizada, piscina externa, café da manhã, Wi-Fi de fibra e estacionamento gratuito. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(31) 98359-0578",
     "website": "https://pousadasitioxodo.com.br/",
     "amenities": [
@@ -3094,8 +2987,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://pousadasitioxodo.com.br/",
     "locality": "Serra do Cipó",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -3114,15 +3006,14 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Santana do Riacho",
     "address": "Rodovia MG-010, km 99, Serra do Cipó, Santana do Riacho - MG",
     "nearbyAttraction": "Cachoeiras da Serra do Cipó",
-    "shortDescription": "Pousada em vale aos pés da serra, cercada por campos verdes.",
-    "description": "Hospedagem situada em um vale na região da Serra do Cipó. A página oficial apresenta acomodações e áreas de lazer; consulte a pousada para confirmar serviços, tarifas e distância até os atrativos escolhidos.",
+    "shortDescription": "Pousada em vale aos pés da serra, cercada por campos verdes. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Hospedagem situada em um vale na região da Serra do Cipó. A página oficial apresenta acomodações e áreas de lazer; consulte a pousada para confirmar serviços, tarifas e distância até os atrativos escolhidos. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(31) 98452-0303",
     "whatsapp": "5531999818195",
     "website": "https://www.ranchocipo.com.br/",
     "sourceUrl": "https://www.ranchocipo.com.br/",
     "locality": "Serra do Cipó",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -3141,8 +3032,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Santana do Riacho",
     "address": "Rua da Pedreira, 47, Vacaria, Serra do Cipó, Santana do Riacho - MG",
     "nearbyAttraction": "Cachoeira Véu da Noiva",
-    "shortDescription": "Pousada com piscinas, sauna e estrutura de lazer próxima à Cachoeira Véu da Noiva.",
-    "description": "Pousada na região da Serra do Cipó, próxima à Cachoeira Véu da Noiva. Informa duas piscinas (uma aquecida e coberta), sauna, academia, sala de jogos, Wi-Fi e café da manhã. A distância exata até a cachoeira não foi publicada na fonte consultada.",
+    "shortDescription": "Pousada com piscinas, sauna e estrutura de lazer próxima à Cachoeira Véu da Noiva. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada na região da Serra do Cipó, próxima à Cachoeira Véu da Noiva. Informa duas piscinas (uma aquecida e coberta), sauna, academia, sala de jogos, Wi-Fi e café da manhã. A distância exata até a cachoeira não foi publicada na fonte consultada. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(31) 99677-5601",
     "whatsapp": "5531996775601",
     "website": "https://bananacipo.com.br/",
@@ -3157,8 +3048,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://bananacipo.com.br/pousada/",
     "locality": "Vacaria, Serra do Cipó",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -3177,8 +3067,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Santana do Riacho",
     "address": "Rua Bonfim, 136, Vacaria, Serra do Cipó, Santana do Riacho - MG",
     "nearbyAttraction": "Cachoeira Véu da Noiva",
-    "shortDescription": "Suítes com café da manhã servido no quarto, piscina e estacionamento privativo.",
-    "description": "Pousada com suítes equipadas com frigobar e ventilador, café da manhã servido na suíte, estacionamento privativo e área de lazer com piscina, cascata e quiosque. A página informa proximidade da Cachoeira Véu da Noiva, sem publicar distância exata.",
+    "shortDescription": "Suítes com café da manhã servido no quarto, piscina e estacionamento privativo. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada com suítes equipadas com frigobar e ventilador, café da manhã servido na suíte, estacionamento privativo e área de lazer com piscina, cascata e quiosque. A página informa proximidade da Cachoeira Véu da Noiva, sem publicar distância exata. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(31) 98404-9185",
     "whatsapp": "5531984049185",
     "website": "https://www.pousadabeijaflorserradocipo.com/",
@@ -3190,8 +3080,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://www.pousadabeijaflorserradocipo.com/",
     "locality": "Vacaria, Serra do Cipó",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -3210,15 +3099,14 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "São Roque de Minas",
     "address": "Avenida Vicente Picardi, 189, Bairro São Paulo, São Roque de Minas - MG",
     "nearbyAttraction": "Parque Nacional da Serra da Canastra",
-    "shortDescription": "Pousada com atendimento e reservas por WhatsApp na cidade de São Roque de Minas.",
-    "description": "Hospedagem na cidade de São Roque de Minas, com contato oficial por telefone e WhatsApp. A página destaca a localização como base para visitar a Serra da Canastra; comodidades e distância até cachoeiras específicas devem ser confirmadas.",
+    "shortDescription": "Pousada com atendimento e reservas por WhatsApp na cidade de São Roque de Minas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Hospedagem na cidade de São Roque de Minas, com contato oficial por telefone e WhatsApp. A página destaca a localização como base para visitar a Serra da Canastra; comodidades e distância até cachoeiras específicas devem ser confirmadas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(37) 3433-1216",
     "whatsapp": "5537988480014",
     "website": "https://pousadabarcelos.com.br/",
     "sourceUrl": "https://pousadabarcelos.com.br/",
     "locality": "Bairro São Paulo",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -3237,8 +3125,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "São Roque de Minas",
     "address": "Avenida Padre José de Paiva, 125, São Roque de Minas - MG",
     "nearbyAttraction": "Parque Nacional da Serra da Canastra",
-    "shortDescription": "Apartamentos com café da manhã, frigobar e ar-condicionado.",
-    "description": "Hospedagem no centro de São Roque de Minas. A página oficial informa apartamentos duplos, triplos e quádruplos, TV, frigobar, ar-condicionado e café da manhã. A propriedade informa que não aceita animais de estimação.",
+    "shortDescription": "Apartamentos com café da manhã, frigobar e ar-condicionado. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Hospedagem no centro de São Roque de Minas. A página oficial informa apartamentos duplos, triplos e quádruplos, TV, frigobar, ar-condicionado e café da manhã. A propriedade informa que não aceita animais de estimação. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(37) 98822-5372",
     "instagram": "https://www.instagram.com/canastraseason/",
     "website": "https://canastraseason.com/",
@@ -3249,8 +3137,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://canastraseason.com/",
     "locality": "Centro",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -3270,8 +3157,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "São Roque de Minas",
     "address": "Rua Servus Dei de Freitas, 140, São Roque de Minas - MG",
     "nearbyAttraction": "Cachoeira Casca d’Anta e nascente histórica do Rio São Francisco",
-    "shortDescription": "Hospedagem em fazenda no centro, com café da manhã e passeios a cavalo.",
-    "description": "Pousada-fazenda no centro de São Roque de Minas, com ambiente rural, café da manhã, apartamentos com TV e frigobar, passeios a cavalo na propriedade e mesas de bilhar. O site apresenta a Cachoeira Casca d’Anta e a nascente do Rio São Francisco como passeios da região; distância exata não informada.",
+    "shortDescription": "Hospedagem em fazenda no centro, com café da manhã e passeios a cavalo. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada-fazenda no centro de São Roque de Minas, com ambiente rural, café da manhã, apartamentos com TV e frigobar, passeios a cavalo na propriedade e mesas de bilhar. O site apresenta a Cachoeira Casca d’Anta e a nascente do Rio São Francisco como passeios da região; distância exata não informada. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(37) 98823-5226",
     "instagram": "https://www.instagram.com/fazenda.tur.br/",
     "website": "https://www.fazenda.tur.br/",
@@ -3282,8 +3169,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://www.fazenda.tur.br/",
     "locality": "Centro",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -3303,8 +3189,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "São Roque de Minas",
     "address": "Rodovia MG-341, 67, São Roque de Minas - MG",
     "nearbyAttraction": "Parque Nacional da Serra da Canastra e Cachoeira Casca d’Anta",
-    "shortDescription": "Pousada com piscina, gastronomia e passeios na Serra da Canastra.",
-    "description": "Pousada em São Roque de Minas, com página oficial que apresenta acomodações, piscina, gastronomia e passeios. A distância exata até a Cachoeira Casca d’Anta não foi publicada na fonte consultada.",
+    "shortDescription": "Pousada com piscina, gastronomia e passeios na Serra da Canastra. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada em São Roque de Minas, com página oficial que apresenta acomodações, piscina, gastronomia e passeios. A distância exata até a Cachoeira Casca d’Anta não foi publicada na fonte consultada. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(37) 99909-0078",
     "website": "https://pousadaluzdacanastra.com.br/",
     "amenities": [
@@ -3314,8 +3200,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://pousadaluzdacanastra.com.br/",
     "locality": "Rodovia MG-341",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "id": "pousada-fazenda-matinha",
@@ -3324,8 +3209,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Bairro Matinha, Zona Rural",
     "address": "Estrada São Thomé das Letras–Três Corações, km 3, Bairro Matinha, São Thomé das Letras - MG",
     "nearbyAttraction": "Ladeira do Amendoim e cachoeiras de São Thomé",
-    "shortDescription": "Pousada rural com piscina, quadra de tênis e café da manhã mineiro.",
-    "description": "Pousada rural a aproximadamente 2 km do centro e próxima à Ladeira do Amendoim. O portal oficial de turismo de São Thomé informa piscina, quadra de tênis, áreas ao ar livre, café da manhã, estacionamento e faixa de diária exibida entre R$ 399 e R$ 739, sujeita a data e disponibilidade.",
+    "shortDescription": "Pousada rural com piscina, quadra de tênis e café da manhã mineiro. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada rural a aproximadamente 2 km do centro e próxima à Ladeira do Amendoim. O portal oficial de turismo de São Thomé informa piscina, quadra de tênis, áreas ao ar livre, café da manhã, estacionamento e faixa de diária exibida entre R$ 399 e R$ 739, sujeita a data e disponibilidade. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 99744-4282",
     "whatsapp": "5535997444282",
     "instagram": "https://www.instagram.com/pousadamatinha/",
@@ -3349,8 +3234,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-mineira-sao-thome",
@@ -3359,8 +3243,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Centro",
     "address": "Rua Emílio Teodoro da Silva, 121, Centro, São Thomé das Letras - MG",
     "nearbyAttraction": "Centro histórico e cachoeiras de São Thomé das Letras",
-    "shortDescription": "Pousada no centro de São Thomé das Letras, com contato por WhatsApp.",
-    "description": "Pousada no Centro de São Thomé das Letras. O site oficial informa endereço, telefone e WhatsApp; preços, comodidades e distância até as cachoeiras devem ser confirmados diretamente.",
+    "shortDescription": "Pousada no centro de São Thomé das Letras, com contato por WhatsApp. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada no Centro de São Thomé das Letras. O site oficial informa endereço, telefone e WhatsApp; preços, comodidades e distância até as cachoeiras devem ser confirmados diretamente. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(35) 3237-1306",
     "whatsapp": "5535999263115",
     "website": "https://pousadamineira.com.br/contato/",
@@ -3376,8 +3260,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-cachoeira-do-flavio",
@@ -3386,8 +3269,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Serra do Areado / Fazenda Vargem Grande do Pinhal",
     "address": "Fazenda Vargem Grande do Pinhal, km 4,5 da estrada São Thomé–Baependi, São Thomé das Letras - MG",
     "nearbyAttraction": "Trilhas e cachoeiras da Serra do Areado",
-    "shortDescription": "Pousada em área de proteção ambiental, com trilhas, nascentes e cachoeiras na propriedade.",
-    "description": "Pousada rural com 96 alqueires de vegetação nativa na Serra do Areado. Informa trilhas, cachoeiras, água de nascente e estacionamento amplo, inclusive para ônibus. Aceita animais de pequeno porte.",
+    "shortDescription": "Pousada em área de proteção ambiental, com trilhas, nascentes e cachoeiras na propriedade. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada rural com 96 alqueires de vegetação nativa na Serra do Areado. Informa trilhas, cachoeiras, água de nascente e estacionamento amplo, inclusive para ônibus. Aceita animais de pequeno porte. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(11) 3082-4081",
     "whatsapp": "5511996270265",
     "website": "https://www.pousadacachoeiradoflavio.com.br/",
@@ -3411,8 +3294,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "category": "pousada",
@@ -3432,14 +3314,13 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Serro",
     "address": "Rua Pica-Pau, 91, Centro, Milho Verde, Serro - MG",
     "nearbyAttraction": "Cachoeiras de Milho Verde",
-    "shortDescription": "Pousada no centro do distrito de Milho Verde, cercado por cachoeiras.",
-    "description": "Pousada cadastrada no portal oficial de turismo de Serro, no distrito de Milho Verde. O cadastro municipal informa endereço e telefones; comodidades, tarifas e distância até cada cachoeira devem ser confirmadas com a hospedagem.",
+    "shortDescription": "Pousada no centro do distrito de Milho Verde, cercado por cachoeiras. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada cadastrada no portal oficial de turismo de Serro, no distrito de Milho Verde. O cadastro municipal informa endereço e telefones; comodidades, tarifas e distância até cada cachoeira devem ser confirmadas com a hospedagem. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 98830-9985",
     "website": "https://www.serro.mg.gov.br/portal/turismo/0/9/743/onde-ficar",
     "sourceUrl": "https://www.serro.mg.gov.br/portal/turismo/0/9/743/onde-ficar",
     "locality": "Milho Verde",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -3459,13 +3340,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Serro",
     "address": "Rua Sempre Viva, 595, Milho Verde, Serro - MG",
     "nearbyAttraction": "Cachoeiras de Milho Verde",
-    "shortDescription": "Pousada em Milho Verde, distrito serrano cercado por quedas d’água.",
-    "description": "Pousada listada no diretório oficial de hospedagem da Prefeitura de Serro. A fonte informa endereço e telefone; outras comodidades e distâncias devem ser confirmadas diretamente.",
+    "shortDescription": "Pousada em Milho Verde, distrito serrano cercado por quedas d’água. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada listada no diretório oficial de hospedagem da Prefeitura de Serro. A fonte informa endereço e telefone; outras comodidades e distâncias devem ser confirmadas diretamente. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 98829-8327",
     "sourceUrl": "https://www.serro.mg.gov.br/portal/turismo/0/9/743/onde-ficar",
     "locality": "Milho Verde",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -3484,13 +3364,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Serro",
     "address": "Rua Manoel Esperidião, 300, Milho Verde, Serro - MG",
     "nearbyAttraction": "Cachoeiras de Milho Verde",
-    "shortDescription": "Hospedagem cadastrada no diretório turístico municipal de Serro.",
-    "description": "Pousada localizada no distrito de Milho Verde, conforme diretório oficial da Prefeitura de Serro. O cadastro informa telefone e endereço; serviços, valores e distância até as cachoeiras não foram publicados.",
+    "shortDescription": "Hospedagem cadastrada no diretório turístico municipal de Serro. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada localizada no distrito de Milho Verde, conforme diretório oficial da Prefeitura de Serro. O cadastro informa telefone e endereço; serviços, valores e distância até as cachoeiras não foram publicados. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 98804-9676",
     "sourceUrl": "https://www.serro.mg.gov.br/portal/turismo/0/9/743/onde-ficar",
     "locality": "Milho Verde",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -3510,13 +3389,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Serro",
     "address": "Rua Cruzeirinho, 240, Milho Verde, Serro - MG",
     "nearbyAttraction": "Cachoeira do Moinho e cachoeiras do distrito",
-    "shortDescription": "Pousada no distrito de Milho Verde com restaurante.",
-    "description": "Pousada listada pela Prefeitura de Serro, também identificada no diretório local como pousada e restaurante. Endereço e telefone constam do cadastro municipal; comodidades e distâncias devem ser confirmadas.",
+    "shortDescription": "Pousada no distrito de Milho Verde com restaurante. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada listada pela Prefeitura de Serro, também identificada no diretório local como pousada e restaurante. Endereço e telefone constam do cadastro municipal; comodidades e distâncias devem ser confirmadas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 98831-3722",
     "sourceUrl": "https://www.serro.mg.gov.br/portal/turismo/0/9/743/onde-ficar",
     "locality": "Milho Verde",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -3536,13 +3414,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Serro",
     "address": "Rua Cruzeirinho, 274, Milho Verde, Serro - MG",
     "nearbyAttraction": "Cachoeiras de Milho Verde",
-    "shortDescription": "Pousada com restaurante no distrito de Milho Verde.",
-    "description": "Pousada e restaurante listados no diretório oficial da Prefeitura de Serro. O cadastro informa endereço e telefone; comodidades, tarifas e distância até as cachoeiras não foram publicadas.",
+    "shortDescription": "Pousada com restaurante no distrito de Milho Verde. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada e restaurante listados no diretório oficial da Prefeitura de Serro. O cadastro informa endereço e telefone; comodidades, tarifas e distância até as cachoeiras não foram publicadas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 98807-4808",
     "sourceUrl": "https://www.serro.mg.gov.br/portal/turismo/0/9/743/onde-ficar",
     "locality": "Milho Verde",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -3562,13 +3439,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Serro",
     "address": "Rua Direita, 76, Milho Verde, Serro - MG",
     "nearbyAttraction": "Cachoeiras de Milho Verde",
-    "shortDescription": "Pousada e restaurante na Rua Direita, em Milho Verde.",
-    "description": "Pousada e restaurante cadastrados pela Prefeitura de Serro. Endereço e telefone foram publicados no diretório municipal; outros detalhes devem ser confirmados com o estabelecimento.",
+    "shortDescription": "Pousada e restaurante na Rua Direita, em Milho Verde. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada e restaurante cadastrados pela Prefeitura de Serro. Endereço e telefone foram publicados no diretório municipal; outros detalhes devem ser confirmados com o estabelecimento. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 98801-9397",
     "sourceUrl": "https://www.serro.mg.gov.br/portal/turismo/0/9/743/onde-ficar",
     "locality": "Milho Verde",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -3588,13 +3464,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Serro",
     "address": "Rua Manoel Esperidião, 229, Milho Verde, Serro - MG",
     "nearbyAttraction": "Cachoeiras de Milho Verde",
-    "shortDescription": "Pousada no distrito de Milho Verde, na região da Estrada Real.",
-    "description": "Hospedagem cadastrada no portal municipal de turismo de Serro. A página informa endereço e telefone; comodidades, preço e distância até atrativos naturais não foram confirmados.",
+    "shortDescription": "Pousada no distrito de Milho Verde, na região da Estrada Real. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Hospedagem cadastrada no portal municipal de turismo de Serro. A página informa endereço e telefone; comodidades, preço e distância até atrativos naturais não foram confirmados. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 98811-9024",
     "sourceUrl": "https://www.serro.mg.gov.br/portal/turismo/0/9/743/onde-ficar",
     "locality": "Milho Verde",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -3614,15 +3489,14 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Serro",
     "address": "Rua do Lajeado, 170, Milho Verde, Serro - MG",
     "nearbyAttraction": "Cachoeira do Lajeado",
-    "shortDescription": "Pousada no distrito de Milho Verde, na região da Cachoeira do Lajeado.",
-    "description": "A Prefeitura de Serro mantém cadastro turístico para a hospedagem Guerreiros da Luz, com endereço, e-mail e telefone. Confirme diretamente os serviços e a distância exata até os atrativos.",
+    "shortDescription": "Pousada no distrito de Milho Verde, na região da Cachoeira do Lajeado. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "A Prefeitura de Serro mantém cadastro turístico para a hospedagem Guerreiros da Luz, com endereço, e-mail e telefone. Confirme diretamente os serviços e a distância exata até os atrativos. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 98836-6938",
     "whatsapp": "5538988529323",
     "website": "https://www.serro.mg.gov.br/portal/turismo/0/9/748/Milho-Verde",
     "sourceUrl": "https://www.serro.mg.gov.br/portal/turismo/0/9/748/Milho-Verde",
     "locality": "Milho Verde",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -3641,13 +3515,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Serro",
     "address": "Rua Cruzeirinho, 77, Milho Verde, Serro - MG",
     "nearbyAttraction": "Cachoeiras de Milho Verde",
-    "shortDescription": "Pousada em Milho Verde listada no cadastro oficial de turismo.",
-    "description": "Pousada registrada no portal oficial de turismo de Serro. A fonte municipal informa endereço e telefone; outros dados devem ser confirmados com a hospedagem.",
+    "shortDescription": "Pousada em Milho Verde listada no cadastro oficial de turismo. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada registrada no portal oficial de turismo de Serro. A fonte municipal informa endereço e telefone; outros dados devem ser confirmados com a hospedagem. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 99921-6221",
     "sourceUrl": "https://www.serro.mg.gov.br/portal/turismo/0/9/743/onde-ficar",
     "locality": "Milho Verde",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -3667,8 +3540,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Serro",
     "address": "Rua Cruzeirinho, 350, Milho Verde, Serro - MG",
     "nearbyAttraction": "Cachoeiras de Milho Verde",
-    "shortDescription": "Pousada e restaurante no distrito de Milho Verde.",
-    "description": "Pousada e restaurante no distrito de Milho Verde. O perfil do Google consultado exibia nota 4,5 com 238 avaliações; o TripAdvisor apresentava 4,2/5 com 10 avaliações na data da pesquisa. As notas são mantidas separadas por plataforma, sem média artificial entre serviços.",
+    "shortDescription": "Pousada e restaurante no distrito de Milho Verde. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada e restaurante no distrito de Milho Verde. O perfil do Google consultado exibia nota 4,5 com 238 avaliações; o TripAdvisor apresentava 4,2/5 com 10 avaliações na data da pesquisa. As notas são mantidas separadas por plataforma, sem média artificial entre serviços. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 98802-1019",
     "website": "https://www.serro.mg.gov.br/portal/turismo/0/9/743/onde-ficar",
     "amenities": [
@@ -3688,8 +3561,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://www.google.com.br/travel/hotels/entity/ChkIu_u13Nj1urNIGg0vZy8xMWMycTA1ajY3EAE",
     "locality": "Milho Verde",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -3709,13 +3581,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Serro",
     "address": "Rua Lajeado, 49 A, Centro, Milho Verde, Serro - MG",
     "nearbyAttraction": "Cachoeira do Lajeado",
-    "shortDescription": "Pousada no centro do distrito, próxima aos atrativos naturais de Milho Verde.",
-    "description": "Pousada listada no diretório oficial de hospedagem de Serro. O cadastro informa endereço e telefone; distância até a Cachoeira do Lajeado e comodidades não foram publicadas.",
+    "shortDescription": "Pousada no centro do distrito, próxima aos atrativos naturais de Milho Verde. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada listada no diretório oficial de hospedagem de Serro. O cadastro informa endereço e telefone; distância até a Cachoeira do Lajeado e comodidades não foram publicadas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 98813-5761",
     "sourceUrl": "https://www.serro.mg.gov.br/portal/turismo/0/9/743/onde-ficar",
     "locality": "Milho Verde",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -3735,8 +3606,8 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Serro",
     "address": "Rua do Lajeado, 20, Milho Verde, Serro - MG",
     "nearbyAttraction": "Cachoeira do Lajeado",
-    "shortDescription": "Pousada na entrada para a Cachoeira do Lajeado, com chalés e suítes.",
-    "description": "A pousada informa estar na entrada para a Cachoeira do Lajeado. Oferece chalés, suítes privativas, quintal, ducha, horta, parquinho e pomar. O site oficial não publica distância em metros até a cachoeira.",
+    "shortDescription": "Pousada na entrada para a Cachoeira do Lajeado, com chalés e suítes. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "A pousada informa estar na entrada para a Cachoeira do Lajeado. Oferece chalés, suítes privativas, quintal, ducha, horta, parquinho e pomar. O site oficial não publica distância em metros até a cachoeira. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 99886-2222",
     "whatsapp": "5538998862222",
     "website": "https://www.refazendamilhoverde.com/",
@@ -3750,8 +3621,7 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://www.refazendamilhoverde.com/",
     "locality": "Milho Verde",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -3771,13 +3641,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Serro",
     "address": "Beco do Lajeado, Milho Verde, Serro - MG",
     "nearbyAttraction": "Cachoeira do Lajeado",
-    "shortDescription": "Pousada no distrito de Milho Verde, região de cachoeiras.",
-    "description": "Pousada listada no diretório municipal de hospedagem de Serro. O endereço é apresentado sem número no cadastro consultado; confirme localização, comodidades e tarifas diretamente.",
+    "shortDescription": "Pousada no distrito de Milho Verde, região de cachoeiras. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada listada no diretório municipal de hospedagem de Serro. O endereço é apresentado sem número no cadastro consultado; confirme localização, comodidades e tarifas diretamente. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 98814-9550",
     "sourceUrl": "https://www.serro.mg.gov.br/portal/turismo/0/9/743/onde-ficar",
     "locality": "Milho Verde",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -3798,13 +3667,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Serro",
     "address": "Rua Direita, 420, Milho Verde, Serro - MG",
     "nearbyAttraction": "Cachoeiras de Milho Verde",
-    "shortDescription": "Hospedagem com restaurante e camping no distrito de Milho Verde.",
-    "description": "Estabelecimento cadastrado pela Prefeitura de Serro como pousada, restaurante e camping. O diretório oficial informa endereço e dois telefones; demais serviços e preços devem ser confirmados.",
+    "shortDescription": "Hospedagem com restaurante e camping no distrito de Milho Verde. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Estabelecimento cadastrado pela Prefeitura de Serro como pousada, restaurante e camping. O diretório oficial informa endereço e dois telefones; demais serviços e preços devem ser confirmados. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(38) 98816-9737",
     "sourceUrl": "https://www.serro.mg.gov.br/portal/turismo/0/9/743/onde-ficar",
     "locality": "Milho Verde",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "id": "melo-pousada-tapira",
@@ -3813,8 +3681,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Centro",
     "address": "Rua Vereador José Resende, 57 A, Centro, Tapira - MG",
     "nearbyAttraction": "Cachoeira dos Bandeirantes e cachoeiras da região de Tapira",
-    "shortDescription": "Pousada no centro de Tapira, com site e telefone publicados pela Prefeitura.",
-    "description": "Hospedagem listada no portal oficial da Prefeitura de Tapira. A fonte municipal informa endereço, telefone e site; comodidades e preços devem ser confirmados diretamente.",
+    "shortDescription": "Pousada no centro de Tapira, com site e telefone publicados pela Prefeitura. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Hospedagem listada no portal oficial da Prefeitura de Tapira. A fonte municipal informa endereço, telefone e site; comodidades e preços devem ser confirmados diretamente. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(34) 3633-1103",
     "website": "https://www.melopousada.com.br/",
     "sourceUrl": "https://www.tapira.mg.gov.br/portal/servicos/1005/hoteis-e-pousadas/",
@@ -3830,8 +3698,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-canto-de-minas-tapira",
@@ -3840,8 +3707,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Centro",
     "address": "Rua Cristino Ribeiro de Rezende, Centro, Tapira - MG",
     "nearbyAttraction": "Cachoeiras e atrativos naturais de Tapira",
-    "shortDescription": "Pousada cadastrada no portal de turismo de Tapira.",
-    "description": "Pousada listada no diretório da Secretaria de Turismo de Tapira. A fonte municipal informa endereço e telefone; outros dados devem ser confirmados diretamente com a hospedagem.",
+    "shortDescription": "Pousada cadastrada no portal de turismo de Tapira. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada listada no diretório da Secretaria de Turismo de Tapira. A fonte municipal informa endereço e telefone; outros dados devem ser confirmados diretamente com a hospedagem. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(34) 98807-7179",
     "sourceUrl": "https://descubratapira.com.br/-onde-dormir/",
     "tags": [
@@ -3856,8 +3723,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "id": "pousada-circuito-da-canastra-tapira",
@@ -3866,8 +3732,8 @@ export const minasGeraisPousadas: Destination[] = [
     "locality": "Centro",
     "address": "Rua Egídio, 52, Centro, Tapira - MG",
     "nearbyAttraction": "Cachoeira dos Bandeirantes e cachoeiras da região de Tapira",
-    "shortDescription": "Pousada listada no portal oficial da Prefeitura de Tapira.",
-    "description": "Pousada cadastrada na página oficial de hotéis e pousadas da Prefeitura de Tapira, Minas Gerais. O portal municipal informa endereço e telefone; comodidades, preços e distância até as cachoeiras precisam ser confirmados.",
+    "shortDescription": "Pousada listada no portal oficial da Prefeitura de Tapira. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada cadastrada na página oficial de hotéis e pousadas da Prefeitura de Tapira, Minas Gerais. O portal municipal informa endereço e telefone; comodidades, preços e distância até as cachoeiras precisam ser confirmados. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(34) 3633-1459",
     "sourceUrl": "https://www.tapira.mg.gov.br/portal/servicos/1005/hoteis-e-pousadas/",
     "tags": [
@@ -3882,8 +3748,7 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": false,
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "isDemo": false
   },
   {
     "category": "pousada",
@@ -3902,13 +3767,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Tiradentes",
     "address": "Praça das Mercês, 100, Tiradentes - MG",
     "nearbyAttraction": "Centro Histórico de Tiradentes",
-    "shortDescription": "Pousada listada no diretório da Mostra Tiradentes 2026.",
-    "description": "Pousada com endereço e telefone publicados no diretório de hospedagens da Mostra Tiradentes 2026. Serviços, preços e distância até atrativos naturais não foram detalhados.",
+    "shortDescription": "Pousada listada no diretório da Mostra Tiradentes 2026. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada com endereço e telefone publicados no diretório de hospedagens da Mostra Tiradentes 2026. Serviços, preços e distância até atrativos naturais não foram detalhados. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(32) 98440-9797",
     "sourceUrl": "https://mostratiradentes.com.br/2026/o-evento/pousadas/",
     "locality": "Centro",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -3927,13 +3791,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Tiradentes",
     "address": "Rua Francisco Pereira de Moraes, 69, Tiradentes - MG",
     "nearbyAttraction": "Centro Histórico e Serra de São José",
-    "shortDescription": "Pousada listada no diretório de hospedagens da Mostra Tiradentes.",
-    "description": "Pousada com endereço e telefone publicados no diretório de hospedagem da Mostra Tiradentes 2026. Não foram localizados dados confirmados sobre comodidades, preços ou distância até cachoeiras.",
+    "shortDescription": "Pousada listada no diretório de hospedagens da Mostra Tiradentes. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada com endereço e telefone publicados no diretório de hospedagem da Mostra Tiradentes 2026. Não foram localizados dados confirmados sobre comodidades, preços ou distância até cachoeiras. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(32) 3355-1929",
     "sourceUrl": "https://mostratiradentes.com.br/2026/o-evento/pousadas/",
     "locality": "Centro",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -3952,13 +3815,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Tiradentes",
     "address": "Travessa dos Inconfidentes, 41, Tiradentes - MG",
     "nearbyAttraction": "Serra de São José e Centro Histórico",
-    "shortDescription": "Pousada cadastrada na lista oficial de hospedagens da Mostra Tiradentes.",
-    "description": "Pousada listada no diretório de hospedagens da Mostra Tiradentes 2026, com endereço e telefone celular publicados. Outros detalhes devem ser confirmados diretamente.",
+    "shortDescription": "Pousada cadastrada na lista oficial de hospedagens da Mostra Tiradentes. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada listada no diretório de hospedagens da Mostra Tiradentes 2026, com endereço e telefone celular publicados. Outros detalhes devem ser confirmados diretamente. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(32) 98879-1591",
     "sourceUrl": "https://mostratiradentes.com.br/2026/o-evento/pousadas/",
     "locality": "Centro",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -3977,13 +3839,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Tiradentes",
     "address": "Rua São Francisco de Paula, 41, Tiradentes - MG",
     "nearbyAttraction": "Centro Histórico e Serra de São José",
-    "shortDescription": "Pousada no centro de Tiradentes, cadastrada na Mostra Tiradentes.",
-    "description": "Pousada listada no diretório de hospedagens da Mostra Tiradentes 2026, com endereço e telefone. Comodidades, tarifas e distância até cachoeiras não foram publicadas na fonte.",
+    "shortDescription": "Pousada no centro de Tiradentes, cadastrada na Mostra Tiradentes. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada listada no diretório de hospedagens da Mostra Tiradentes 2026, com endereço e telefone. Comodidades, tarifas e distância até cachoeiras não foram publicadas na fonte. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(32) 3355-1232",
     "sourceUrl": "https://mostratiradentes.com.br/2026/o-evento/pousadas/",
     "locality": "Centro",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -4002,13 +3863,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Tiradentes",
     "address": "Rua dos Inconfidentes, 109, Tiradentes - MG",
     "nearbyAttraction": "Serra de São José e Centro Histórico",
-    "shortDescription": "Hospedagem listada no diretório da Mostra Tiradentes.",
-    "description": "Estabelecimento de hospedagem listado no diretório oficial da Mostra Tiradentes 2026. Endereço e telefone constam na publicação; confirme diretamente comodidades e valores.",
+    "shortDescription": "Hospedagem listada no diretório da Mostra Tiradentes. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Estabelecimento de hospedagem listado no diretório oficial da Mostra Tiradentes 2026. Endereço e telefone constam na publicação; confirme diretamente comodidades e valores. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(32) 98898-8525",
     "sourceUrl": "https://mostratiradentes.com.br/2026/o-evento/pousadas/",
     "locality": "Centro",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -4027,13 +3887,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Tiradentes",
     "address": "Rua do Chafariz, 120, Tiradentes - MG",
     "nearbyAttraction": "Centro Histórico e Serra de São José",
-    "shortDescription": "Pousada no Centro Histórico, listada no diretório da Mostra Tiradentes.",
-    "description": "Pousada incluída no diretório de hospedagem da Mostra Tiradentes 2026. A fonte informa endereço e telefone; comodidades e tarifas não foram publicadas.",
+    "shortDescription": "Pousada no Centro Histórico, listada no diretório da Mostra Tiradentes. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada incluída no diretório de hospedagem da Mostra Tiradentes 2026. A fonte informa endereço e telefone; comodidades e tarifas não foram publicadas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(32) 3355-1352",
     "sourceUrl": "https://mostratiradentes.com.br/2026/o-evento/pousadas/",
     "locality": "Centro Histórico",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -4052,13 +3911,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Tiradentes",
     "address": "Rua do Chafariz, 25, Tiradentes - MG",
     "nearbyAttraction": "Centro Histórico de Tiradentes",
-    "shortDescription": "Pousada em rua histórica de Tiradentes.",
-    "description": "Pousada listada no diretório de hospedagens da Mostra Tiradentes 2026, com endereço e telefone publicados. Comodidades e valores não foram confirmados.",
+    "shortDescription": "Pousada em rua histórica de Tiradentes. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada listada no diretório de hospedagens da Mostra Tiradentes 2026, com endereço e telefone publicados. Comodidades e valores não foram confirmados. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(32) 3355-1699",
     "sourceUrl": "https://mostratiradentes.com.br/2026/o-evento/pousadas/",
     "locality": "Centro Histórico",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -4077,13 +3935,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Tiradentes",
     "address": "Rua Bárbara Heliodora, 10, Tiradentes - MG",
     "nearbyAttraction": "Centro Histórico de Tiradentes e Serra de São José",
-    "shortDescription": "Pousada cadastrada na lista de hospedagens do evento Mostra Tiradentes.",
-    "description": "Pousada listada no diretório de hospedagens publicado pela organização da Mostra Tiradentes 2026, com endereço e telefone. Comodidades, tarifas e distância até cachoeiras da Serra de São José não foram confirmadas.",
+    "shortDescription": "Pousada cadastrada na lista de hospedagens do evento Mostra Tiradentes. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada listada no diretório de hospedagens publicado pela organização da Mostra Tiradentes 2026, com endereço e telefone. Comodidades, tarifas e distância até cachoeiras da Serra de São José não foram confirmadas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(32) 3355-1362",
     "sourceUrl": "https://mostratiradentes.com.br/2026/o-evento/pousadas/",
     "locality": "Centro histórico / entorno",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -4102,13 +3959,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Tiradentes",
     "address": "Largo das Forras, 18, Tiradentes - MG",
     "nearbyAttraction": "Centro Histórico de Tiradentes e Serra de São José",
-    "shortDescription": "Pousada no Largo das Forras, em área central de Tiradentes.",
-    "description": "Pousada listada no diretório de hospedagem da Mostra Tiradentes 2026. O cadastro informa endereço e telefone; demais informações devem ser confirmadas diretamente.",
+    "shortDescription": "Pousada no Largo das Forras, em área central de Tiradentes. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada listada no diretório de hospedagem da Mostra Tiradentes 2026. O cadastro informa endereço e telefone; demais informações devem ser confirmadas diretamente. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(32) 3355-1166",
     "sourceUrl": "https://mostratiradentes.com.br/2026/o-evento/pousadas/",
     "locality": "Largo das Forras",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -4127,14 +3983,13 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Tiradentes",
     "address": "Rua Maria Augusta Nascimento, 200, Tiradentes - MG",
     "nearbyAttraction": "Serra de São José e Centro Histórico",
-    "shortDescription": "Pousada cadastrada no diretório de hospedagens da Mostra Tiradentes.",
-    "description": "Pousada com endereço e telefone publicados no diretório da Mostra Tiradentes 2026. Consulte a hospedagem para confirmar serviços, tarifas e distância até trilhas ou cachoeiras.",
+    "shortDescription": "Pousada cadastrada no diretório de hospedagens da Mostra Tiradentes. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada com endereço e telefone publicados no diretório da Mostra Tiradentes 2026. Consulte a hospedagem para confirmar serviços, tarifas e distância até trilhas ou cachoeiras. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(32) 98837-1314",
     "instagram": "https://www.instagram.com/pousadajoaninha.mg/",
     "sourceUrl": "https://mostratiradentes.com.br/2026/o-evento/pousadas/",
     "locality": "Tiradentes",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -4153,13 +4008,12 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Tiradentes",
     "address": "Rua Nicolau Panzera, 51, Tiradentes - MG",
     "nearbyAttraction": "Serra de São José",
-    "shortDescription": "Pousada listada no diretório de hospedagem da Mostra Tiradentes.",
-    "description": "Pousada registrada no diretório publicado pela organização da Mostra Tiradentes 2026. O cadastro informa endereço e telefone; comodidades e distância até trilhas e cachoeiras devem ser confirmadas.",
+    "shortDescription": "Pousada listada no diretório de hospedagem da Mostra Tiradentes. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada registrada no diretório publicado pela organização da Mostra Tiradentes 2026. O cadastro informa endereço e telefone; comodidades e distância até trilhas e cachoeiras devem ser confirmadas. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(32) 98702-4706",
     "sourceUrl": "https://mostratiradentes.com.br/2026/o-evento/pousadas/",
     "locality": "Tiradentes",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
   {
     "category": "pousada",
@@ -4178,12 +4032,11 @@ export const minasGeraisPousadas: Destination[] = [
     "city": "Tiradentes",
     "address": "Rua Manoel Morais Batista Júnior, 512, Tiradentes - MG",
     "nearbyAttraction": "Serra de São José",
-    "shortDescription": "Hospedagem listada na relação da Mostra Tiradentes 2026.",
-    "description": "Pousada ou hospedagem cadastrada no diretório de hospedagem da Mostra Tiradentes 2026. O cadastro informa endereço e telefone; outros detalhes devem ser confirmados com o estabelecimento.",
+    "shortDescription": "Hospedagem listada na relação da Mostra Tiradentes 2026. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
+    "description": "Pousada ou hospedagem cadastrada no diretório de hospedagem da Mostra Tiradentes 2026. O cadastro informa endereço e telefone; outros detalhes devem ser confirmados com o estabelecimento. Imagem ilustrativa; foto específica da pousada ainda não confirmada.",
     "phone": "(32) 98863-1780",
     "sourceUrl": "https://mostratiradentes.com.br/2026/o-evento/pousadas/",
     "locality": "Tiradentes",
-    "state": "MG",
-    "photoCredit": "Imagem ilustrativa — não representa a pousada"
+    "state": "MG"
   },
 ];
