@@ -29,8 +29,7 @@ export async function getWeather(destination: Destination): Promise<WeatherResul
     let longitude = destination.coordinates?.verified ? destination.coordinates.lng : null;
 
     if (latitude === null || longitude === null) {
-      const place = [destination.city, stateNames[destination.state] ?? destination.state, "Brasil"].join(", ");
-      const geo = await readJson(`https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(place)}&count=5&language=pt&format=json`);
+      const geo = await readJson(`https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(destination.city)}&count=10&language=pt&format=json`);
       const results = geo.results ?? [];
       const match = results.find((item: any) => item.country_code === "BR" && (!item.admin1 || item.admin1.toLowerCase().includes((stateNames[destination.state] ?? destination.state).toLowerCase()))) ?? results.find((item: any) => item.country_code === "BR");
       if (!match) return { status: "not_connected" };
