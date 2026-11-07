@@ -2064,13 +2064,6 @@ export const minasGeraisPousadas: Destination[] = [
       "Ofurô",
       "Jardim"
     ],
-    "ratings": [
-      {
-        "platform": "Site oficial (plataforma não especificada)",
-        "score": 4.9,
-        "reviewCount": 800
-      }
-    ],
     "sourceUrl": "https://turismo.camanducaia.mg.gov.br/onde-ficar/pousada-jardim-monte-verde",
     "locality": "Monte Verde"
   },
@@ -3400,6 +3393,284 @@ export const minasGeraisPousadas: Destination[] = [
       "Fazenda Santa Maria"
     ],
     "sourceUrl": "https://sacramento.mg.gov.br/turismo/fazenda-santa-maria",
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-ribeirao-do-ouro-itamonte",
+    "name": "Pousada Ribeirão do Ouro",
+    "city": "Itamonte",
+    "locality": "Ribeirão do Ouro",
+    "address": "Rodovia BR-354, km 759, Ribeirão do Ouro, Itamonte - MG",
+    "nearbyAttraction": "Rio Capivari e áreas naturais da Serra da Mantiqueira",
+    "shortDescription": "Pousada às margens do Rio Capivari, com piscina, sauna e restaurante.",
+    "description": "Pousada localizada a cerca de 5 km do centro de Itamonte, cercada por mata nativa e às margens do Rio Capivari. Informa quartos familiares, piscina externa, sauna, restaurante, café da manhã, Wi-Fi, lounge, churrasqueira, estacionamento, playground, quadra, lago para pesca e passeios a cavalo.",
+    "phone": "(35) 3363-1082",
+    "website": "https://www.ribeiraodoouro.com.br/",
+    "amenities": [
+      "Café da manhã",
+      "Piscina",
+      "Sauna",
+      "Restaurante",
+      "Wi-Fi",
+      "Estacionamento",
+      "Churrasqueira",
+      "Playground",
+      "Passeios a cavalo"
+    ],
+    "ratings": [
+      {
+        "platform": "Booking.com",
+        "score": 9.3,
+        "reviewCount": 278
+      }
+    ],
+    "tags": [
+      "Itamonte",
+      "Rio Capivari",
+      "Mantiqueira"
+    ],
+    "sourceUrl": "https://visiteitamonte.mg.gov.br/item-negocio/pousada-ribeirao-do-ouro/",
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-fragaria-itamonte",
+    "name": "Pousada Fragária",
+    "city": "Itamonte",
+    "locality": "Fragária",
+    "address": "Estrada da Fragária, s/n, Fragária, Itamonte - MG",
+    "nearbyAttraction": "Cachoeira da Fragária e cachoeira próxima à pousada",
+    "shortDescription": "Pousada rural com chalés, piscina, sauna e cachoeira nas proximidades.",
+    "description": "Pousada em área rural de montanha, com dois núcleos de hospedagem. Informa chalés com lareira, varanda, rede e frigobar; restaurante, piscina, sauna, churrasqueira e sala de jogos. O portal turístico descreve uma cachoeira próxima, mas não publica distância em metros.",
+    "phone": "(35) 99955-5267",
+    "website": "https://euamofragaria.wixsite.com/pousada-frag-ria",
+    "amenities": [
+      "Chalés",
+      "Lareira",
+      "Restaurante",
+      "Piscina",
+      "Sauna",
+      "Churrasqueira",
+      "Sala de jogos"
+    ],
+    "tags": [
+      "Itamonte",
+      "Fragária",
+      "Cachoeiras"
+    ],
+    "sourceUrl": "https://visiteminasgerais.com.br/hotel/pousada-fragaria/",
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "chales-cachoeira-da-pedra-itamonte",
+    "name": "Chalés Cachoeira da Pedra",
+    "city": "Itamonte",
+    "locality": "Fragária / Campo Redondo",
+    "address": "Estrada Campo Redondo, região da Fragária, Itamonte - MG, CEP 37466-000",
+    "nearbyAttraction": "Cachoeira da Pedra",
+    "distanceToAttraction": "Trilha leve de 5 a 8 minutos",
+    "shortDescription": "Chalés rústicos com acesso à Cachoeira da Pedra por trilha curta.",
+    "description": "Hospedagem em chalés rústicos na região da Fragária. O portal oficial de turismo de Itamonte informa acesso à Cachoeira da Pedra por uma trilha leve de aproximadamente 5 a 8 minutos, mediante agendamento e taxa de visitação. Os serviços no local são limitados; confirme orientações e disponibilidade antes da viagem.",
+    "phone": "(35) 99961-9467",
+    "whatsapp": "5535999619467",
+    "ratings": [
+      {
+        "platform": "Google",
+        "score": 4.5,
+        "reviewCount": 56
+      },
+      {
+        "platform": "TripAdvisor",
+        "score": 4.8,
+        "reviewCount": 6
+      }
+    ],
+    "amenities": [
+      "Chalés",
+      "Acesso à cachoeira mediante agendamento"
+    ],
+    "tags": [
+      "Itamonte",
+      "Fragária",
+      "Cachoeira da Pedra"
+    ],
+    "sourceUrl": "https://visiteitamonte.mg.gov.br/item-negocio/cachoeira-da-pedra/",
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-real-de-itamonte",
+    "name": "Pousada Real de Itamonte",
+    "city": "Itamonte",
+    "locality": "Área urbana",
+    "address": "Rua Projetada Dois, 93, Itamonte - MG",
+    "nearbyAttraction": "Cachoeira da Fragária e atrativos do Parque Nacional do Itatiaia",
+    "shortDescription": "Pousada cadastrada no Portal Minas Gerais, com endereço e telefone públicos.",
+    "description": "Pousada listada no Portal Minas Gerais para Itamonte. A fonte informa endereço, telefone e e-mail; comodidades, faixa de diária e distância até cachoeiras específicas não foram detalhadas.",
+    "phone": "(35) 3363-1035",
+    "sourceUrl": "https://www.minasgerais.com.br/pt/apoio-destino/itamonte?tipo_lazer=84",
+    "tags": [
+      "Itamonte",
+      "Mantiqueira"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-dos-lobos-itamonte",
+    "name": "Pousada dos Lobos",
+    "city": "Itamonte",
+    "locality": "Itamonte",
+    "nearbyAttraction": "Parque Nacional do Itatiaia e Cachoeira da Fragária",
+    "shortDescription": "Pousada citada em diretório de hospedagens de Itamonte.",
+    "description": "Pousada listada em diretório regional de hospedagens de Itamonte, com telefone publicado. Endereço completo, comodidades, preço e distância até atrativos naturais não foram confirmados em fonte oficial.",
+    "phone": "(35) 3332-2779",
+    "sourceUrl": "https://visiteminasgerais.com.br/mg/hotel-itamonte/",
+    "tags": [
+      "Itamonte",
+      "Mantiqueira"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "sesc-pousada-araxa",
+    "name": "Sesc Pousada Araxá",
+    "city": "Araxá",
+    "locality": "Santa Terezinha",
+    "address": "Avenida Prefeito Aracely de Paula, 3235, Santa Terezinha, Araxá - MG",
+    "nearbyAttraction": "Complexo Hidromineral do Barreiro e Parque do Barreiro",
+    "shortDescription": "Hospedagem do Sesc com piscinas, recreação, restaurante e café da manhã.",
+    "description": "Unidade do Sesc em Araxá, com recepção 24 horas, piscinas adulta e infantil, quadras, ginásio, academia, playground, sala gamer, restaurante, copa do hóspede, estacionamento e café da manhã. Consulte o Sesc para tarifas e condições de reserva.",
+    "phone": "(34) 3201-8129",
+    "website": "https://hoteis.sescmg.com.br/araxa/",
+    "amenities": [
+      "Café da manhã",
+      "Piscina adulto e infantil",
+      "Quadras",
+      "Ginásio",
+      "Academia",
+      "Playground",
+      "Restaurante",
+      "Estacionamento",
+      "Recepção 24h"
+    ],
+    "tags": [
+      "Araxá",
+      "Barreiro",
+      "Sesc"
+    ],
+    "sourceUrl": "https://hoteis.sescmg.com.br/araxa/",
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-medalha-milagrosa-araxa",
+    "name": "Pousada Medalha Milagrosa",
+    "city": "Araxá",
+    "locality": "Centro",
+    "address": "Avenida Vereador João Sena, 852, Centro, Araxá - MG",
+    "nearbyAttraction": "Centro de Araxá e Complexo do Barreiro",
+    "shortDescription": "Pousada no Centro de Araxá, com endereço e telefone publicados.",
+    "description": "Pousada cadastrada em diretórios locais de hospedagem de Araxá. Endereço e telefone foram encontrados em mais de uma listagem; comodidades, faixa de preço e distância até o Complexo do Barreiro devem ser confirmadas diretamente.",
+    "phone": "(34) 3662-1560",
+    "tags": [
+      "Araxá",
+      "Centro"
+    ],
+    "sourceUrl": "https://www.diariodearaxa.com.br/hoteis/",
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "hotel-pousada-dona-beja-araxa",
+    "name": "Hotel Pousada Dona Beja",
+    "city": "Araxá",
+    "locality": "São Geraldo",
+    "address": "Avenida Amazonas, 1005, São Geraldo, Araxá - MG",
+    "nearbyAttraction": "Complexo Hidromineral do Barreiro",
+    "shortDescription": "Hotel-pousada listado no Portal Minas Gerais, com contato de reservas.",
+    "description": "Hotel-pousada cadastrado no Portal Minas Gerais para Araxá. A listagem oficial informa endereço e telefone; comodidades e distância até o Complexo do Barreiro devem ser confirmadas diretamente.",
+    "phone": "(34) 3201-3000",
+    "sourceUrl": "https://www.minasgerais.com.br/pt/apoio-destino/araxa",
+    "tags": [
+      "Araxá",
+      "São Geraldo"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "hotel-pousada-bela-vista-araxa",
+    "name": "Hotel Pousada Bela Vista",
+    "city": "Araxá",
+    "locality": "Aeroporto / BR-262",
+    "address": "BR-262, km 693, Aeroporto, Araxá - MG",
+    "nearbyAttraction": "Atrativos naturais e Complexo do Barreiro",
+    "shortDescription": "Hotel-pousada listado em diretório local de Araxá.",
+    "description": "Estabelecimento cadastrado como hotel-pousada em diretórios de Araxá, com endereço na BR-262 e telefone. Como as informações públicas encontradas não detalham comodidades ou tarifas, confirme os serviços e a localização exata antes de reservar.",
+    "phone": "(34) 3662-5310",
+    "tags": [
+      "Araxá",
+      "BR-262"
+    ],
+    "sourceUrl": "https://www.diariodearaxa.com.br/hoteis/",
     "category": "pousada",
     "state": "MG",
     "region": "Sudeste",
