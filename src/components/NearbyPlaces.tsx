@@ -137,6 +137,10 @@ export function NearbyPlaces({ destination }: { destination: Destination }) {
                       className="inline-flex min-h-10 items-center gap-2 rounded-xl bg-secondary px-3 py-2 text-sm font-bold text-secondary-foreground">
                       <ExternalLink className="h-4 w-4" /> Instagram
                     </a>}
+                    {item.facebook && <a href={item.facebook} target="_blank" rel="noopener noreferrer"
+                      className="inline-flex min-h-10 items-center gap-2 rounded-xl bg-secondary px-3 py-2 text-sm font-bold text-secondary-foreground">
+                      <ExternalLink className="h-4 w-4" /> Facebook
+                    </a>}
                   </div>
                 </article>
               ))}
