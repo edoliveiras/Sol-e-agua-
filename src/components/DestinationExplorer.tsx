@@ -21,7 +21,7 @@ export function DestinationExplorer({ fixedCategory, initialQuery = "" }: { fixe
     () =>
       destinations.filter(
         (d) =>
-          (!q || matchesQuery(`${d.name} ${d.city} ${d.state} ${d.tags.join(" ")}`, q)) &&
+          (!q || matchesQuery(`${d.name} ${d.city} ${d.state} ${d.tags.join(" ")} ${(d.amenities ?? []).join(" ")} ${d.address ?? ""}`, q)) &&
           (!state || d.state === state) &&
           (!region || d.region === region) &&
           (!cat || d.category === cat),
@@ -33,7 +33,7 @@ export function DestinationExplorer({ fixedCategory, initialQuery = "" }: { fixe
     <div>
       <div className="relative">
         <Search className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" />
-        <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Buscar praia, cachoeira ou cidade"
+        <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Buscar praia, cachoeira, hospedagem ou cidade"
           className="h-12 w-full rounded-2xl border bg-card pl-12 pr-4 shadow-soft outline-none focus:ring-2 focus:ring-ring" />
       </div>
       <div className="mt-3 flex flex-wrap gap-2">
