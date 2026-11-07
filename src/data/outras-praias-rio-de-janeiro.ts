@@ -33,7 +33,6 @@ export const otherRioDeJaneiroBeaches: Destination[] = [
   makeBeach("paraty-calhaus", "Praia dos Calhaus", "Paraty"),
   makeBeach("paraty-corcovado", "Praia do Corcovado", "Paraty"),
   makeBeach("paraty-engenho", "Praia do Engenho", "Paraty"),
-  makeBeach("paraty-itamambuca-paraty", "Praia de Itamambuca", "Paraty"),
 
   // Costa Verde — Angra dos Reis e Ilha Grande
   makeBeach("angra-abraao", "Praia do Abraão", "Angra dos Reis", ["Ilha Grande"]),
