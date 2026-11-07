@@ -1,5 +1,6 @@
 import type { Destination } from "@/types/destination";
 import { regiaoDosLagosBeaches } from "@/data/regiao-dos-lagos";
+import { otherRioDeJaneiroBeaches } from "@/data/outras-praias-rio-de-janeiro";
 
 /**
  * Dados em expansão. Cada fotografia licenciada tem crédito e fonte na ficha do destino.
@@ -393,6 +394,7 @@ export const destinations: Destination[] = [
     website: "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-marinho-de-fernando-de-noronha",
   },
   ...regiaoDosLagosBeaches,
+  ...otherRioDeJaneiroBeaches,
 ];
 
 export const getDestination = (id: string) => destinations.find((d) => d.id === id);
