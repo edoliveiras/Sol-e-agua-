@@ -94,7 +94,7 @@ export const destinations: Destination[] = [
     coordinates: null,
     tags: ["Cânions", "Passeio de barco", "Lago"],
     isDemo: true,
-  },,
+  },
 
   {
     id: "cachoeira-grande-serra-do-cipo",
