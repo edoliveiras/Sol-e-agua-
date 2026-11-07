@@ -1,4 +1,4 @@
-export type Category = "praia" | "cachoeira" | "hotel" | "day-use" | "pousada";
+export type Category = "praia" | "cachoeira" | "hotel" | "day-use" | "pousada" | "cultural" | "passeio";
 export type Region = "Sudeste" | "Nordeste" | "Sul" | "Norte" | "Centro-Oeste";
 
 export interface Coordinates {
