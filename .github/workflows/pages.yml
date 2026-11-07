@@ -42,3 +42,9 @@ jobs:
       - name: Publicar no GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verificar acesso público ao site
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          curl --fail --location --silent --show-error --retry 12 --retry-delay 5 --retry-connrefused "$PAGE_URL" --output /tmp/site.html
+          grep -qi "SOL" /tmp/site.html
