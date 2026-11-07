@@ -69,8 +69,12 @@ const buttons: { id: NearbyCategory; label: string; Icon: typeof Hotel }[] = [
 ];
 
 function distanceLabel(destination: Destination, item: Destination): string {
-  const known = getDistanceKm(destination, item);
-  if (known !== null) return known < 1 ? `${Math.round(known * 1000)} m` : `${known.toFixed(1).replace(".", ",")} km`;
+  if (item.distanceToDestination) return item.distanceToDestination;
+  const known = coordinatesDistanceKm(destination, item);
+  if (known !== null) {
+    const formatted = known < 1 ? `${Math.round(known * 1000)} m` : `${known.toFixed(1).replace(".", ",")} km`;
+    return `${formatted} (linha reta)`;
+  }
   return "Distância não informada";
 }
 
