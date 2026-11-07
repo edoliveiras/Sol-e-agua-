@@ -31,6 +31,7 @@ export interface Destination {
   phone?: string;
   website?: string;
   instagram?: string;
+  facebook?: string;
   whatsapp?: string;
   amenities?: string[];
   address?: string;
