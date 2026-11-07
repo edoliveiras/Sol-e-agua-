@@ -3,12 +3,12 @@ import type { Destination } from "@/types/destination";
 // Expansão do catálogo com praias identificadas em portais públicos estaduais e municipais.
 // Coordenadas e serviços individuais permanecem pendentes de validação; não são estimados.
 const image = "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200";
-type BeachInput = { id:string; name:string; city:string; state:string; region:"Sudeste"|"Sul"|"Norte"; sourceUrl:string; description?:string };
+type BeachInput = { id:string; name:string; city:string; state:string; region:"Sudeste"|"Sul"|"Norte"; sourceUrl?:string; description?:string };
 const make = (b:BeachInput):Destination => ({
  id:b.id,name:b.name,category:"praia",city:b.city,state:b.state,region:b.region,
  shortDescription:`${b.name} — praia em ${b.city}, ${b.state}.`,
  description:b.description??`${b.name} é um destino de praia em ${b.city}, ${b.state}. Consulte condições de banho, balneabilidade, acesso e orientações ambientais nos canais oficiais antes da visita. Cadastro geográfico e serviços locais aguardam validação.`,
- images:[image],coordinates:null,tags:["Praia",b.state,"Catálogo em expansão"],isDemo:true,sourceUrl:b.sourceUrl,
+ images:[image],coordinates:null,tags:["Praia",b.state,"Catálogo em expansão"],isDemo:true,...(b.sourceUrl ? {sourceUrl:b.sourceUrl} : {}),
 });
 export const outrasPraiasBrasil:Destination[]=[
  // ESPÍRITO SANTO — Portal oficial do Governo do ES
