@@ -49,12 +49,13 @@ export interface Destination {
   sourceUrl?: string;
 }
 
-/** Contratos para futuras integrações */
+/** Previsão meteorológica consultada em tempo real. */
 export interface WeatherForecast {
   date: string;
   tempMinC: number;
   tempMaxC: number;
   precipitationMm: number;
+  rainProbability: number | null;
   condition: string;
 }
 
@@ -62,7 +63,7 @@ export interface WeatherResult {
   status: "connected" | "not_connected" | "error";
   source?: string;
   updatedAt?: string;
-  current?: { tempC: number; condition: string; humidity: number; windKmh: number };
+  current?: { tempC: number; condition: string; humidity: number; windKmh: number; rainProbability: number | null };
   forecast?: WeatherForecast[];
 }
 
