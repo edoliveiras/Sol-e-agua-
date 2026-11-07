@@ -159,7 +159,7 @@ export const destinations: Destination[] = [
     photoCredit: "Gustavo Tôrres · CC BY-SA 4.0",
     photoSourceUrl: "https://commons.wikimedia.org/wiki/File:Cachoeira_da_Farofa,_Serra_do_Cip%C3%B3.jpg",
     photoLicenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
-    coordinates: null,
+    coordinates: { lat: -19.379333, lng: -43.576314, verified: true },
     tags: ["Parque Nacional", "Serra do Cipó", "Trilha"],
     isDemo: true,
   },
