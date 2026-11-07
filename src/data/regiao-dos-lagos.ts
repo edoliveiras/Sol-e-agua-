@@ -3,6 +3,16 @@ import type { Destination } from "@/types/destination";
 // Cadastro regional inicial. Fotos ilustrativas; dados de acesso e serviços devem ser confirmados localmente.
 const beachImage = "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200";
 
+const regionalGuide: Record<string, string> = {
+  "Arraial do Cabo": "Na região da Praia dos Anjos há bares e restaurantes como El Farol Bar e Bar e Petiscaria Esquina da Onda; na Praia Grande, Bistrô da Praia. Consulte contatos no diretório da FC&VB-RJ: https://www.fcvbrj.org.br/convention/Restaurantes/arraial-do-cabo. Hospedagens e agenda: https://www.turismo.rj.gov.br/cidades/arraial-do-cabo/ e https://www.turismo.rj.gov.br/agenda/.",
+  "Armação dos Búzios": "Os polos gastronômicos e de vida noturna indicados pelo turismo estadual incluem Rua das Pedras, Orla Bardot, Rua Turíbio de Farias e Porto da Barra. Consulte https://www.turismo.rj.gov.br/cidades/armacao-dos-buzios/ e a agenda https://www.turismo.rj.gov.br/agenda/.",
+  "Cabo Frio": "Os polos gastronômicos mais conhecidos incluem Passagem, Boulevard Canal, Rua Porto Alegre e Praia do Forte. Consulte o guia oficial https://www.turismo.rj.gov.br/cidades/cabo-frio/ e a agenda estadual https://www.turismo.rj.gov.br/agenda/.",
+  "Saquarema": "Para restaurantes, hospedagem, bares e eventos próximos às praias, consulte os canais de turismo e a agenda oficial do Estado: https://www.turismo.rj.gov.br/cidades/saquarema/ e https://www.turismo.rj.gov.br/agenda/.",
+  "Araruama": "A cidade oferece bares e restaurantes na orla da Lagoa de Araruama e no distrito de Praia Seca. Consulte hospedagens, gastronomia e atrações no portal oficial https://www.turismo.rj.gov.br/cidades/araruama/ e eventos em https://www.turismo.rj.gov.br/agenda/.",
+  "Iguaba Grande": "Consulte as opções locais de alimentação, hospedagem e programação de eventos nos canais oficiais de turismo do Estado: https://www.turismo.rj.gov.br/municipios/ e https://www.turismo.rj.gov.br/agenda/.",
+  "São Pedro da Aldeia": "Para bares, restaurantes, hospedagens e eventos nas praias lagunares, consulte os canais oficiais de turismo do município e a agenda estadual: https://www.turismo.rj.gov.br/municipios/ e https://www.turismo.rj.gov.br/agenda/.",
+};
+
 const beach = (
   id: string,
   name: string,
@@ -16,7 +26,7 @@ const beach = (
   state: "RJ",
   region: "Sudeste",
   shortDescription: `${kind === "lagunar" ? "Praia às margens da Lagoa de Araruama" : "Praia do litoral fluminense"} · ${city}, Região dos Lagos.`,
-  description: `${name} fica em ${city}, na Região dos Lagos do Rio de Janeiro. Consulte as condições do mar ou da lagoa, balneabilidade, acessos, regras ambientais e serviços locais antes da visita. A imagem desta ficha é ilustrativa.`,
+  description: `${name} fica em ${city}, na Região dos Lagos do Rio de Janeiro. Consulte as condições do mar ou da lagoa, balneabilidade, acessos e regras ambientais antes da visita. ${regionalGuide[city] ? `\\n\\nOnde comer, ficar e consultar eventos: ${regionalGuide[city]}` : "Consulte os canais oficiais de turismo para serviços locais e eventos."} A imagem desta ficha é ilustrativa.`,
   images: [beachImage],
   coordinates: null,
   tags: ["Região dos Lagos", "RJ", kind === "lagunar" ? "Lagoa" : "Mar"],
