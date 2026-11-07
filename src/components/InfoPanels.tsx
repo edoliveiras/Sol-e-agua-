@@ -40,8 +40,8 @@ export function WeatherPanel({ d }: { d: Destination }) {
           </div>
           <p className="mt-2 text-right text-[10px] text-muted-foreground">Fonte: <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer" className="underline">Open-Meteo</a> · previsão aproximada para o município</p>
         </>
-      ) : w?.status === "error" ? (
-        <NotConnected text="Não foi possível carregar a previsão agora. Tente novamente mais tarde e confira também os avisos meteorológicos oficiais." />
+      ) : w?.status === "error" || w?.status === "not_connected" ? (
+        <NotConnected text="Previsão indisponível para este município no momento. Consulte também os avisos meteorológicos oficiais." />
       ) : (
         <NotConnected text="Carregando previsão do tempo para o município. Se não houver conexão, tente novamente mais tarde." />
       )}
