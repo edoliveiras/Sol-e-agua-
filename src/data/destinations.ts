@@ -6,6 +6,7 @@ import { rioCulturalAndToursDestinations } from "@/data/rio-cultural-e-passeios"
 import { nordesteDestinations } from "@/data/nordeste-destinos";
 import { minasGeraisPousadas } from "@/data/minas-gerais-pousadas";
 import { peroNearby } from "@/data/peró-proximidades";
+import { outrasPraiasBrasil } from "@/data/outras-praias-brasil";
 
 /**
  * Dados em expansão. Cada fotografia licenciada tem crédito e fonte na ficha do destino.
@@ -405,6 +406,7 @@ export const destinations: Destination[] = [
   ...nordesteDestinations,
   ...minasGeraisPousadas,
   ...peroNearby,
+  ...outrasPraiasBrasil,
 ];
 
 export const getDestination = (id: string) => destinations.find((d) => d.id === id);
