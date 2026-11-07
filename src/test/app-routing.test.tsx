@@ -21,7 +21,7 @@ describe("Destination catalog integrity", () => {
     const ids = destinations.map((destination) => destination.id);
     expect(new Set(ids).size).toBe(ids.length);
     for (const destination of destinations) {
-      expect(["praia", "cachoeira", "hotel", "day-use", "pousada", "cultural", "passeio"]).toContain(destination.category);
+      expect(["praia", "cachoeira", "hotel", "day-use", "pousada", "cultural", "passeio", "gastronomia", "evento"]).toContain(destination.category);
       expect(destination.images.length).toBeGreaterThan(0);
       expect(() => new URL(destination.images[0])).not.toThrow();
     }
