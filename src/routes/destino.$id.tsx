@@ -57,7 +57,7 @@ function DestinoPage() {
 
       <div className="mt-5 flex items-start justify-between gap-3">
         <div>
-          <div className="text-xs font-bold uppercase tracking-wide text-turquoise">{d.category === "praia" ? "Praia" : "Cachoeira"} · {d.region}</div>
+          <div className="text-xs font-bold uppercase tracking-wide text-turquoise">{{ praia: "Praia", cachoeira: "Cachoeira", hotel: "Hotel", "day-use": "Day use", pousada: "Pousada" }[d.category]} · {d.region}</div>
           <h1 className="text-3xl font-extrabold">{d.name}</h1>
           <p className="mt-1 flex items-center gap-1 text-muted-foreground"><MapPin className="h-4 w-4" /> {d.city} - {d.state}</p>
           <p className="mt-1 text-xs text-muted-foreground">
