@@ -24,7 +24,7 @@ export function WeatherPanel({ d }: { d: Destination }) {
               <div><div className="font-display text-3xl font-extrabold">{Math.round(w.current.tempC)} °C</div><div className="text-sm">{w.current.condition}</div></div>
             </div>
             <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-xs text-muted-foreground">
-              <span>Umidade: {w.current.humidity}%</span><span>Vento: {Math.round(w.current.windKmh)} km/h</span>
+              <span>Umidade: {w.current.humidity}%</span><span>Vento: {Math.round(w.current.windKmh)} km/h</span><span>Chance de chuva: {w.current.rainProbability === null ? "—" : `${w.current.rainProbability}%`}</span>
             </div>
           </div>
           <div className="mt-3 grid grid-cols-3 gap-2">
@@ -34,7 +34,7 @@ export function WeatherPanel({ d }: { d: Destination }) {
                 <CloudSun className="mx-auto my-2 h-6 w-6 text-sun" />
                 <div className="font-display text-sm font-bold">{Math.round(day.tempMaxC)}° / {Math.round(day.tempMinC)}°</div>
                 <div className="mt-1 text-[10px] text-muted-foreground">{day.condition}</div>
-                <div className="text-[10px] text-muted-foreground">Chuva: {day.precipitationMm} mm</div>
+                <div className="text-[10px] text-muted-foreground">Chuva: {day.rainProbability === null ? "—" : `${day.rainProbability}%`} · {day.precipitationMm} mm</div>
               </div>
             ))}
           </div>
