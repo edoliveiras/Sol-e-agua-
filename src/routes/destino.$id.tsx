@@ -5,6 +5,7 @@ import { getDestination } from "@/data/destinations";
 import { useFavorites } from "@/hooks/use-favorites";
 import { directionsUrl } from "@/services/maps";
 import { DemoBadge } from "@/components/DestinationCard";
+import { NearbyPlaces } from "@/components/NearbyPlaces";
 import { MarinePanel, SafetyAlert, WeatherPanel } from "@/components/InfoPanels";
 
 export const Route = createFileRoute("/destino/$id")({
@@ -41,6 +42,7 @@ function DestinoPage() {
       <Link to={d.category === "praia" ? "/praias" : d.category === "cachoeira" ? "/cachoeiras" : "/buscar"} className="mb-3 inline-flex items-center gap-1 text-sm font-semibold text-primary">
         <ArrowLeft className="h-4 w-4" /> Voltar
       </Link>
+      {(d.category === "praia" || d.category === "cachoeira") && <NearbyPlaces destination={d} /> }
       <div className="relative overflow-hidden rounded-3xl shadow-lift">
         <img src={d.images[img]} alt={d.name} width={1024} height={768} className="aspect-[16/10] w-full object-cover" />
         {d.isDemo && <DemoBadge className="absolute left-4 top-4" />}
