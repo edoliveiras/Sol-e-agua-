@@ -56,7 +56,9 @@ function DestinoPage() {
       {d.photoCredit ? <p className="mt-1 text-xs text-muted-foreground">Foto: <a href={d.photoSourceUrl} target="_blank" rel="noopener noreferrer" className="underline">{d.photoCredit}</a> · <a href={d.photoLicenseUrl} target="_blank" rel="noopener noreferrer" className="underline">Licença</a></p> : <p className="mt-1 text-xs text-muted-foreground">Foto ilustrativa — imagem específica do atrativo pendente.</p>}
       {d.phone && <p className="mt-3 text-sm">Telefone: <a className="underline" href={`tel:${d.phone.replace(/[^0-9+]/g, "")}`}>{d.phone}</a></p>}
       {d.whatsapp && <a className="mt-2 inline-flex rounded-xl bg-green-600 px-4 py-2 text-sm font-bold text-white" href={`https://wa.me/${d.whatsapp}`} target="_blank" rel="noopener noreferrer">Consultar pelo WhatsApp</a>}
-      {d.website && <p className="mt-2 text-sm"><a className="underline" href={d.website} target="_blank" rel="noopener noreferrer">Site / informações do atrativo</a></p>}
+      {d.website && <p className="mt-2 text-sm"><a className="underline" href={d.website} target="_blank" rel="noopener noreferrer">Site oficial</a></p>}
+      {d.instagram && <p className="mt-2 text-sm"><a className="underline" href={d.instagram} target="_blank" rel="noopener noreferrer">Instagram oficial</a></p>}
+      {d.facebook && <p className="mt-2 text-sm"><a className="underline" href={d.facebook} target="_blank" rel="noopener noreferrer">Facebook oficial</a></p>}
       {d.address && <p className="mt-2 text-sm text-muted-foreground">Endereço: {d.address}</p>}
       {d.locality && <p className="mt-1 text-sm text-muted-foreground">Localidade: {d.locality}</p>}
       {d.nearbyAttraction && <p className="mt-2 text-sm"><strong>Atrativo próximo:</strong> {d.nearbyAttraction}{d.distanceToAttraction ? ` · ${d.distanceToAttraction}` : " · distância não confirmada"}</p>}
