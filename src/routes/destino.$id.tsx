@@ -38,7 +38,7 @@ function DestinoPage() {
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-5">
-      <Link to={d.category === "praia" ? "/praias" : "/cachoeiras"} className="mb-3 inline-flex items-center gap-1 text-sm font-semibold text-primary">
+      <Link to={d.category === "praia" ? "/praias" : d.category === "cachoeira" ? "/cachoeiras" : "/buscar"} className="mb-3 inline-flex items-center gap-1 text-sm font-semibold text-primary">
         <ArrowLeft className="h-4 w-4" /> Voltar
       </Link>
       <div className="relative overflow-hidden rounded-3xl shadow-lift">
