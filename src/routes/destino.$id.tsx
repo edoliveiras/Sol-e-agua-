@@ -53,7 +53,11 @@ function DestinoPage() {
           </button>
         ))}
       </div>
-      <p className="mt-1 text-xs text-muted-foreground">Fotos ilustrativas.</p>
+      {d.photoCredit ? <p className="mt-1 text-xs text-muted-foreground">Foto: <a href={d.photoSourceUrl} target="_blank" rel="noopener noreferrer" className="underline">{d.photoCredit}</a> · <a href={d.photoLicenseUrl} target="_blank" rel="noopener noreferrer" className="underline">Licença</a></p> : <p className="mt-1 text-xs text-muted-foreground">Foto ilustrativa — imagem específica do atrativo pendente.</p>}
+      {d.phone && <p className="mt-3 text-sm">Telefone: <a className="underline" href={`tel:${d.phone.replace(/[^0-9+]/g, "")}`}>{d.phone}</a></p>}
+      {d.whatsapp && <a className="mt-2 inline-flex rounded-xl bg-green-600 px-4 py-2 text-sm font-bold text-white" href={`https://wa.me/${d.whatsapp}`} target="_blank" rel="noopener noreferrer">Consultar pelo WhatsApp</a>}
+      {d.website && <p className="mt-2 text-sm"><a className="underline" href={d.website} target="_blank" rel="noopener noreferrer">Site / informações do atrativo</a></p>}
+      {d.address && <p className="mt-2 text-sm text-muted-foreground">Endereço: {d.address}</p>}
 
       <div className="mt-5 flex items-start justify-between gap-3">
         <div>
