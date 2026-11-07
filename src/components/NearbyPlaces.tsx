@@ -3,7 +3,7 @@ import { ExternalLink, Hotel, MapPinned, PartyPopper, Utensils } from "lucide-re
 import { destinations } from "@/data/destinations";
 import { searchUrl } from "@/services/maps";
 import type { Destination } from "@/types/destination";
-import { getLiveFoodPlaces, type LiveFoodPlace } from "@/services/local-places";
+import { getLiveNearbyPlaces, type LiveFoodPlace } from "@/services/local-places";
 
 export type NearbyCategory = "hospedagem" | "gastronomia" | "lazer";
 
@@ -85,14 +85,14 @@ export function NearbyPlaces({ destination }: { destination: Destination }) {
   const [liveLoading, setLiveLoading] = useState(false);
   const [liveError, setLiveError] = useState(false);
   useEffect(() => {
-    if (active !== "gastronomia") {
+    if (!active) {
       setLiveFood([]);
       setLiveError(false);
       return;
     }
     let cancelled = false;
     setLiveLoading(true);
-    getLiveFoodPlaces(destination)
+    getLiveNearbyPlaces(destination, active)
       .then((items) => { if (!cancelled) setLiveFood(items); })
       .catch(() => { if (!cancelled) setLiveError(true); })
       .finally(() => { if (!cancelled) setLiveLoading(false); });
@@ -129,7 +129,7 @@ export function NearbyPlaces({ destination }: { destination: Destination }) {
           {places.length === 0 && liveFood.length === 0 && !liveLoading ? (
             <div className="rounded-2xl border border-dashed border-border bg-background px-4 py-6 text-center">
               <p className="font-bold">Em breve</p>
-              <p className="mt-1 text-sm text-muted-foreground">Ainda não há itens desta categoria cadastrados para este município.</p>
+              <p className="mt-1 text-sm text-muted-foreground">Ainda não há itens desta categoria encontrados para este município. A busca por locais próximos será feita ao abrir uma categoria.</p>
             </div>
           ) : (
             <div className="grid gap-3">
@@ -168,11 +168,11 @@ export function NearbyPlaces({ destination }: { destination: Destination }) {
               ))}
             </div>
           )}
-          {active === "gastronomia" && liveLoading && <p className="mt-3 text-sm text-muted-foreground">Buscando bares, restaurantes e pizzarias próximos…</p>}
-          {active === "gastronomia" && liveError && <p className="mt-3 text-sm text-muted-foreground">A busca ao vivo está temporariamente indisponível. Os cadastros já existentes continuam visíveis.</p>}
-          {active === "gastronomia" && liveFood.length > 0 && (
+          {active && liveLoading && <p className="mt-3 text-sm text-muted-foreground">Buscando estabelecimentos e atrações próximos…</p>}
+          {active && liveError && <p className="mt-3 text-sm text-muted-foreground">A busca ao vivo está temporariamente indisponível. Os cadastros já existentes continuam visíveis.</p>}
+          {active && liveFood.length > 0 && (
             <div className="mt-4 grid gap-3">
-              <h4 className="font-bold">Outros estabelecimentos próximos · OpenStreetMap</h4>
+              <h4 className="font-bold">Outros locais próximos · OpenStreetMap</h4>
               {liveFood.map((item) => (
                 <article key={item.id} className="rounded-2xl border border-border bg-background p-3">
                   <h4 className="font-bold">{item.name}</h4>
@@ -189,7 +189,7 @@ export function NearbyPlaces({ destination }: { destination: Destination }) {
                   </div>
                 </article>
               ))}
-              <p className="text-xs text-muted-foreground">Dados colaborativos do OpenStreetMap. Campos sem informação cadastrada não são exibidos.</p>
+              <p className="text-xs text-muted-foreground">Dados colaborativos do OpenStreetMap. São locais/estabelecimentos, não confirmação de evento com data. Campos sem informação cadastrada não são exibidos.</p>
             </div>
           )}
         </div>
