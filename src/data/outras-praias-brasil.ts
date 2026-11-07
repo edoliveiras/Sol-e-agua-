@@ -66,4 +66,10 @@ export const outrasPraiasBrasil:Destination[]=[
  ["se-praia-saco","Praia do Saco","Estância","SE","https://turismo.estancia.se.gov.br/lugares/7/praia-do-saco"],["se-abais","Praia do Abaís","Estância","SE","https://turismo.estancia.se.gov.br/lugares/7/praia-do-saco"],["se-caueira","Praia da Caueira","Itaporanga d'Ajuda","SE","https://www.se.gov.br/"],
  ] as string[][]).map(([id,name,city,state,sourceUrl])=>make({id,name,city,state,region:"Nordeste",sourceUrl})),
 
+
+ // AMAPÁ — balneário fluvial e litoral atlântico
+ ...([
+ ["ap-macapa-fazendinha","Balneário da Fazendinha","Macapá","https://macapa.ap.gov.br/turismo/balneario-da-fazendinha/"],["ap-calcoene-goiabal","Praia do Goiabal","Calçoene","https://turismoamapa.com.br/ap/calcoene/11/praia_do_goiabal"],
+ ] as string[][]).map(([id,name,city,sourceUrl])=>make({id,name,city,state:"AP",region:"Norte",sourceUrl})),
+
 ];
