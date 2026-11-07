@@ -46,5 +46,17 @@ jobs:
         env:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
         run: |
-          curl --fail --location --silent --show-error --retry 12 --retry-delay 5 --retry-connrefused "$PAGE_URL" --output /tmp/site.html
-          grep -qi "SOL" /tmp/site.html
+          check_page() {
+            path="$1"
+            expected="$2"
+            curl --fail --location --silent --show-error --retry 5 --retry-delay 3 --retry-connrefused "${PAGE_URL}${path}" --output /tmp/site.html
+            grep -Fqi "$expected" /tmp/site.html
+          }
+          check_page "" "SOL"
+          check_page "praias/" "Praias do Brasil"
+          check_page "cachoeiras/" "Cachoeiras de Minas Gerais"
+          check_page "buscar/" "Explorar destinos e hospedagens"
+          check_page "mapa/" "Localização dos destinos"
+          check_page "destino/cachoeira-da-farofa/" "Cachoeira da Farofa"
+          check_page "destino/pousada-luar-do-cipo/" "Pousada Luar do Cipó"
+          check_page "destino/day-use-village-resort/" "Day Use Village Resort"
