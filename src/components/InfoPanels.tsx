@@ -18,7 +18,7 @@ export function WeatherPanel({ d }: { d: Destination }) {
       {w?.status === "connected" && w.current ? (
         <>
           <div className="rounded-xl bg-secondary p-4">
-            <div className="text-sm font-semibold text-muted-foreground">Agora</div>
+            <div className="text-sm font-semibold text-muted-foreground">Condições atuais estimadas</div>
             <div className="mt-1 flex items-center gap-3">
               <CloudSun className="h-10 w-10 text-sun" />
               <div><div className="font-display text-3xl font-extrabold">{Math.round(w.current.tempC)} °C</div><div className="text-sm">{w.current.condition}</div></div>
@@ -38,7 +38,7 @@ export function WeatherPanel({ d }: { d: Destination }) {
               </div>
             ))}
           </div>
-          <p className="mt-2 text-right text-[10px] text-muted-foreground">Fonte: <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer" className="underline">Open-Meteo</a> · previsão aproximada para o município</p>
+          <p className="mt-2 text-right text-[10px] text-muted-foreground">Fonte: <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer" className="underline">Open-Meteo</a> · modelo meteorológico do município; não substitui alertas oficiais</p>
         </>
       ) : w?.status === "error" || w?.status === "not_connected" ? (
         <NotConnected text="Previsão indisponível para este município no momento. Consulte também os avisos meteorológicos oficiais." />
