@@ -1,8 +1,12 @@
 import type { Destination, MarineResult, WeatherResult } from "@/types/destination";
 
 const stateNames: Record<string, string> = {
-  MG: "Minas Gerais", RJ: "Rio de Janeiro", PE: "Pernambuco", BA: "Bahia",
+  AC: "Acre", AL: "Alagoas", AP: "Amapá", AM: "Amazonas", BA: "Bahia", CE: "Ceará", DF: "Distrito Federal", ES: "Espírito Santo", GO: "Goiás", MA: "Maranhão", MT: "Mato Grosso", MS: "Mato Grosso do Sul", MG: "Minas Gerais", PA: "Pará", PB: "Paraíba", PR: "Paraná", PE: "Pernambuco", PI: "Piauí", RJ: "Rio de Janeiro", RN: "Rio Grande do Norte", RS: "Rio Grande do Sul", RO: "Rondônia", RR: "Roraima", SC: "Santa Catarina", SP: "São Paulo", SE: "Sergipe", TO: "Tocantins",
 };
+
+function normalizeGeoName(value: string): string {
+  return value.normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").toLocaleLowerCase("pt-BR").trim();
+}
 
 function weatherDescription(code: number): string {
   if (code === 0) return "Céu limpo";
@@ -22,27 +26,36 @@ async function readJson(url: string) {
   return response.json();
 }
 
-/** Consulta gratuita do Open-Meteo, sem chave de API. */
+/** Consulta gratuita do Open-Meteo, sem chave. Para coordenadas ausentes, geocodifica o atrativo e depois a sede municipal. */
 export async function getWeather(destination: Destination): Promise<WeatherResult> {
   try {
     let latitude = destination.coordinates?.verified ? destination.coordinates.lat : null;
     let longitude = destination.coordinates?.verified ? destination.coordinates.lng : null;
 
     if (latitude === null || longitude === null) {
-      const geo = await readJson(`https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(destination.city)}&count=10&language=pt&format=json`);
-      const results = geo.results ?? [];
-      const match = results.find((item: any) => item.country_code === "BR" && (!item.admin1 || item.admin1.toLowerCase().includes((stateNames[destination.state] ?? destination.state).toLowerCase()))) ?? results.find((item: any) => item.country_code === "BR");
+      const stateName = stateNames[destination.state] ?? destination.state;
+      const queries = [destination.name, destination.city].filter((value, index, all) => all.indexOf(value) === index);
+      let match: any = null;
+      for (const query of queries) {
+        const geo = await readJson(`https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(query)}&count=20&language=pt&format=json`);
+        const results = geo.results ?? [];
+        match = results.find((item: any) => item.country_code === "BR" && item.admin1?.toLowerCase().includes(stateName.toLowerCase()) && normalizeGeoName(item.name) === normalizeGeoName(query))
+          ?? results.find((item: any) => item.country_code === "BR" && item.admin1?.toLowerCase().includes(stateName.toLowerCase()))
+          ?? null;
+        if (match) break;
+      }
       if (!match) return { status: "not_connected" };
       latitude = match.latitude;
       longitude = match.longitude;
     }
 
     const forecast = await readJson(
-      `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current=temperature_2m,relative_humidity_2m,precipitation,weather_code,wind_speed_10m&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_sum&timezone=America%2FSao_Paulo&forecast_days=3`,
+      `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current=temperature_2m,relative_humidity_2m,precipitation,weather_code,wind_speed_10m&hourly=precipitation_probability&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_probability_max&timezone=America%2FSao_Paulo&forecast_days=3`,
     );
     const current = forecast.current;
     const daily = forecast.daily;
     if (!current || !daily) return { status: "not_connected" };
+    const currentHourIndex = Math.max(0, forecast.hourly?.time?.findIndex((time: string) => time >= current.time) ?? 0);
 
     return {
       status: "connected",
@@ -53,12 +66,14 @@ export async function getWeather(destination: Destination): Promise<WeatherResul
         condition: weatherDescription(current.weather_code),
         humidity: current.relative_humidity_2m,
         windKmh: current.wind_speed_10m,
+        rainProbability: forecast.hourly?.precipitation_probability?.[currentHourIndex] ?? null,
       },
       forecast: daily.time.map((date: string, index: number) => ({
         date,
         tempMinC: daily.temperature_2m_min[index],
         tempMaxC: daily.temperature_2m_max[index],
         precipitationMm: daily.precipitation_sum[index],
+        rainProbability: daily.precipitation_probability_max?.[index] ?? null,
         condition: weatherDescription(daily.weather_code[index]),
       })),
     };
