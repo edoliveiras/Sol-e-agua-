@@ -2108,7 +2108,6 @@ export const minasGeraisPousadas: Destination[] = [
     "shortDescription": "Pousada com café da manhã à la carte, estacionamento e aceita pets.",
     "description": "Pousada no distrito de Lavras Novas, em área mais silenciosa fora da rua principal. A Secretaria Municipal de Turismo informa café da manhã à la carte, estacionamento gratuito, Wi-Fi e aceitação de animais de estimação.",
     "phone": "(31) 98812-7747",
-    "instagram": "https://www.facebook.com/pousadapousoeprosa/",
     "amenities": [
       "Café da manhã",
       "Estacionamento gratuito",
@@ -2116,7 +2115,8 @@ export const minasGeraisPousadas: Destination[] = [
       "Aceita pets"
     ],
     "sourceUrl": "https://www.ouropreto.mg.gov.br/turismo/local/982",
-    "locality": "Lavras Novas"
+    "locality": "Lavras Novas",
+    "facebook": "https://www.facebook.com/pousadapousoeprosa/"
   },
   {
     "category": "pousada",
@@ -2307,9 +2307,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Pousada listada no portal da Prefeitura de Passa Quatro, com telefone, WhatsApp e perfil no Facebook. Comodidades, preços e distância até cachoeiras não foram informados pela fonte.",
     "phone": "(35) 99145-6220",
     "whatsapp": "5535991257909",
-    "instagram": "https://www.facebook.com/PousadaPenas/",
     "sourceUrl": "https://www.passaquatro.mg.gov.br/onde-ficar",
-    "locality": "Copacabana"
+    "locality": "Copacabana",
+    "facebook": "https://www.facebook.com/PousadaPenas/"
   },
   {
     "category": "pousada",
@@ -2429,9 +2429,9 @@ export const minasGeraisPousadas: Destination[] = [
     "shortDescription": "Estalagem em Pinheirinhos, registrada no portal municipal de turismo.",
     "description": "Hospedagem listada no portal oficial da Prefeitura de Passa Quatro. O cadastro informa endereço, telefone e página no Facebook; comodidades, preços e distância até cachoeiras não foram confirmados.",
     "phone": "(35) 99716-6684",
-    "instagram": "https://www.facebook.com/estalagemusinavelhap4/",
     "sourceUrl": "https://www.passaquatro.mg.gov.br/onde-ficar",
-    "locality": "Pinheirinhos"
+    "locality": "Pinheirinhos",
+    "facebook": "https://www.facebook.com/estalagemusinavelhap4/"
   },
   {
     "category": "pousada",
