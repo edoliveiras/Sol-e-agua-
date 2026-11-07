@@ -62,7 +62,7 @@ function DestinoPage() {
       {d.nearbyAttraction && <p className="mt-2 text-sm"><strong>Atrativo próximo:</strong> {d.nearbyAttraction}{d.distanceToAttraction ? ` · ${d.distanceToAttraction}` : " · distância não confirmada"}</p>}
       {d.amenities && d.amenities.length > 0 && <div className="mt-2"><p className="text-sm font-semibold">Comodidades informadas</p><p className="mt-1 text-sm text-muted-foreground">{d.amenities.join(" · ")}</p></div>}
       {d.priceRange && <p className="mt-2 text-sm"><strong>Faixa de diária:</strong> {d.priceRange}</p>}
-      {d.ratings && d.ratings.length > 0 && <div className="mt-3"><p className="text-sm font-semibold">Avaliações publicadas</p>{d.ratings.map((rating) => <p key={rating.platform} className="text-sm text-muted-foreground">{rating.platform}: {rating.score.toFixed(1)}/5{rating.reviewCount ? ` · ${rating.reviewCount} avaliações` : ""}</p>)}</div>}
+      {d.ratings && d.ratings.length > 0 && <div className="mt-3"><p className="text-sm font-semibold">Avaliações publicadas</p>{d.ratings.map((rating) => <p key={rating.platform} className="text-sm text-muted-foreground">{rating.platform}: {rating.score.toFixed(1)}/{rating.scale ?? 5}{rating.reviewCount ? ` · ${rating.reviewCount} avaliações` : ""}</p>)}</div>}
       {d.sourceUrl && <p className="mt-2 text-xs text-muted-foreground"><a className="underline" href={d.sourceUrl} target="_blank" rel="noopener noreferrer">Fonte dos dados deste cadastro</a></p>}
 
       <div className="mt-5 flex items-start justify-between gap-3">
