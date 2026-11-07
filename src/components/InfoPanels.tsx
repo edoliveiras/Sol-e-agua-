@@ -15,19 +15,35 @@ export function WeatherPanel({ d }: { d: Destination }) {
   return (
     <section className="rounded-2xl bg-card p-5 shadow-soft">
       <h2 className="mb-3 flex items-center gap-2 text-lg font-bold"><CloudSun className="h-5 w-5 text-sun" /> Previsão do tempo</h2>
-      {w?.status === "connected" ? null : (
+      {w?.status === "connected" && w.current ? (
         <>
-          <div className="mb-3 grid grid-cols-3 gap-2">
-            {["Hoje", "Amanhã", "Depois"].map((day) => (
-              <div key={day} className="rounded-xl bg-secondary p-3 text-center">
-                <div className="text-xs font-semibold text-muted-foreground">{day}</div>
-                <CloudSun className="mx-auto my-2 h-7 w-7 text-muted-foreground/50" />
-                <div className="font-display text-lg font-bold text-muted-foreground">— °C</div>
+          <div className="rounded-xl bg-secondary p-4">
+            <div className="text-sm font-semibold text-muted-foreground">Agora</div>
+            <div className="mt-1 flex items-center gap-3">
+              <CloudSun className="h-10 w-10 text-sun" />
+              <div><div className="font-display text-3xl font-extrabold">{Math.round(w.current.tempC)} °C</div><div className="text-sm">{w.current.condition}</div></div>
+            </div>
+            <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-xs text-muted-foreground">
+              <span>Umidade: {w.current.humidity}%</span><span>Vento: {Math.round(w.current.windKmh)} km/h</span>
+            </div>
+          </div>
+          <div className="mt-3 grid grid-cols-3 gap-2">
+            {w.forecast?.map((day) => (
+              <div key={day.date} className="rounded-xl bg-secondary p-3 text-center">
+                <div className="text-xs font-semibold capitalize text-muted-foreground">{new Date(day.date + "T12:00:00").toLocaleDateString("pt-BR", { weekday: "short" })}</div>
+                <CloudSun className="mx-auto my-2 h-6 w-6 text-sun" />
+                <div className="font-display text-sm font-bold">{Math.round(day.tempMaxC)}° / {Math.round(day.tempMinC)}°</div>
+                <div className="mt-1 text-[10px] text-muted-foreground">{day.condition}</div>
+                <div className="text-[10px] text-muted-foreground">Chuva: {day.precipitationMm} mm</div>
               </div>
             ))}
           </div>
-          <NotConnected text="Dados demonstrativos — conecte uma fonte meteorológica para consultar condições em tempo real." />
+          <p className="mt-2 text-right text-[10px] text-muted-foreground">Fonte: <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer" className="underline">Open-Meteo</a> · previsão aproximada para o município</p>
         </>
+      ) : w?.status === "error" ? (
+        <NotConnected text="Não foi possível carregar a previsão agora. Tente novamente mais tarde e confira também os avisos meteorológicos oficiais." />
+      ) : (
+        <NotConnected text="Carregando previsão do tempo para o município. Se não houver conexão, tente novamente mais tarde." />
       )}
     </section>
   );
