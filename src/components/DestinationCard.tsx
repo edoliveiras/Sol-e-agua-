@@ -6,7 +6,7 @@ import { useFavorites } from "@/hooks/use-favorites";
 export function DemoBadge({ className = "" }: { className?: string }) {
   return (
     <span className={`rounded-full bg-sun px-2.5 py-1 text-[10px] font-bold uppercase tracking-wide text-sun-foreground ${className}`}>
-      Demonstração
+      Informações em atualização
     </span>
   );
 }
