@@ -2,6 +2,7 @@ import type { Destination } from "@/types/destination";
 import { regiaoDosLagosBeaches } from "@/data/regiao-dos-lagos";
 import { otherRioDeJaneiroBeaches } from "@/data/outras-praias-rio-de-janeiro";
 import { rioDeJaneiroLodgings } from "@/data/rio-de-janeiro-hospedagens";
+import { rioCulturalAndToursDestinations } from "@/data/rio-cultural-e-passeios";
 
 /**
  * Dados em expansão. Cada fotografia licenciada tem crédito e fonte na ficha do destino.
@@ -397,6 +398,7 @@ export const destinations: Destination[] = [
   ...regiaoDosLagosBeaches,
   ...otherRioDeJaneiroBeaches,
   ...rioDeJaneiroLodgings,
+  ...rioCulturalAndToursDestinations,
 ];
 
 export const getDestination = (id: string) => destinations.find((d) => d.id === id);
