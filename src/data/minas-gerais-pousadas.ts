@@ -3680,4 +3680,269 @@ export const minasGeraisPousadas: Destination[] = [
     "coordinates": null,
     "isDemo": true
   },
+  {
+    "id": "pousada-chales-vida-verde-bom-jardim",
+    "name": "Pousada Chalés Vida Verde",
+    "city": "Bom Jardim de Minas",
+    "locality": "Bairro Viegas",
+    "address": "Rua Jatobá, 100, Bairro Viegas, Bom Jardim de Minas - MG",
+    "nearbyAttraction": "Cachoeira das Pitangueiras e atrativos naturais do município",
+    "shortDescription": "Pousada com chalés e jardim, listada no Booking para Bom Jardim de Minas.",
+    "description": "Hospedagem anunciada no Booking.com, com endereço no Bairro Viegas, Bom Jardim de Minas. A página pública consultada não exibe telefone antes da reserva; comodidades, preços para datas específicas e distância até as cachoeiras devem ser confirmados na plataforma.",
+    "website": "https://www.booking.com/hotel/br/chales-vida-verde.pt-br.html",
+    "tags": [
+      "Bom Jardim de Minas",
+      "Mantiqueira",
+      "Cachoeiras"
+    ],
+    "sourceUrl": "https://www.booking.com/hotel/br/chales-vida-verde.pt-br.html",
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-bululu-itamonte",
+    "name": "Pousada Bululu",
+    "city": "Itamonte",
+    "locality": "Ribeirão do Ouro",
+    "address": "Rodovia BR-354, km 758,5, Ribeirão do Ouro, Itamonte - MG",
+    "nearbyAttraction": "Rio Capivari e Cachoeira da Fragária",
+    "shortDescription": "Pousada rural listada no diretório de hospedagem de Itamonte.",
+    "description": "Pousada identificada no diretório regional de hospedagens de Itamonte, no bairro Ribeirão do Ouro. O diretório informa a localidade, mas não apresenta telefone, comodidades ou preço na ficha resumida consultada.",
+    "sourceUrl": "https://idasbrasil.com.br/hoteispousadas/Itamonte/minas-gerais",
+    "tags": [
+      "Itamonte",
+      "Ribeirão do Ouro",
+      "Mantiqueira"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-abrigo-das-aguas-itamonte",
+    "name": "Pousada Abrigo das Águas",
+    "city": "Itamonte",
+    "locality": "Fazenda Velha, Zona Rural",
+    "nearbyAttraction": "Cachoeira da Fragária e Parque Nacional do Itatiaia",
+    "shortDescription": "Pousada rural identificada no diretório de hospedagens de Itamonte.",
+    "description": "Pousada listada no diretório regional de meios de hospedagem de Itamonte, na localidade rural Fazenda Velha. Endereço completo, contato, comodidades, preços e distância até atrativos naturais não foram confirmados.",
+    "sourceUrl": "https://idasbrasil.com.br/hoteispousadas/Itamonte/minasgerais",
+    "tags": [
+      "Itamonte",
+      "Fazenda Velha",
+      "Mantiqueira"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-encanto-das-aguas-itamonte",
+    "name": "Pousada Encanto das Águas",
+    "city": "Itamonte",
+    "locality": "Morro Grande",
+    "nearbyAttraction": "Rio e cachoeiras da região de Morro Grande",
+    "shortDescription": "Pousada em parque cortado por rio, com chalés e lareira.",
+    "description": "A listagem regional descreve a Pousada Encanto das Águas como hospedagem em parque cortado por um rio, com chalés aconchegantes e lareira. Um agregador de hospedagem apresenta faixa de referência entre R$ 210 e R$ 260 por diária; confirme diretamente antes da reserva. Distância exata até cachoeiras não publicada.",
+    "priceRange": "R$ 210–260 por diária (referência de agregador; confirmar com a pousada)",
+    "sourceUrl": "https://melhorespousadas.tur.br/mg/itamonte/pousadas",
+    "tags": [
+      "Itamonte",
+      "Morro Grande",
+      "Rio"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-fazenda-serra-bonita-itamonte",
+    "name": "Pousada Fazenda Serra Bonita",
+    "city": "Itamonte",
+    "locality": "Berta, Zona Rural",
+    "nearbyAttraction": "Cachoeira da Fragária e Parque Nacional do Itatiaia",
+    "shortDescription": "Pousada-fazenda listada no diretório de hospedagens de Itamonte.",
+    "description": "Hospedagem rural identificada no diretório de meios de hospedagem de Itamonte, na localidade de Berta. A listagem não informa endereço completo, telefone, comodidades ou preços.",
+    "sourceUrl": "https://idasbrasil.com.br/hoteispousadas/Itamonte/minas-gerais",
+    "tags": [
+      "Itamonte",
+      "Berta",
+      "Fazenda"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-estancia-rio-acima-itamonte",
+    "name": "Pousada Estância Rio Acima",
+    "city": "Itamonte",
+    "locality": "Bairro Rio Acima",
+    "nearbyAttraction": "Rios e cachoeiras da Serra da Mantiqueira",
+    "shortDescription": "Pousada em área rural de Itamonte, citada pelo Instituto Estrada Real.",
+    "description": "Pousada listada pelo Instituto Estrada Real entre as opções de hospedagem de Itamonte. A fonte confirma o nome, mas não detalha endereço, contato, comodidades ou distância até atrativos.",
+    "sourceUrl": "https://institutoestradareal.com.br/cidades/itamonte-mg/",
+    "tags": [
+      "Itamonte",
+      "Rio Acima",
+      "Estrada Real"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-dos-lirios-itamonte",
+    "name": "Pousada dos Lírios",
+    "city": "Itamonte",
+    "locality": "Zona Rural",
+    "nearbyAttraction": "Cachoeira da Fragária e Parque Nacional do Itatiaia",
+    "shortDescription": "Pousada rural listada no diretório de hospedagens de Itamonte.",
+    "description": "Pousada identificada no diretório regional de hospedagem de Itamonte, com indicação de localização na zona rural. Endereço completo, telefone, comodidades e tarifas não constam da listagem consultada.",
+    "sourceUrl": "https://idasbrasil.com.br/hoteispousadas/Itamonte/minas-gerais",
+    "tags": [
+      "Itamonte",
+      "Zona rural",
+      "Mantiqueira"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-sobradinho-itamonte",
+    "name": "Pousada Sobradinho",
+    "city": "Itamonte",
+    "locality": "Bairro Sobradinho",
+    "address": "Rodovia BR-354, km 752, Bairro Sobradinho, Itamonte - MG",
+    "nearbyAttraction": "Cachoeira da Fragária e atrativos da Mantiqueira",
+    "shortDescription": "Pousada em Sobradinho, listada no diretório de hospedagem de Itamonte.",
+    "description": "Pousada identificada no diretório regional de meios de hospedagem de Itamonte, com referência de localização na BR-354, km 752. Telefone, comodidades e valores não foram informados na ficha consultada.",
+    "sourceUrl": "https://idasbrasil.com.br/hoteispousadas/Itamonte/minas-gerais",
+    "tags": [
+      "Itamonte",
+      "Sobradinho",
+      "Mantiqueira"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-circuito-da-canastra-tapira",
+    "name": "Pousada Circuito da Canastra",
+    "city": "Tapira",
+    "locality": "Centro",
+    "address": "Rua Egídio, 52, Centro, Tapira - MG",
+    "nearbyAttraction": "Cachoeira dos Bandeirantes e cachoeiras da região de Tapira",
+    "shortDescription": "Pousada listada no portal oficial da Prefeitura de Tapira.",
+    "description": "Pousada cadastrada na página oficial de hotéis e pousadas da Prefeitura de Tapira, Minas Gerais. O portal municipal informa endereço e telefone; comodidades, preços e distância até as cachoeiras precisam ser confirmados.",
+    "phone": "(34) 3633-1459",
+    "sourceUrl": "https://www.tapira.mg.gov.br/portal/servicos/1005/hoteis-e-pousadas/",
+    "tags": [
+      "Tapira",
+      "Canastra",
+      "Cachoeiras"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "melo-pousada-tapira",
+    "name": "Melo Pousada",
+    "city": "Tapira",
+    "locality": "Centro",
+    "address": "Rua Vereador José Resende, 57 A, Centro, Tapira - MG",
+    "nearbyAttraction": "Cachoeira dos Bandeirantes e cachoeiras da região de Tapira",
+    "shortDescription": "Pousada no centro de Tapira, com site e telefone publicados pela Prefeitura.",
+    "description": "Hospedagem listada no portal oficial da Prefeitura de Tapira. A fonte municipal informa endereço, telefone e site; comodidades e preços devem ser confirmados diretamente.",
+    "phone": "(34) 3633-1103",
+    "website": "https://www.melopousada.com.br/",
+    "sourceUrl": "https://www.tapira.mg.gov.br/portal/servicos/1005/hoteis-e-pousadas/",
+    "tags": [
+      "Tapira",
+      "Canastra",
+      "Centro"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
+  {
+    "id": "pousada-canto-de-minas-tapira",
+    "name": "Pousada Canto de Minas",
+    "city": "Tapira",
+    "locality": "Centro",
+    "address": "Rua Cristino Ribeiro de Rezende, Centro, Tapira - MG",
+    "nearbyAttraction": "Cachoeiras e atrativos naturais de Tapira",
+    "shortDescription": "Pousada cadastrada no portal de turismo de Tapira.",
+    "description": "Pousada listada no diretório da Secretaria de Turismo de Tapira. A fonte municipal informa endereço e telefone; outros dados devem ser confirmados diretamente com a hospedagem.",
+    "phone": "(34) 98807-7179",
+    "sourceUrl": "https://descubratapira.com.br/-onde-dormir/",
+    "tags": [
+      "Tapira",
+      "Canastra",
+      "Centro"
+    ],
+    "category": "pousada",
+    "state": "MG",
+    "region": "Sudeste",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
+    ],
+    "coordinates": null,
+    "isDemo": true
+  },
 ];
