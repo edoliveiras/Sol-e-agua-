@@ -3428,7 +3428,8 @@ export const minasGeraisPousadas: Destination[] = [
       {
         "platform": "Booking.com",
         "score": 9.3,
-        "reviewCount": 278
+        "reviewCount": 278,
+        "scale": 10
       }
     ],
     "tags": [
