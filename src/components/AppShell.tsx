@@ -47,7 +47,7 @@ export function AppShell({ children }: { children: ReactNode }) {
       </header>
       <main>{children}</main>
       <footer className="mt-12 hidden border-t py-6 text-center text-sm text-muted-foreground md:block">
-        SOL &amp; ÁGUA · Protótipo com dados demonstrativos
+        SOL &amp; ÁGUA · Guia em expansão. Confirme preços, horários e acesso com os locais.
       </footer>
       <nav className="fixed inset-x-0 bottom-0 z-40 border-t bg-card md:hidden">
         <div className="grid grid-cols-6">
