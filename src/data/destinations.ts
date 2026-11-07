@@ -386,7 +386,7 @@ export const destinations: Destination[] = [
     photoCredit: "Marina Feldhues · CC BY-SA 3.0",
     photoSourceUrl: "https://commons.wikimedia.org/wiki/File:Praia_do_Sancho,_Fernando_de_Noronha.jpg",
     photoLicenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/",
-    coordinates: null,
+    coordinates: { lat: -3.854444, lng: -32.443611, verified: true },
     tags: ["Fernando de Noronha", "Parque Nacional Marinho", "Praia"],
     isDemo: true,
     website: "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-marinho-de-fernando-de-noronha",
