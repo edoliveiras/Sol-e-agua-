@@ -55,7 +55,7 @@ function Index() {
         <section className="mt-10">
           <div className="mb-4 flex items-end justify-between">
             <h2 className="text-2xl font-bold">Destinos em destaque</h2>
-            <span className="text-xs text-muted-foreground">Conteúdo demonstrativo</span>
+            <span className="text-xs text-muted-foreground">Seleção inicial de destinos</span>
           </div>
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {destinations.map((d) => <DestinationCard key={d.id} d={d} />)}
