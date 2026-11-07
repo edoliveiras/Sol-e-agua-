@@ -41,6 +41,8 @@ export interface Destination {
   nearbyAttraction?: string;
   /** Distância publicada/confirmada até o atrativo mais próximo. */
   distanceToAttraction?: string;
+  /** Distância verificada deste estabelecimento até uma praia/cachoeira específica. */
+  distanceToDestination?: string;
   /** Avaliações mantidas separadas por plataforma; nunca calcular média entre sites. */
   ratings?: { platform: string; score: number; scale?: number; reviewCount?: number }[];
   /** Página usada para confirmar os dados do cadastro. */
