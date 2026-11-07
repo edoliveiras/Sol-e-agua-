@@ -18,6 +18,10 @@ export interface Destination {
   shortDescription: string;
   description: string;
   images: string[];
+  /** Crédito e licença das fotos externas, quando aplicável. */
+  photoCredit?: string;
+  photoSourceUrl?: string;
+  photoLicenseUrl?: string;
   coordinates: Coordinates | null;
   tags: string[];
   /** true = conteúdo de exemplo, ainda não verificado */
