@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Droplets, Heart, Home, Map, Menu, Waves, X } from "lucide-react";
+import { BedDouble, Droplets, Heart, Home, Map, Menu, Waves, X } from "lucide-react";
 import { useState, type ReactNode } from "react";
 import { Brand } from "./Brand";
 
@@ -7,6 +7,7 @@ const NAV = [
   { to: "/", label: "Início", icon: Home },
   { to: "/praias", label: "Praias", icon: Waves },
   { to: "/cachoeiras", label: "Cachoeiras", icon: Droplets },
+  { to: "/buscar", label: "Hospedagem", icon: BedDouble },
   { to: "/mapa", label: "Mapa", icon: Map },
   { to: "/favoritos", label: "Favoritos", icon: Heart },
 ] as const;
@@ -49,7 +50,7 @@ export function AppShell({ children }: { children: ReactNode }) {
         SOL &amp; ÁGUA · Protótipo com dados demonstrativos
       </footer>
       <nav className="fixed inset-x-0 bottom-0 z-40 border-t bg-card md:hidden">
-        <div className="grid grid-cols-5">
+        <div className="grid grid-cols-6">
           {NAV.map((n) => (
             <Link key={n.to} to={n.to} activeOptions={{ exact: n.to === "/" }}
               className="flex flex-col items-center gap-1 py-2 text-[11px] font-semibold text-muted-foreground"
