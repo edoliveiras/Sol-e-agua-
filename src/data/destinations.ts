@@ -1,4 +1,5 @@
 import type { Destination } from "@/types/destination";
+import { regiaoDosLagosBeaches } from "@/data/regiao-dos-lagos";
 
 /**
  * Dados em expansão. Cada fotografia licenciada tem crédito e fonte na ficha do destino.
@@ -391,6 +392,7 @@ export const destinations: Destination[] = [
     isDemo: true,
     website: "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-marinho-de-fernando-de-noronha",
   },
+  ...regiaoDosLagosBeaches,
 ];
 
 export const getDestination = (id: string) => destinations.find((d) => d.id === id);
