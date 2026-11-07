@@ -70,8 +70,8 @@ export function MapPlaceholder() {
       </svg>
       <div className="relative flex min-h-40 flex-col items-center justify-center text-center">
         <MapPinned className="mb-2 h-10 w-10 text-sun" />
-        <div className="font-display text-xl font-bold">Mapa ilustrativo</div>
-        <p className="mt-1 max-w-sm text-sm opacity-90">Espaço reservado para mapa interativo. Ainda sem geolocalização ou rotas no app — use “Como chegar” em cada destino.</p>
+        <div className="font-display text-xl font-bold">Encontre seu próximo destino</div>
+        <p className="mt-1 max-w-sm text-sm opacity-90">Abra a lista de localizações e escolha um destino para ver o mapa e traçar sua rota no Google Maps.</p>
       </div>
     </div>
   );
