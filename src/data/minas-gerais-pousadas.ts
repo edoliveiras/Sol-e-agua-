@@ -32,7 +32,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-recanto-da-lua-caparao",
@@ -58,7 +59,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-querencia-caparao",
@@ -91,7 +93,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-do-bezerra-caparao",
@@ -127,7 +130,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "hotel-pousada-bela-vista-araxa",
@@ -151,7 +155,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-medalha-milagrosa-araxa",
@@ -175,7 +180,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "sesc-pousada-araxa",
@@ -212,7 +218,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "hotel-pousada-dona-beja-araxa",
@@ -236,7 +243,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-chales-vida-verde-bom-jardim",
@@ -261,7 +269,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -274,7 +283,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Monte Verde",
       "Mantiqueira"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-dona-zenta-monte-verde",
     "name": "Chalés Dona Zenta",
     "city": "Camanducaia",
@@ -289,7 +298,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Estacionamento"
     ],
     "sourceUrl": "https://chalesdonazenta.com.br/",
-    "locality": "Monte Verde"
+    "locality": "Monte Verde",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -303,7 +314,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Centro",
       "Trilhas"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-avenida-monte-verde",
     "name": "Pousada Avenida Monte Verde",
     "city": "Camanducaia",
@@ -316,7 +327,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Estacionamento próprio"
     ],
     "sourceUrl": "https://www.pousadaavenidamonteverde.com.br/",
-    "locality": "Monte Verde"
+    "locality": "Monte Verde",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -330,7 +343,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Centro",
       "Piscina"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-jardim-das-montanhas",
     "name": "Pousada Jardim das Montanhas",
     "city": "Camanducaia",
@@ -348,7 +361,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Ofurô"
     ],
     "sourceUrl": "https://www.jardimdasmontanhas.com.br/",
-    "locality": "Monte Verde"
+    "locality": "Monte Verde",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -362,7 +377,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Mantiqueira",
       "Piscina"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-jardim-monte-verde",
     "name": "Pousada Jardim Monte Verde",
     "city": "Camanducaia",
@@ -379,7 +394,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Jardim"
     ],
     "sourceUrl": "https://turismo.camanducaia.mg.gov.br/onde-ficar/pousada-jardim-monte-verde",
-    "locality": "Monte Verde"
+    "locality": "Monte Verde",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -393,7 +410,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Mantiqueira",
       "Trilhas"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-recanto-monte-verde",
     "name": "Pousada Recanto Monte Verde",
     "city": "Camanducaia",
@@ -405,7 +422,9 @@ export const minasGeraisPousadas: Destination[] = [
     "whatsapp": "5535988678105",
     "website": "https://www.recantomonteverde.com.br/",
     "sourceUrl": "https://www.recantomonteverde.com.br/",
-    "locality": "Monte Verde"
+    "locality": "Monte Verde",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -418,7 +437,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Monte Verde",
       "Centro"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-suica-mineira-centro",
     "name": "Pousada Suíça Mineira Centro",
     "city": "Camanducaia",
@@ -430,7 +449,9 @@ export const minasGeraisPousadas: Destination[] = [
     "whatsapp": "5535988002842",
     "website": "https://www.pousadasuicamineira.com.br/contato/",
     "sourceUrl": "https://www.pousadasuicamineira.com.br/contato/",
-    "locality": "Monte Verde"
+    "locality": "Monte Verde",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -443,7 +464,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Monte Verde",
       "Mantiqueira"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-suica-mineira-garden",
     "name": "Pousada Suíça Mineira Garden",
     "city": "Camanducaia",
@@ -455,7 +476,9 @@ export const minasGeraisPousadas: Destination[] = [
     "whatsapp": "553534382302",
     "website": "https://www.pousadasuicamineira.com.br/contato/",
     "sourceUrl": "https://www.pousadasuicamineira.com.br/contato/",
-    "locality": "Monte Verde"
+    "locality": "Monte Verde",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -468,7 +491,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Capitólio",
       "Hospedagem"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-vale-do-chapeu",
     "name": "Pousada Vale do Chapéu",
     "city": "Capitólio",
@@ -478,7 +501,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "A Prefeitura de Capitólio lista a pousada em seu diretório oficial de hospedagem. Endereço e telefone constam do cadastro municipal; demais dados precisam de confirmação com o estabelecimento.",
     "phone": "(37) 3406-0800",
     "sourceUrl": "https://www.capitolio.mg.gov.br/portal/turismo/0/9/732/www.pousadamardeminas.com.br",
-    "locality": "Água das Vertentes"
+    "locality": "Água das Vertentes",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -491,7 +516,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Capitólio",
       "Centro"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-xero-capitolio",
     "name": "Pousada Xero",
     "city": "Capitólio",
@@ -501,7 +526,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Pousada registrada no portal oficial de turismo de Capitólio. O endereço e telefone constam do cadastro municipal; confirme serviços e tarifas diretamente.",
     "phone": "(37) 99197-8795",
     "sourceUrl": "https://www.capitolio.mg.gov.br/portal/turismo/0/9/732/www.pousadamardeminas.com.br",
-    "locality": "Centro"
+    "locality": "Centro",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -514,7 +541,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Capitólio",
       "Lago de Furnas"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-carneirinho-capitolio",
     "name": "Pousada Carneirinho",
     "city": "Capitólio",
@@ -524,7 +551,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Pousada listada no cadastro municipal de hospedagem de Capitólio. A fonte consultada informa endereço e telefone; comodidades, tarifas e distância exata até os atrativos devem ser confirmadas diretamente.",
     "phone": "(37) 99964-9999",
     "sourceUrl": "https://www.capitolio.mg.gov.br/portal/turismo/0/9/732/www.pousadamardeminas.com.br",
-    "locality": "Cidade Jardim"
+    "locality": "Cidade Jardim",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -537,7 +566,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Capitólio",
       "Lago de Furnas"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "canyons-pousada-capitolio",
     "name": "Canyons Pousada",
     "city": "Capitólio",
@@ -547,7 +576,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Estabelecimento listado na página de hospedagem do portal de turismo da Prefeitura de Capitólio. Telefone e endereço são os publicados no cadastro municipal. Distância até cachoeiras específicas, comodidades e tarifas não foram confirmadas.",
     "phone": "(37) 99957-6781",
     "sourceUrl": "https://www.capitolio.mg.gov.br/portal/turismo/0/9/732/www.pousadamardeminas.com.br",
-    "locality": "Expansão Urbana"
+    "locality": "Expansão Urbana",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -560,7 +591,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Capitólio",
       "Lago de Furnas"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-rainha-dos-lagos",
     "name": "Pousada Rainha dos Lagos",
     "city": "Capitólio",
@@ -570,7 +601,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Pousada listada no diretório oficial de hospedagem de Capitólio. Endereço e telefone foram publicados pela Prefeitura; consulte a empresa para confirmar comodidades, preços e distância dos atrativos.",
     "phone": "(37) 99911-0791",
     "sourceUrl": "https://www.capitolio.mg.gov.br/portal/turismo/0/9/732/www.pousadamardeminas.com.br",
-    "locality": "Expansão Urbana"
+    "locality": "Expansão Urbana",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -583,7 +616,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Capitólio",
       "Hospedagem"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-recanto-das-vertentes",
     "name": "Pousada Recanto das Vertentes",
     "city": "Capitólio",
@@ -593,7 +626,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Estabelecimento listado na página oficial de hospedagem de Capitólio. O cadastro informa endereço e telefone; outras informações não foram confirmadas.",
     "phone": "(37) 99845-4356",
     "sourceUrl": "https://www.capitolio.mg.gov.br/portal/turismo/0/9/732/www.pousadamardeminas.com.br",
-    "locality": "Expansão Urbana"
+    "locality": "Expansão Urbana",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -606,7 +641,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Capitólio",
       "Lago de Furnas"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-serra-verde-capitolio",
     "name": "Pousada Serra Verde",
     "city": "Capitólio",
@@ -616,7 +651,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Estabelecimento listado pela Prefeitura de Capitólio. O cadastro municipal informa endereço e telefone, mas não detalha comodidades, tarifas ou distância até uma cachoeira específica.",
     "phone": "(35) 99757-6387",
     "sourceUrl": "https://www.capitolio.mg.gov.br/portal/turismo/0/9/732/www.pousadamardeminas.com.br",
-    "locality": "Expansão Urbana"
+    "locality": "Expansão Urbana",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -630,7 +667,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Zona rural",
       "Lago de Furnas"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-vila-do-lago",
     "name": "Pousada Vila do Lago",
     "city": "Capitólio",
@@ -640,7 +677,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Pousada localizada em área rural de Capitólio, conforme cadastro oficial municipal. A distância até cachoeiras, as comodidades e as tarifas não foram publicadas na fonte consultada.",
     "phone": "(37) 99874-0008",
     "sourceUrl": "https://www.capitolio.mg.gov.br/portal/turismo/0/9/732/www.pousadamardeminas.com.br",
-    "locality": "Fazenda Barreiro, Zona Rural"
+    "locality": "Fazenda Barreiro, Zona Rural",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -653,7 +692,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Capitólio",
       "Zona rural"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-paraiso-capitolio",
     "name": "Pousada Paraíso Capitólio",
     "city": "Capitólio",
@@ -663,7 +702,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Hospedagem rural cadastrada pela Prefeitura de Capitólio. A fonte consultada informa localização geral e telefone; atrativo mais próximo, distância, comodidades e tarifas precisam de confirmação direta.",
     "phone": "(37) 99905-4206",
     "sourceUrl": "https://www.capitolio.mg.gov.br/portal/turismo/0/9/732/www.pousadamardeminas.com.br",
-    "locality": "Fazenda Onça, Zona Rural"
+    "locality": "Fazenda Onça, Zona Rural",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -676,7 +717,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Capitólio",
       "Lago de Furnas"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-cateto-capitolio",
     "name": "Pousada Cateto",
     "city": "Capitólio",
@@ -690,7 +731,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Área de recreação infantil"
     ],
     "sourceUrl": "https://pousadacateto.com.br/",
-    "locality": "Região do Lago de Furnas"
+    "locality": "Região do Lago de Furnas",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -704,7 +747,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Turvo",
       "Lago de Furnas"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-rio-turvo",
     "name": "Pousada Rio Turvo",
     "city": "Capitólio",
@@ -715,7 +758,9 @@ export const minasGeraisPousadas: Destination[] = [
     "phone": "(37) 3373-1066",
     "website": "https://www.pousadadorioturvo.com.br/",
     "sourceUrl": "https://www.capitolio.mg.gov.br/portal/turismo/0/9/732/www.pousadamardeminas.com.br",
-    "locality": "Região do Turvo"
+    "locality": "Região do Turvo",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -728,7 +773,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Capitólio",
       "Hospedagem"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-doce-maria-capitolio",
     "name": "Pousada Doce Maria",
     "city": "Capitólio",
@@ -738,7 +783,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "A Pousada Doce Maria aparece no diretório oficial de hospedagem de Capitólio. O cadastro consultado não apresenta endereço completo nem detalhes de comodidades; confirme localização e serviços antes da reserva.",
     "phone": "(31) 99709-1099",
     "sourceUrl": "https://www.capitolio.mg.gov.br/portal/turismo/0/9/732/www.pousadamardeminas.com.br",
-    "locality": "Zona urbana"
+    "locality": "Zona urbana",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -752,7 +799,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Centro",
       "Cachoeiras"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-roda-viva-carrancas",
     "name": "Pousada Roda Viva",
     "city": "Carrancas",
@@ -762,7 +809,9 @@ export const minasGeraisPousadas: Destination[] = [
     "phone": "(35) 3327-1031",
     "website": "https://www.carrancasrodaviva.com.br/",
     "sourceUrl": "https://www.carrancas.com.br/hospedagem/pousadas.shtml",
-    "locality": "Centro"
+    "locality": "Centro",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -776,7 +825,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Complexo da Toca",
       "Complexo da Ponte"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-da-toca-carrancas",
     "name": "Pousada da Toca",
     "city": "Carrancas",
@@ -794,7 +843,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Aceita pets"
     ],
     "sourceUrl": "https://www.datoca.com.br/",
-    "locality": "Estrada Carrancas–Itutinga"
+    "locality": "Estrada Carrancas–Itutinga",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -808,7 +859,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Piscinas naturais",
       "Serra"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-alem-das-formas",
     "name": "Pousada Além das Formas",
     "city": "Carrancas",
@@ -825,7 +876,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Varanda"
     ],
     "sourceUrl": "https://www.carrancas.com.br/hospedagem/pousadas.shtml",
-    "locality": "Serra de Carrancas"
+    "locality": "Serra de Carrancas",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -839,7 +892,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Serra",
       "Cachoeiras"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-mirante-serra-verde",
     "name": "Pousada Mirante Serra Verde",
     "city": "Carrancas",
@@ -855,7 +908,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Varanda"
     ],
     "sourceUrl": "https://www.carrancas.com.br/hospedagem/pousadas.shtml",
-    "locality": "Zona rural / Serra de Carrancas"
+    "locality": "Zona rural / Serra de Carrancas",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-vila-de-conceicao",
@@ -890,7 +945,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-rd-conceicao",
@@ -917,7 +973,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-tabuleiro-eco",
@@ -955,7 +1012,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-luar-da-serra-tabuleiro",
@@ -979,7 +1037,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -992,7 +1051,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Delfinópolis",
       "Serra da Canastra"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-agua-sol-delfinopolis",
     "name": "Pousada Água e Sol",
     "city": "Delfinópolis",
@@ -1010,7 +1069,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Frigobar"
     ],
     "sourceUrl": "https://pousadaaguaesol.com.br/",
-    "locality": "Centro"
+    "locality": "Centro",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-acayaca-diamantina",
@@ -1034,7 +1095,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-da-seresta-diamantina",
@@ -1058,7 +1120,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-do-garimpo-diamantina",
@@ -1082,7 +1145,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-ouro-de-minas",
@@ -1106,7 +1170,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-vila-do-imperador",
@@ -1130,7 +1195,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-pouso-da-chica",
@@ -1154,7 +1220,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-beira-de-rio-conselheiro-mata",
@@ -1178,7 +1245,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-do-kussu-conselheiro-mata",
@@ -1202,7 +1270,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-minha-casa-conselheiro-mata",
@@ -1226,7 +1295,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-recanto-das-cachoeiras-diamantina",
@@ -1250,7 +1320,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-solar-dos-cristais",
@@ -1274,7 +1345,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-caminho-dos-escravos",
@@ -1298,7 +1370,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-capim-limao-diamantina",
@@ -1322,7 +1395,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-presidente-diamantina",
@@ -1346,7 +1420,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-vale-do-garimpeiro",
@@ -1370,7 +1445,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-real-de-itamonte",
@@ -1394,7 +1470,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-estancia-rio-acima-itamonte",
@@ -1417,7 +1494,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-sobradinho-itamonte",
@@ -1441,7 +1519,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-fazenda-serra-bonita-itamonte",
@@ -1464,7 +1543,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-abrigo-das-aguas-itamonte",
@@ -1487,7 +1567,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-fragaria-itamonte",
@@ -1522,7 +1603,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "chales-cachoeira-da-pedra-itamonte",
@@ -1565,7 +1647,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-dos-lobos-itamonte",
@@ -1588,7 +1671,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-encanto-das-aguas-itamonte",
@@ -1612,7 +1696,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-bululu-itamonte",
@@ -1636,7 +1721,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-ribeirao-do-ouro-itamonte",
@@ -1681,7 +1767,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-dos-lirios-itamonte",
@@ -1704,7 +1791,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -1717,7 +1805,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Ibitipoca",
       "Família"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "chales-canto-da-paz-ibitipoca",
     "name": "Canto da Paz – Chalés e Suíte",
     "city": "Lima Duarte",
@@ -1734,7 +1822,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Estacionamento"
     ],
     "sourceUrl": "https://www.ibitipoca.tur.br/hospedagem/",
-    "locality": "Conceição do Ibitipoca"
+    "locality": "Conceição do Ibitipoca",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -1747,7 +1837,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Ibitipoca",
       "Lombada"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "chales-villa-nova-ibitipoca",
     "name": "Chalés Villa Nova",
     "city": "Lima Duarte",
@@ -1766,7 +1856,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Estacionamento"
     ],
     "sourceUrl": "https://www.ibitipoca.tur.br/hospedagem/",
-    "locality": "Conceição do Ibitipoca"
+    "locality": "Conceição do Ibitipoca",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -1779,7 +1871,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Ibitipoca",
       "Parque Estadual"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "poente-guest-house-ibitipoca",
     "name": "Poente Guest House",
     "city": "Lima Duarte",
@@ -1790,7 +1882,9 @@ export const minasGeraisPousadas: Destination[] = [
     "phone": "(32) 98424-8304",
     "website": "https://www.pousadapoenteibitipoca.com/",
     "sourceUrl": "https://www.pousadapoenteibitipoca.com/contact",
-    "locality": "Conceição do Ibitipoca"
+    "locality": "Conceição do Ibitipoca",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -1804,7 +1898,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Vila",
       "Parque Estadual"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "cantinho-das-fadas-ibitipoca",
     "name": "Pousada Cantinho das Fadas",
     "city": "Lima Duarte",
@@ -1821,7 +1915,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Jardim"
     ],
     "sourceUrl": "https://www.ibitipoca.tur.br/hospedagem/",
-    "locality": "Conceição do Ibitipoca"
+    "locality": "Conceição do Ibitipoca",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -1834,7 +1930,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Ibitipoca",
       "Parque Estadual"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-do-artista-ibitipoca",
     "name": "Pousada do Artista",
     "city": "Lima Duarte",
@@ -1844,7 +1940,9 @@ export const minasGeraisPousadas: Destination[] = [
     "phone": "(32) 99936-1953",
     "website": "https://www.ibitipoca.tur.br/hospedagem/",
     "sourceUrl": "https://www.ibitipoca.tur.br/hospedagem/",
-    "locality": "Conceição do Ibitipoca"
+    "locality": "Conceição do Ibitipoca",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -1857,7 +1955,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Ibitipoca",
       "Parque Estadual"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-do-sossego-ibitipoca",
     "name": "Pousada do Sossego",
     "city": "Lima Duarte",
@@ -1867,7 +1965,9 @@ export const minasGeraisPousadas: Destination[] = [
     "phone": "(32) 98511-5084",
     "website": "https://www.ibitipoca.tur.br/hospedagem/",
     "sourceUrl": "https://www.ibitipoca.tur.br/hospedagem/",
-    "locality": "Conceição do Ibitipoca"
+    "locality": "Conceição do Ibitipoca",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -1880,7 +1980,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Ibitipoca",
       "Parque Estadual"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "repousada-chales-ibitipoca",
     "name": "Repousada Chalés",
     "city": "Lima Duarte",
@@ -1896,7 +1996,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Jardim"
     ],
     "sourceUrl": "https://www.repousada.com/",
-    "locality": "Conceição do Ibitipoca"
+    "locality": "Conceição do Ibitipoca",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -1910,7 +2012,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Parque Estadual",
       "Natureza"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "reserva-canto-da-vida-ibitipoca",
     "name": "Reserva Canto da Vida Chalés",
     "city": "Lima Duarte",
@@ -1921,7 +2023,9 @@ export const minasGeraisPousadas: Destination[] = [
     "whatsapp": "5532999447891",
     "website": "https://cantodavida.com.br/",
     "sourceUrl": "https://www.ibitipoca.tur.br/noticias/chales-em-ibitipoca/",
-    "locality": "Conceição do Ibitipoca"
+    "locality": "Conceição do Ibitipoca",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -1934,7 +2038,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Ibitipoca",
       "Fazenda Tapera"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "chales-mirante-do-sol-ibitipoca",
     "name": "Chalés Mirante do Sol",
     "city": "Lima Duarte",
@@ -1952,7 +2056,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Cozinha equipada"
     ],
     "sourceUrl": "https://www.ibitipoca.tur.br/hospedagem/",
-    "locality": "Fazenda Tapera, Conceição do Ibitipoca"
+    "locality": "Fazenda Tapera, Conceição do Ibitipoca",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -1966,7 +2072,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Ouro Preto",
       "Trilha dos Pocinhos"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-alforria-lavras-novas",
     "name": "Pousada Alforria",
     "city": "Ouro Preto",
@@ -1988,7 +2094,9 @@ export const minasGeraisPousadas: Destination[] = [
       }
     ],
     "sourceUrl": "https://www.pousadaalforriamg.com.br/",
-    "locality": "Lavras Novas"
+    "locality": "Lavras Novas",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2002,7 +2110,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Ouro Preto",
       "Cachoeira"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-candeias-lavras-novas",
     "name": "Pousada Candeias",
     "city": "Ouro Preto",
@@ -2021,7 +2129,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Estacionamento"
     ],
     "sourceUrl": "https://www.ouropreto.mg.gov.br/turismo/local/1028",
-    "locality": "Lavras Novas"
+    "locality": "Lavras Novas",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2035,7 +2145,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Ouro Preto",
       "Pet friendly"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-fonte-viva-lavras-novas",
     "name": "Pousada Fonte Viva",
     "city": "Ouro Preto",
@@ -2053,7 +2163,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Aceita pets"
     ],
     "sourceUrl": "https://www.dev.ouropreto.mg.gov.br/turismo/local/2554",
-    "locality": "Lavras Novas"
+    "locality": "Lavras Novas",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2067,7 +2179,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Ouro Preto",
       "Piscina"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-palavras-novas",
     "name": "Pousada Palavras Novas",
     "city": "Ouro Preto",
@@ -2085,7 +2197,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Estacionamento"
     ],
     "sourceUrl": "https://www.ouropreto.mg.gov.br/turismo/local/981",
-    "locality": "Lavras Novas"
+    "locality": "Lavras Novas",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2099,7 +2213,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Ouro Preto",
       "Pet friendly"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-pouso-e-prosa-lavras-novas",
     "name": "Pousada Pouso e Prosa",
     "city": "Ouro Preto",
@@ -2116,7 +2230,9 @@ export const minasGeraisPousadas: Destination[] = [
     ],
     "sourceUrl": "https://www.ouropreto.mg.gov.br/turismo/local/982",
     "locality": "Lavras Novas",
-    "facebook": "https://www.facebook.com/pousadapousoeprosa/"
+    "facebook": "https://www.facebook.com/pousadapousoeprosa/",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2129,7 +2245,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Lavras Novas",
       "Ouro Preto"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-serra-da-neblina",
     "name": "Pousada Serra da Neblina",
     "city": "Ouro Preto",
@@ -2146,7 +2262,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Quartos familiares"
     ],
     "sourceUrl": "https://www.ouropreto.mg.gov.br/turismo/local/2534",
-    "locality": "Lavras Novas"
+    "locality": "Lavras Novas",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2159,7 +2277,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Lavras Novas",
       "Ouro Preto"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-sesmaria-lavras-novas",
     "name": "Pousada Sesmaria",
     "city": "Ouro Preto",
@@ -2176,7 +2294,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Wi-Fi"
     ],
     "sourceUrl": "https://www.dev.ouropreto.mg.gov.br/turismo/local/658",
-    "locality": "Lavras Novas"
+    "locality": "Lavras Novas",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2190,7 +2310,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Ouro Preto",
       "Centro"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-solar-dos-anjos",
     "name": "Pousada Solar dos Anjos",
     "city": "Ouro Preto",
@@ -2206,7 +2326,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Aceita pets"
     ],
     "sourceUrl": "https://www.ouropreto.mg.gov.br/turismo/local/1023",
-    "locality": "Lavras Novas"
+    "locality": "Lavras Novas",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2219,7 +2341,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Lavras Novas",
       "Ouro Preto"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-villa-di-lavras",
     "name": "Pousada Villa Di Lavras",
     "city": "Ouro Preto",
@@ -2235,7 +2357,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Hidromassagem"
     ],
     "sourceUrl": "https://www.ouropreto.mg.gov.br/turismo/local/1092",
-    "locality": "Lavras Novas"
+    "locality": "Lavras Novas",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2249,7 +2373,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Centro",
       "Mantiqueira"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-eco-da-montanha",
     "name": "Pousada Eco da Montanha",
     "city": "Passa Quatro",
@@ -2260,7 +2384,9 @@ export const minasGeraisPousadas: Destination[] = [
     "phone": "(35) 3371-1659",
     "website": "http://www.ecodamontanha.com.br",
     "sourceUrl": "https://www.passaquatro.mg.gov.br/onde-ficar",
-    "locality": "Centro"
+    "locality": "Centro",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2273,7 +2399,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Passa Quatro",
       "Mantiqueira"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-floradas-na-serra",
     "name": "Pousada Condomínio Floradas na Serra",
     "city": "Passa Quatro",
@@ -2284,7 +2410,9 @@ export const minasGeraisPousadas: Destination[] = [
     "phone": "(35) 3371-1739",
     "website": "http://www.pousadafloradasnaserra.com.br",
     "sourceUrl": "https://www.passaquatro.mg.gov.br/onde-ficar",
-    "locality": "Copacabana"
+    "locality": "Copacabana",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2297,7 +2425,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Passa Quatro",
       "Copacabana"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-penas-hospedaria",
     "name": "Pousada Pena’s Hospedaria",
     "city": "Passa Quatro",
@@ -2309,7 +2437,9 @@ export const minasGeraisPousadas: Destination[] = [
     "whatsapp": "5535991257909",
     "sourceUrl": "https://www.passaquatro.mg.gov.br/onde-ficar",
     "locality": "Copacabana",
-    "facebook": "https://www.facebook.com/PousadaPenas/"
+    "facebook": "https://www.facebook.com/PousadaPenas/",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2323,7 +2453,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Pé do Morro",
       "Mantiqueira"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "chale-do-sossego-passa-quatro",
     "name": "Chalé do Sossego",
     "city": "Passa Quatro",
@@ -2334,7 +2464,9 @@ export const minasGeraisPousadas: Destination[] = [
     "phone": "(11) 99666-6428",
     "instagram": "https://www.instagram.com/chales.dosossego_/",
     "sourceUrl": "https://www.passaquatro.mg.gov.br/onde-ficar",
-    "locality": "Fazenda Córrego Fundo / Pé do Morro"
+    "locality": "Fazenda Córrego Fundo / Pé do Morro",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2348,7 +2480,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Quilombo",
       "Mantiqueira"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-chale-del-minas-passa-quatro",
     "name": "Chalé Del’ Minas",
     "city": "Passa Quatro",
@@ -2359,7 +2491,9 @@ export const minasGeraisPousadas: Destination[] = [
     "phone": "(35) 99751-1382",
     "instagram": "https://www.instagram.com/chales_cafe_delminas/",
     "sourceUrl": "https://www.passaquatro.mg.gov.br/onde-ficar",
-    "locality": "Fazenda Quilombo"
+    "locality": "Fazenda Quilombo",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2372,7 +2506,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Passa Quatro",
       "Mantiqueira"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-do-verde-passa-quatro",
     "name": "Pousada do Verde",
     "city": "Passa Quatro",
@@ -2382,7 +2516,9 @@ export const minasGeraisPousadas: Destination[] = [
     "phone": "(35) 3371-3000",
     "website": "http://www.pousadadoverde.com.br",
     "sourceUrl": "https://www.passaquatro.mg.gov.br/onde-ficar",
-    "locality": "Passa Quatro"
+    "locality": "Passa Quatro",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2395,7 +2531,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Passa Quatro",
       "Mantiqueira"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-pedra-da-mina",
     "name": "Pousada Pedra da Mina",
     "city": "Passa Quatro",
@@ -2407,7 +2543,9 @@ export const minasGeraisPousadas: Destination[] = [
     "website": "https://www.pousadapedradamina.com.br",
     "instagram": "https://www.instagram.com/pousadapedradamina",
     "sourceUrl": "https://www.passaquatro.mg.gov.br/onde-ficar",
-    "locality": "Passa Quatro"
+    "locality": "Passa Quatro",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2420,7 +2558,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Passa Quatro",
       "Pinheirinhos"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "estalagem-usina-velha-passa-quatro",
     "name": "Estalagem Usina Velha",
     "city": "Passa Quatro",
@@ -2431,7 +2569,9 @@ export const minasGeraisPousadas: Destination[] = [
     "phone": "(35) 99716-6684",
     "sourceUrl": "https://www.passaquatro.mg.gov.br/onde-ficar",
     "locality": "Pinheirinhos",
-    "facebook": "https://www.facebook.com/estalagemusinavelhap4/"
+    "facebook": "https://www.facebook.com/estalagemusinavelhap4/",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2444,7 +2584,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Passa Quatro",
       "Pinheirinhos"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-caminho-dos-ventos-passa-quatro",
     "name": "Pousada & Hostel Caminho dos Ventos",
     "city": "Passa Quatro",
@@ -2456,7 +2596,9 @@ export const minasGeraisPousadas: Destination[] = [
     "whatsapp": "5535997009631",
     "website": "https://pousadacaminhodosventos.com/",
     "sourceUrl": "https://www.passaquatro.mg.gov.br/onde-ficar",
-    "locality": "Pinheirinhos"
+    "locality": "Pinheirinhos",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2469,7 +2611,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Passa Quatro",
       "MG-158"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-pe-de-pano-passa-quatro",
     "name": "Pousada Pé de Pano",
     "city": "Passa Quatro",
@@ -2480,7 +2622,9 @@ export const minasGeraisPousadas: Destination[] = [
     "phone": "(35) 99116-4958",
     "instagram": "https://www.instagram.com/pousada_pe_de_pano/",
     "sourceUrl": "https://www.passaquatro.mg.gov.br/onde-ficar",
-    "locality": "Próximo ao trevo"
+    "locality": "Próximo ao trevo",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2493,7 +2637,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Passa Quatro",
       "Rio das Pedras"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-das-pedras-passa-quatro",
     "name": "Pousada das Pedras",
     "city": "Passa Quatro",
@@ -2505,7 +2649,9 @@ export const minasGeraisPousadas: Destination[] = [
     "whatsapp": "5535991670336",
     "website": "http://www.hotelpousadadaspedras.com.br",
     "sourceUrl": "https://www.passaquatro.mg.gov.br/onde-ficar",
-    "locality": "Rio das Pedras"
+    "locality": "Rio das Pedras",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2518,7 +2664,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Passa Quatro",
       "Tronqueiras"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-maria-manha",
     "name": "Pousada Maria Manhã",
     "city": "Passa Quatro",
@@ -2530,7 +2676,9 @@ export const minasGeraisPousadas: Destination[] = [
     "whatsapp": "5535991135875",
     "website": "http://www.pousadamariamanha.com.br",
     "sourceUrl": "https://www.passaquatro.mg.gov.br/onde-ficar",
-    "locality": "Tronqueiras"
+    "locality": "Tronqueiras",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-luar-da-canastra-piumhi",
@@ -2560,7 +2708,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-sao-francisco-piumhi",
@@ -2585,7 +2734,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-villa-da-serra-piumhi",
@@ -2616,7 +2766,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-perola-mineira-piumhi",
@@ -2647,7 +2798,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-bella-canastra-piumhi",
@@ -2677,7 +2829,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-novo-alvorecer-sacramento",
@@ -2701,7 +2854,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-sinho-mariano-sacramento",
@@ -2726,7 +2880,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "recanto-castelinho-sacramento",
@@ -2750,7 +2905,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2764,7 +2920,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Pedra do Elefante",
       "Trilhas"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pouso-do-elefante-cipo",
     "name": "Pousada Pouso do Elefante",
     "city": "Santana do Riacho",
@@ -2779,7 +2935,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Trilhas"
     ],
     "sourceUrl": "https://www.pousadapousodoelefante.com.br/",
-    "locality": "Pedra do Elefante / Fazenda Palácio, Serra do Cipó"
+    "locality": "Pedra do Elefante / Fazenda Palácio, Serra do Cipó",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2792,7 +2950,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Serra do Cipó",
       "Parque Nacional"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "adega-cipo",
     "name": "Pousada Adega Cipó",
     "city": "Santana do Riacho",
@@ -2808,7 +2966,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Chalés"
     ],
     "sourceUrl": "https://pousadaadegacipo.com.br/",
-    "locality": "Serra do Cipó"
+    "locality": "Serra do Cipó",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2821,7 +2981,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Serra do Cipó",
       "MG-010"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "anaue-cipo",
     "name": "Pousada Anauê Cipó",
     "city": "Santana do Riacho",
@@ -2837,7 +2997,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Piscina"
     ],
     "sourceUrl": "https://pousadaanauecipo.com.br/contato",
-    "locality": "Serra do Cipó"
+    "locality": "Serra do Cipó",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2850,7 +3012,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Serra do Cipó",
       "Véu da Noiva"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-flor-de-lotus-cipo",
     "name": "Pousada Flor de Lótus",
     "city": "Santana do Riacho",
@@ -2861,7 +3023,9 @@ export const minasGeraisPousadas: Destination[] = [
     "phone": "(31) 99885-7467",
     "website": "https://www.pousadaflordelotuscipo.com.br/",
     "sourceUrl": "https://www.pousadaflordelotuscipo.com.br/contato",
-    "locality": "Serra do Cipó"
+    "locality": "Serra do Cipó",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2875,7 +3039,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Cachoeira Grande",
       "Pet friendly"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-por-do-sol-serra-cipo",
     "name": "Pousada Pôr do Sol",
     "city": "Santana do Riacho",
@@ -2895,7 +3059,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Wi-Fi"
     ],
     "sourceUrl": "https://pousadapordosol.com/",
-    "locality": "Serra do Cipó"
+    "locality": "Serra do Cipó",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2908,7 +3074,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Serra do Cipó",
       "Véu da Noiva"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "sitio-xodo-cipo",
     "name": "Pousada Sítio Xodó",
     "city": "Santana do Riacho",
@@ -2927,7 +3093,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Estacionamento"
     ],
     "sourceUrl": "https://pousadasitioxodo.com.br/",
-    "locality": "Serra do Cipó"
+    "locality": "Serra do Cipó",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2940,7 +3108,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Serra do Cipó",
       "Natureza"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "rancho-cipo",
     "name": "Rancho Cipó Pousada",
     "city": "Santana do Riacho",
@@ -2952,7 +3120,9 @@ export const minasGeraisPousadas: Destination[] = [
     "whatsapp": "5531999818195",
     "website": "https://www.ranchocipo.com.br/",
     "sourceUrl": "https://www.ranchocipo.com.br/",
-    "locality": "Serra do Cipó"
+    "locality": "Serra do Cipó",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2965,7 +3135,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Serra do Cipó",
       "Véu da Noiva"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "banana-cipo",
     "name": "Pousada Banana Cipó",
     "city": "Santana do Riacho",
@@ -2986,7 +3156,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Wi-Fi"
     ],
     "sourceUrl": "https://bananacipo.com.br/pousada/",
-    "locality": "Vacaria, Serra do Cipó"
+    "locality": "Vacaria, Serra do Cipó",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -2999,7 +3171,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Serra do Cipó",
       "Véu da Noiva"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "beija-flor-serra-cipo",
     "name": "Pousada Beija Flor",
     "city": "Santana do Riacho",
@@ -3017,7 +3189,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Quiosque"
     ],
     "sourceUrl": "https://www.pousadabeijaflorserradocipo.com/",
-    "locality": "Vacaria, Serra do Cipó"
+    "locality": "Vacaria, Serra do Cipó",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3030,7 +3204,7 @@ export const minasGeraisPousadas: Destination[] = [
       "São Roque de Minas",
       "Serra da Canastra"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-barcelos-canastra",
     "name": "Pousada Barcelos",
     "city": "São Roque de Minas",
@@ -3042,7 +3216,9 @@ export const minasGeraisPousadas: Destination[] = [
     "whatsapp": "5537988480014",
     "website": "https://pousadabarcelos.com.br/",
     "sourceUrl": "https://pousadabarcelos.com.br/",
-    "locality": "Bairro São Paulo"
+    "locality": "Bairro São Paulo",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3055,7 +3231,7 @@ export const minasGeraisPousadas: Destination[] = [
       "São Roque de Minas",
       "Serra da Canastra"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "canastra-season",
     "name": "Canastra Season",
     "city": "São Roque de Minas",
@@ -3072,7 +3248,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Ar-condicionado"
     ],
     "sourceUrl": "https://canastraseason.com/",
-    "locality": "Centro"
+    "locality": "Centro",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3086,7 +3264,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Serra da Canastra",
       "Fazenda"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-fazenda-canastra",
     "name": "Pousada Fazenda Canastra",
     "city": "São Roque de Minas",
@@ -3103,7 +3281,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Sala de bilhar"
     ],
     "sourceUrl": "https://www.fazenda.tur.br/",
-    "locality": "Centro"
+    "locality": "Centro",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3117,7 +3297,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Serra da Canastra",
       "Casca d’Anta"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-luz-da-canastra",
     "name": "Pousada Luz da Canastra",
     "city": "São Roque de Minas",
@@ -3133,7 +3313,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Passeios"
     ],
     "sourceUrl": "https://pousadaluzdacanastra.com.br/",
-    "locality": "Rodovia MG-341"
+    "locality": "Rodovia MG-341",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-fazenda-matinha",
@@ -3167,7 +3349,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-mineira-sao-thome",
@@ -3193,7 +3376,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-cachoeira-do-flavio",
@@ -3227,7 +3411,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3241,7 +3426,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Serro",
       "Cachoeiras"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-cachoeiras-milho-verde",
     "name": "Pousada Cachoeiras de Milho Verde",
     "city": "Serro",
@@ -3252,7 +3437,9 @@ export const minasGeraisPousadas: Destination[] = [
     "phone": "(38) 98830-9985",
     "website": "https://www.serro.mg.gov.br/portal/turismo/0/9/743/onde-ficar",
     "sourceUrl": "https://www.serro.mg.gov.br/portal/turismo/0/9/743/onde-ficar",
-    "locality": "Milho Verde"
+    "locality": "Milho Verde",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3266,7 +3453,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Serro",
       "Cachoeiras"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-chales-do-sol-milho-verde",
     "name": "Pousada Chalés do Sol",
     "city": "Serro",
@@ -3276,7 +3463,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Pousada listada no diretório oficial de hospedagem da Prefeitura de Serro. A fonte informa endereço e telefone; outras comodidades e distâncias devem ser confirmadas diretamente.",
     "phone": "(38) 98829-8327",
     "sourceUrl": "https://www.serro.mg.gov.br/portal/turismo/0/9/743/onde-ficar",
-    "locality": "Milho Verde"
+    "locality": "Milho Verde",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3289,7 +3478,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Milho Verde",
       "Serro"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-da-cleo-milho-verde",
     "name": "Pousada da Cléo",
     "city": "Serro",
@@ -3299,7 +3488,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Pousada localizada no distrito de Milho Verde, conforme diretório oficial da Prefeitura de Serro. O cadastro informa telefone e endereço; serviços, valores e distância até as cachoeiras não foram publicados.",
     "phone": "(38) 98804-9676",
     "sourceUrl": "https://www.serro.mg.gov.br/portal/turismo/0/9/743/onde-ficar",
-    "locality": "Milho Verde"
+    "locality": "Milho Verde",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3313,7 +3504,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Serro",
       "Restaurante"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-dona-lurdes-milho-verde",
     "name": "Pousada Dona Lurdes",
     "city": "Serro",
@@ -3323,7 +3514,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Pousada listada pela Prefeitura de Serro, também identificada no diretório local como pousada e restaurante. Endereço e telefone constam do cadastro municipal; comodidades e distâncias devem ser confirmadas.",
     "phone": "(38) 98831-3722",
     "sourceUrl": "https://www.serro.mg.gov.br/portal/turismo/0/9/743/onde-ficar",
-    "locality": "Milho Verde"
+    "locality": "Milho Verde",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3337,7 +3530,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Serro",
       "Restaurante"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-fogao-a-lenha-milho-verde",
     "name": "Pousada e Restaurante Fogão a Lenha",
     "city": "Serro",
@@ -3347,7 +3540,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Pousada e restaurante listados no diretório oficial da Prefeitura de Serro. O cadastro informa endereço e telefone; comodidades, tarifas e distância até as cachoeiras não foram publicadas.",
     "phone": "(38) 98807-4808",
     "sourceUrl": "https://www.serro.mg.gov.br/portal/turismo/0/9/743/onde-ficar",
-    "locality": "Milho Verde"
+    "locality": "Milho Verde",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3361,7 +3556,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Serro",
       "Restaurante"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-morais-milho-verde",
     "name": "Pousada e Restaurante Morais",
     "city": "Serro",
@@ -3371,7 +3566,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Pousada e restaurante cadastrados pela Prefeitura de Serro. Endereço e telefone foram publicados no diretório municipal; outros detalhes devem ser confirmados com o estabelecimento.",
     "phone": "(38) 98801-9397",
     "sourceUrl": "https://www.serro.mg.gov.br/portal/turismo/0/9/743/onde-ficar",
-    "locality": "Milho Verde"
+    "locality": "Milho Verde",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3385,7 +3582,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Serro",
       "Estrada Real"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-estrada-real-milho-verde",
     "name": "Pousada Estrada Real",
     "city": "Serro",
@@ -3395,7 +3592,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Hospedagem cadastrada no portal municipal de turismo de Serro. A página informa endereço e telefone; comodidades, preço e distância até atrativos naturais não foram confirmados.",
     "phone": "(38) 98811-9024",
     "sourceUrl": "https://www.serro.mg.gov.br/portal/turismo/0/9/743/onde-ficar",
-    "locality": "Milho Verde"
+    "locality": "Milho Verde",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3409,7 +3608,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Serro",
       "Cachoeira do Lajeado"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-guerreiros-da-luz-milho-verde",
     "name": "Pousada Guerreiros da Luz",
     "city": "Serro",
@@ -3421,7 +3620,9 @@ export const minasGeraisPousadas: Destination[] = [
     "whatsapp": "5538988529323",
     "website": "https://www.serro.mg.gov.br/portal/turismo/0/9/748/Milho-Verde",
     "sourceUrl": "https://www.serro.mg.gov.br/portal/turismo/0/9/748/Milho-Verde",
-    "locality": "Milho Verde"
+    "locality": "Milho Verde",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3434,7 +3635,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Milho Verde",
       "Serro"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-luar-do-rosario-milho-verde",
     "name": "Pousada Luar do Rosário",
     "city": "Serro",
@@ -3444,7 +3645,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Pousada registrada no portal oficial de turismo de Serro. A fonte municipal informa endereço e telefone; outros dados devem ser confirmados com a hospedagem.",
     "phone": "(38) 99921-6221",
     "sourceUrl": "https://www.serro.mg.gov.br/portal/turismo/0/9/743/onde-ficar",
-    "locality": "Milho Verde"
+    "locality": "Milho Verde",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3458,7 +3661,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Serro",
       "Restaurante"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-milho-verde-serro",
     "name": "Pousada Milho Verde",
     "city": "Serro",
@@ -3484,7 +3687,9 @@ export const minasGeraisPousadas: Destination[] = [
       }
     ],
     "sourceUrl": "https://www.google.com.br/travel/hotels/entity/ChkIu_u13Nj1urNIGg0vZy8xMWMycTA1ajY3EAE",
-    "locality": "Milho Verde"
+    "locality": "Milho Verde",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3498,7 +3703,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Serro",
       "Cachoeira do Lajeado"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-praina-milho-verde",
     "name": "Pousada Prãina",
     "city": "Serro",
@@ -3508,7 +3713,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Pousada listada no diretório oficial de hospedagem de Serro. O cadastro informa endereço e telefone; distância até a Cachoeira do Lajeado e comodidades não foram publicadas.",
     "phone": "(38) 98813-5761",
     "sourceUrl": "https://www.serro.mg.gov.br/portal/turismo/0/9/743/onde-ficar",
-    "locality": "Milho Verde"
+    "locality": "Milho Verde",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3522,7 +3729,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Serro",
       "Cachoeira do Lajeado"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-refazenda-milho-verde",
     "name": "Pousada Refazenda",
     "city": "Serro",
@@ -3542,7 +3749,9 @@ export const minasGeraisPousadas: Destination[] = [
       "Pomar"
     ],
     "sourceUrl": "https://www.refazendamilhoverde.com/",
-    "locality": "Milho Verde"
+    "locality": "Milho Verde",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3556,7 +3765,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Serro",
       "Cachoeiras"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-sempre-viva-milho-verde",
     "name": "Pousada Sempre Viva",
     "city": "Serro",
@@ -3566,7 +3775,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Pousada listada no diretório municipal de hospedagem de Serro. O endereço é apresentado sem número no cadastro consultado; confirme localização, comodidades e tarifas diretamente.",
     "phone": "(38) 98814-9550",
     "sourceUrl": "https://www.serro.mg.gov.br/portal/turismo/0/9/743/onde-ficar",
-    "locality": "Milho Verde"
+    "locality": "Milho Verde",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3581,7 +3792,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Restaurante",
       "Camping"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-cassoule-milho-verde",
     "name": "Pousada, Restaurante e Camping Cassoule",
     "city": "Serro",
@@ -3591,7 +3802,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Estabelecimento cadastrado pela Prefeitura de Serro como pousada, restaurante e camping. O diretório oficial informa endereço e dois telefones; demais serviços e preços devem ser confirmados.",
     "phone": "(38) 98816-9737",
     "sourceUrl": "https://www.serro.mg.gov.br/portal/turismo/0/9/743/onde-ficar",
-    "locality": "Milho Verde"
+    "locality": "Milho Verde",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "melo-pousada-tapira",
@@ -3617,7 +3830,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-canto-de-minas-tapira",
@@ -3642,7 +3856,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "id": "pousada-circuito-da-canastra-tapira",
@@ -3667,7 +3882,8 @@ export const minasGeraisPousadas: Destination[] = [
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200"
     ],
     "coordinates": null,
-    "isDemo": true
+    "isDemo": false,
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3680,7 +3896,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Tiradentes",
       "Centro Histórico"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-casa-de-violeta-tiradentes",
     "name": "Pousada Casa de Violeta",
     "city": "Tiradentes",
@@ -3690,7 +3906,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Pousada com endereço e telefone publicados no diretório de hospedagens da Mostra Tiradentes 2026. Serviços, preços e distância até atrativos naturais não foram detalhados.",
     "phone": "(32) 98440-9797",
     "sourceUrl": "https://mostratiradentes.com.br/2026/o-evento/pousadas/",
-    "locality": "Centro"
+    "locality": "Centro",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3703,7 +3921,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Tiradentes",
       "Centro"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-don-quixote-tiradentes",
     "name": "Pousada Don Quixote",
     "city": "Tiradentes",
@@ -3713,7 +3931,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Pousada com endereço e telefone publicados no diretório de hospedagem da Mostra Tiradentes 2026. Não foram localizados dados confirmados sobre comodidades, preços ou distância até cachoeiras.",
     "phone": "(32) 3355-1929",
     "sourceUrl": "https://mostratiradentes.com.br/2026/o-evento/pousadas/",
-    "locality": "Centro"
+    "locality": "Centro",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3726,7 +3946,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Tiradentes",
       "Serra de São José"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-encanto-da-serra-tiradentes",
     "name": "Pousada Encanto da Serra",
     "city": "Tiradentes",
@@ -3736,7 +3956,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Pousada listada no diretório de hospedagens da Mostra Tiradentes 2026, com endereço e telefone celular publicados. Outros detalhes devem ser confirmados diretamente.",
     "phone": "(32) 98879-1591",
     "sourceUrl": "https://mostratiradentes.com.br/2026/o-evento/pousadas/",
-    "locality": "Centro"
+    "locality": "Centro",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3749,7 +3971,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Tiradentes",
       "Centro"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-tiradentes-tiradentes",
     "name": "Pousada Tiradentes",
     "city": "Tiradentes",
@@ -3759,7 +3981,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Pousada listada no diretório de hospedagens da Mostra Tiradentes 2026, com endereço e telefone. Comodidades, tarifas e distância até cachoeiras não foram publicadas na fonte.",
     "phone": "(32) 3355-1232",
     "sourceUrl": "https://mostratiradentes.com.br/2026/o-evento/pousadas/",
-    "locality": "Centro"
+    "locality": "Centro",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3772,7 +3996,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Tiradentes",
       "Centro"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pouso-das-gerais-tiradentes",
     "name": "Pouso das Gerais",
     "city": "Tiradentes",
@@ -3782,7 +4006,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Estabelecimento de hospedagem listado no diretório oficial da Mostra Tiradentes 2026. Endereço e telefone constam na publicação; confirme diretamente comodidades e valores.",
     "phone": "(32) 98898-8525",
     "sourceUrl": "https://mostratiradentes.com.br/2026/o-evento/pousadas/",
-    "locality": "Centro"
+    "locality": "Centro",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3795,7 +4021,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Tiradentes",
       "Centro Histórico"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-chafariz-4-estacoes",
     "name": "Pousada Chafariz das 4 Estações",
     "city": "Tiradentes",
@@ -3805,7 +4031,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Pousada incluída no diretório de hospedagem da Mostra Tiradentes 2026. A fonte informa endereço e telefone; comodidades e tarifas não foram publicadas.",
     "phone": "(32) 3355-1352",
     "sourceUrl": "https://mostratiradentes.com.br/2026/o-evento/pousadas/",
-    "locality": "Centro Histórico"
+    "locality": "Centro Histórico",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3818,7 +4046,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Tiradentes",
       "Centro Histórico"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-do-o-tiradentes",
     "name": "Pousada do Ó",
     "city": "Tiradentes",
@@ -3828,7 +4056,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Pousada listada no diretório de hospedagens da Mostra Tiradentes 2026, com endereço e telefone publicados. Comodidades e valores não foram confirmados.",
     "phone": "(32) 3355-1699",
     "sourceUrl": "https://mostratiradentes.com.br/2026/o-evento/pousadas/",
-    "locality": "Centro Histórico"
+    "locality": "Centro Histórico",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3841,7 +4071,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Tiradentes",
       "Serra de São José"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-chacara-das-pedras-tiradentes",
     "name": "Pousada Arraial Velho",
     "city": "Tiradentes",
@@ -3851,7 +4081,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Pousada listada no diretório de hospedagens publicado pela organização da Mostra Tiradentes 2026, com endereço e telefone. Comodidades, tarifas e distância até cachoeiras da Serra de São José não foram confirmadas.",
     "phone": "(32) 3355-1362",
     "sourceUrl": "https://mostratiradentes.com.br/2026/o-evento/pousadas/",
-    "locality": "Centro histórico / entorno"
+    "locality": "Centro histórico / entorno",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3864,7 +4096,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Tiradentes",
       "Largo das Forras"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-do-largo-tiradentes",
     "name": "Pousada do Largo",
     "city": "Tiradentes",
@@ -3874,7 +4106,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Pousada listada no diretório de hospedagem da Mostra Tiradentes 2026. O cadastro informa endereço e telefone; demais informações devem ser confirmadas diretamente.",
     "phone": "(32) 3355-1166",
     "sourceUrl": "https://mostratiradentes.com.br/2026/o-evento/pousadas/",
-    "locality": "Largo das Forras"
+    "locality": "Largo das Forras",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3887,7 +4121,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Tiradentes",
       "Serra de São José"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-joaninha-tiradentes",
     "name": "Pousada Joaninha",
     "city": "Tiradentes",
@@ -3898,7 +4132,9 @@ export const minasGeraisPousadas: Destination[] = [
     "phone": "(32) 98837-1314",
     "instagram": "https://www.instagram.com/pousadajoaninha.mg/",
     "sourceUrl": "https://mostratiradentes.com.br/2026/o-evento/pousadas/",
-    "locality": "Tiradentes"
+    "locality": "Tiradentes",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3911,7 +4147,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Tiradentes",
       "Serra de São José"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pousada-pe-da-serra-tiradentes",
     "name": "Pousada Pé da Serra",
     "city": "Tiradentes",
@@ -3921,7 +4157,9 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Pousada registrada no diretório publicado pela organização da Mostra Tiradentes 2026. O cadastro informa endereço e telefone; comodidades e distância até trilhas e cachoeiras devem ser confirmadas.",
     "phone": "(32) 98702-4706",
     "sourceUrl": "https://mostratiradentes.com.br/2026/o-evento/pousadas/",
-    "locality": "Tiradentes"
+    "locality": "Tiradentes",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
   {
     "category": "pousada",
@@ -3934,7 +4172,7 @@ export const minasGeraisPousadas: Destination[] = [
       "Tiradentes",
       "Serra de São José"
     ],
-    "isDemo": true,
+    "isDemo": false,
     "id": "pouso-tiradentes",
     "name": "Pouso Tiradentes",
     "city": "Tiradentes",
@@ -3944,6 +4182,8 @@ export const minasGeraisPousadas: Destination[] = [
     "description": "Pousada ou hospedagem cadastrada no diretório de hospedagem da Mostra Tiradentes 2026. O cadastro informa endereço e telefone; outros detalhes devem ser confirmados com o estabelecimento.",
     "phone": "(32) 98863-1780",
     "sourceUrl": "https://mostratiradentes.com.br/2026/o-evento/pousadas/",
-    "locality": "Tiradentes"
+    "locality": "Tiradentes",
+    "state": "MG",
+    "photoCredit": "Imagem ilustrativa — não representa a pousada"
   },
 ];
