@@ -50,6 +50,9 @@ export function DestinationExplorer({ fixedCategory, initialQuery = "" }: { fixe
             <option value="">Todas as categorias</option>
             <option value="praia">Praias</option>
             <option value="cachoeira">Cachoeiras</option>
+            <option value="hotel">Hotéis</option>
+            <option value="day-use">Day use</option>
+            <option value="pousada">Pousadas</option>
           </select>
         )}
       </div>
