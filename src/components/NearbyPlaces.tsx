@@ -139,6 +139,9 @@ export function NearbyPlaces({ destination }: { destination: Destination }) {
                   <p className="mt-1 flex items-center gap-1 text-sm text-muted-foreground">
                     <MapPinned className="h-4 w-4 shrink-0" /> {distanceLabel(destination, item)} · {item.city} - {item.state}
                   </p>
+                  <p className="mt-1 text-sm text-foreground">
+                    <strong>Endereço:</strong> {item.address || [item.locality, item.city, item.state].filter(Boolean).join(", ") || "Endereço completo não cadastrado"}
+                  </p>
                   <p className="mt-2 text-sm">
                     <strong>Nota:</strong>{" "}
                     {item.ratings?.length
